@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://mucinoab.github.io/</loc>
+        <loc>http://127.0.0.1:1111/</loc>
     </url>
     <url>
-        <loc>https://mucinoab.github.io/contacto/</loc>
+        <loc>http://127.0.0.1:1111/contacto/</loc>
     </url>
     <url>
-        <loc>https://mucinoab.github.io/page/1/</loc>
+        <loc>http://127.0.0.1:1111/page/1/</loc>
     </url>
     <url>
-        <loc>https://mucinoab.github.io/proyectos/</loc>
+        <loc>http://127.0.0.1:1111/proyectos/</loc>
         <lastmod>2020-08-24</lastmod>
     </url>
     <url>
-        <loc>https://mucinoab.github.io/tags/</loc>
+        <loc>http://127.0.0.1:1111/tags/</loc>
     </url>
     <url>
-        <loc>https://mucinoab.github.io/tags/proyectos/</loc>
+        <loc>http://127.0.0.1:1111/tags/proyectos/</loc>
     </url>
 </urlset>

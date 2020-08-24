@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title>Bruno Muciño</title>
-	<link href="https://mucinoab.github.io/atom.xml" rel="self" type="application/atom+xml"/>
-	<link href="https://mucinoab.github.io"/>
+	<link href="http://127.0.0.1:1111/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="http://127.0.0.1:1111"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2020-08-24T00:00:00+00:00</updated>
-	<id>https://mucinoab.github.io/atom.xml</id>
+	<id>http://127.0.0.1:1111/atom.xml</id>
 	<entry xml:lang="en">
 		<title>Proyectos</title>
 		<published>2020-08-24T00:00:00+00:00</published>
 		<updated>2020-08-24T00:00:00+00:00</updated>
-		<link href="https://mucinoab.github.io/proyectos/" type="text/html"/>
-		<id>https://mucinoab.github.io/proyectos/</id>
+		<link href="http://127.0.0.1:1111/proyectos/" type="text/html"/>
+		<id>http://127.0.0.1:1111/proyectos/</id>
 		<content type="html">&lt;h3 id=&quot;metodos-numericos&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;metodos-dos.herokuapp.com&#x2F;&quot;&gt;Métodos Numéricos&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Página web donde se realizan simples implementaciones (y su respectivas representaciones gráficas) de diversos métodos numéricos para la resolución de ecuaciones, integración e interpolación numérica.&lt;&#x2F;p&gt;
 &lt;p&gt;Se implementan los siguientes métodos&lt;&#x2F;p&gt;

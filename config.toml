@@ -12,12 +12,13 @@ taxonomies = [
 ]
 
 [extra]
-author = "Bruno"
+author = "Bruno A. Muciño"
 
 even_menu = [
     {url = "$BASE_URL/contacto", name = "Contacto"},
 ]
 
+even_title = "Bruno A. Muciño"
+
 katex_enable = true
 katex_auto_render = true
-even_title = "Bruno A. Muciño"
