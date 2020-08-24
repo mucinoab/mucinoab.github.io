@@ -1,0 +1,23 @@
+base_url = "https://mucinoab.github.io"
+
+theme = "even"
+compile_sass = true
+title = "Bruno Muciño"
+highlight_code = true
+generate_feed = true
+
+taxonomies = [
+    {name = "categories", rss = false},
+    {name = "tags", rss = false},
+]
+
+[extra]
+author = "Bruno"
+
+even_menu = [
+    {url = "$BASE_URL/contacto", name = "Contacto"},
+]
+
+katex_enable = true
+katex_auto_render = true
+even_title = "Bruno A. Muciño"

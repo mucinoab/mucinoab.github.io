@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Bruno Muciño</title>
+	<link href="https://mucinoab.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="https://mucinoab.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2020-08-24T00:00:00+00:00</updated>
+	<id>https://mucinoab.github.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Proyectos</title>
+		<published>2020-08-24T00:00:00+00:00</published>
+		<updated>2020-08-24T00:00:00+00:00</updated>
+		<link href="https://mucinoab.github.io/proyectos/" type="text/html"/>
+		<id>https://mucinoab.github.io/proyectos/</id>
+		<content type="html">&lt;h3 id=&quot;metodos-numericos&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;metodos-dos.herokuapp.com&#x2F;&quot;&gt;Métodos Numéricos&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Página web donde se realizan simples implementaciones (y su respectivas representaciones gráficas) de diversos métodos numéricos para la resolución de ecuaciones, integración e interpolación numérica.&lt;&#x2F;p&gt;
+&lt;p&gt;Se implementan los siguientes métodos&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Método de Newton&lt;&#x2F;li&gt;
+&lt;li&gt;Regla trapezoidal&lt;&#x2F;li&gt;
+&lt;li&gt;Punto fijo&lt;&#x2F;li&gt;
+&lt;li&gt;Interpolación Polinómica de Lagrange&lt;&#x2F;li&gt;
+&lt;li&gt;Diferencias divididas&lt;&#x2F;li&gt;
+&lt;li&gt;Interpolación de Newton&lt;&#x2F;li&gt;
+&lt;li&gt;Entre otros...&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Hosteada en &lt;a href=&quot;https:&#x2F;&#x2F;www.heroku.com&#x2F;what#&quot;&gt;Heroku&lt;&#x2F;a&gt; con backend en Python (&lt;a href=&quot;https:&#x2F;&#x2F;www.djangoproject.com&quot;&gt;Django&lt;&#x2F;a&gt;). Código fuente &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;MII&quot;&gt;aquí.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;grafos-en-teoria&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;grafosenteoria.herokuapp.com&#x2F;&quot;&gt;Gráfos en Teoría&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Página web en la que se pueden crear grafos interactivamente mediante la librería de JavaScript &lt;a href=&quot;https:&#x2F;&#x2F;d3js.org&#x2F;&quot;&gt;D3&lt;&#x2F;a&gt; y arroja información sobre estos, especialmente su matriz de incidencia y&#x2F;o adyacencia.&lt;&#x2F;p&gt;
+&lt;p&gt;Hosteada en &lt;a href=&quot;https:&#x2F;&#x2F;www.heroku.com&#x2F;what#&quot;&gt;Heroku&lt;&#x2F;a&gt; con backend en Python (&lt;a href=&quot;https:&#x2F;&#x2F;www.djangoproject.com&#x2F;&quot;&gt;Django&lt;&#x2F;a&gt;). Los recursos utilizados se pueden encontrar &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;TG&quot;&gt;aquí.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;compiladores-de-brainfuck&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;BrainFCompiler-LLVM&quot;&gt;Compiladores de Brainfuck&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Dos compiladores del lenguaje de programación &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Brainfuck&quot;&gt;Brainfuck&lt;&#x2F;a&gt;, el cual consiste de solo ocho comandos (&lt;strong&gt;+&lt;&#x2F;strong&gt;, &lt;strong&gt;-&lt;&#x2F;strong&gt;, &lt;strong&gt;&amp;gt;&lt;&#x2F;strong&gt;, &lt;strong&gt;&amp;lt;&lt;&#x2F;strong&gt;, &lt;strong&gt;.&lt;&#x2F;strong&gt;, &lt;strong&gt;,&lt;&#x2F;strong&gt;, &lt;strong&gt;[&lt;&#x2F;strong&gt;, &lt;strong&gt;]&lt;&#x2F;strong&gt;). Ambos compiladores están hechos con &lt;a href=&quot;https:&#x2F;&#x2F;www.rust-lang.org&#x2F;&quot;&gt;Rust&lt;&#x2F;a&gt; y disponibles en mi &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;&quot;&gt;github&lt;&#x2F;a&gt; bajo &lt;a href=&quot;https:&#x2F;&#x2F;opensource.org&#x2F;licenses&#x2F;MIT&quot;&gt;MIT&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;El &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;BrainFCompiler&quot;&gt;primero&lt;&#x2F;a&gt; es una implementación
+que crea un ejecutable al generar instrucciones de lenguaje
+ensamblador, posteriormente las &lt;em&gt;ensambla&lt;&#x2F;em&gt; usando &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Netwide_Assembler&quot;&gt;NASM&lt;&#x2F;a&gt; para finalmente &lt;em&gt;linkearlas&lt;&#x2F;em&gt; con &lt;a href=&quot;https:&#x2F;&#x2F;www.gnu.org&#x2F;software&#x2F;binutils&#x2F;&quot;&gt;ld&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;El &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;BrainFCompiler-LLVM&quot;&gt;segundo&lt;&#x2F;a&gt; usa el crate
+&lt;a href=&quot;https:&#x2F;&#x2F;lib.rs&#x2F;crates&#x2F;inkwell&quot;&gt;Inkwell&lt;&#x2F;a&gt;, el cual expone el API de &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;LLVM&quot;&gt;LLVM&lt;&#x2F;a&gt; que da una interfaz mucho más robusta para crear ejecutables de mejor calidad que hacen uso de agresivas optimizaciones.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;h3 id=&quot;mapa-coropletico&quot;&gt;&lt;a href=&quot;&#x2F;mapa.html&quot;&gt;Mapa Coroplético&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Mapa coroplético de contagios Covid-19 hecho con Python y el módulo &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;python-visualization&#x2F;folium&quot;&gt;Folium&lt;&#x2F;a&gt; que genera un página web interactiva con la librería de JavaScript &lt;a href=&quot;https:&#x2F;&#x2F;leafletjs.com&#x2F;&quot;&gt;Leaflet.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Los recursos y programas utilizados se pueden encontrar &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;mucinoab.github.io&#x2F;tree&#x2F;master&#x2F;recursos&quot;&gt;aquí.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

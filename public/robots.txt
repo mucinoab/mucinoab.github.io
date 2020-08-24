@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://mucinoab.github.io/sitemap.xml
