@@ -10,7 +10,7 @@ template = "about.html"
 
 ## - Github [mucinoab](https://github.com/mucinoab) 
 
-## - Twitter [mucinoab](https://twitter.com/mucinoab)
+## - Twitter [mucinoab](https://twitter.com/mucinoab/likes)
 
 ## - Linkedin...
 
