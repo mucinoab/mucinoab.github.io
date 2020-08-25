@@ -11,6 +11,11 @@ taxonomies = [
     {name = "tags", rss = false},
 ]
 
+# TODO multilingual 
+# languages = [
+#     {code = "es"}, 
+# ]
+
 [extra]
 author = "Bruno A. Muciño"
 
