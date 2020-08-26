@@ -66,4 +66,4 @@ Ambos compiladores están hechos con [Rust](https://www.rust-lang.org/) y dispon
 
 Mapa coroplético de contagios Covid-19 hecho con Python y el módulo [Folium](https://github.com/python-visualization/folium) que genera un página web interactiva con la librería de JavaScript [Leaflet.](https://leafletjs.com/)
 
-Los recursos y programas utilizados se pueden encontrar [aquí.](https://github.com/mucinoab/mucinoab.github.io/tree/master/recursos)
+Los recursos y programas utilizados se pueden encontrar [aquí.](https://github.com/mucinoab/mucinoab.github.io/tree/dev/extras/recursos)
