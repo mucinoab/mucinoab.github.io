@@ -15,5 +15,3 @@ template = "about.html"
 ## - Linkedin...
 
 ## - StopStalk...? 
-
-## - \\( \pi \\)

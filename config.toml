@@ -25,5 +25,5 @@ even_menu = [
 
 even_title = "Bruno A. Muciño"
 
-katex_enable = true
-katex_auto_render = true
+#katex_enable = true
+#katex_auto_render = true
