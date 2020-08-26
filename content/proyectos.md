@@ -43,21 +43,49 @@ Hosteada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Djang
 Dos compiladores del lenguaje de programación [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck), el cual es [_Turing-complete_](https://en.wikipedia.org/wiki/Turing_completeness) y se compone de solo ocho comandos.
 
 | + | - | [ | ] | > | < | , | . |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|     
 
- _Hello World!_ en brainfuck.
+Por ejemplo aquí, una implementación del enigmático _Hello World!_.
+
 > ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<++++++++
 +++++++.>.+++.------.--------.>+.>.
 
 El [primero](https://github.com/mucinoab/BrainFCompiler) es una implementación
-que crea un ejecutable al generar instrucciones de lenguaje
-ensamblador, posteriormente las _ensambla_ usando [NASM](https://en.wikipedia.org/wiki/Netwide_Assembler) para finalmente _linkearlas_ con [ld](https://www.gnu.org/software/binutils/).
+que crea un ejecutable al generar instrucciones de lenguaje ensamblador, esto se
+logra al asignar cada instrucción de brainfuck a una serie de instrucciones en _assembly_ , posteriormente las _ensambla_ usando [NASM](https://en.wikipedia.org/wijki/Netwide_Assembler) para finalmente _linkearlas_ con [ld](https://www.gnu.org/software/binutils/).
 
 El [segundo](https://github.com/mucinoab/BrainFCompiler-LLVM) usa el crate
-[Inkwell](https://lib.rs/crates/inkwell), el cual expone el API de [LLVM](https://en.wikipedia.org/wiki/LLVM) que da una interfaz mucho más robusta para crear ejecutables de mejor calidad que hacen uso de agresivas optimizaciones.
+[Inkwell](https://lib.rs/crates/inkwell), el cual expone el API de [LLVM](https://en.wikipedia.org/wiki/LLVM) que da una interfaz mucho más robusta para crear ejecutables de mayor calidad que hacen uso de las diversas opciones que LLVM ofrece, como agresivas optimizaciones.  
+LLVM crea un archivo [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) que se enlaza de manera dinámica usando [Clang](https://en.wikipedia.org/wiki/Clang) o [GCC](https://en.wikipedia.org/wiki/GNU_Compiler_Collection).
 
-Ambos compiladores están hechos con [Rust](https://www.rust-lang.org/) y disponibles en mi [github](https://github.com/mucinoab/) bajo [MIT](https://opensource.org/licenses/MIT).
+Ambos compiladores están hechos con [Rust](https://www.rust-lang.org/) y disponibles en mi [github](https://github.com/mucinoab/) bajo [MIT](https://opensource.org/licenses/MIT).  
 
+-------------------------------------------------------------------------------
+## [Bot en Telegram](https://github.com/mucinoab/SistemedicBotRust)
+
+Dos implementaciones de un bot que hace uso del API de [Telegram](https://telegram.org/) 
+(lamentablemente Whatsapp y [Signal](https://www.signal.org/) no tienen un API razonable).
+
+La [primera](https://github.com/mucinoab/SistemedicBot) implementación del bot
+esta hecha en [Python](https://www.python.org/), corre en [Heroku](https://www.heroku.com/what#) sobre [Docker](https://www.docker.com/)
+y cuenta con una base de datos relacional ([PostgreSQL](https://www.postgresql.org/)) que
+le proporciona toda la información necesaria.   
+
+Desgraciadamente el desempeño de esta primera implementación deja mucho que
+desear, dando tiempos de respuesta al cliente de **~.5 _segundo_**, por lo que
+decido mejorar esos tiempos de repuesta al crear una implementación con un
+enfoque distinto.   
+
+En la [segunda](https://github.com/mucinoab/SistemedicBotRust) implementación se
+elige Rust como lenguaje principal pues es conocido por su alto desempeño y
+ademas puede ser compilado para la arquitectura de la máquina que en la
+que se piensa _hostear_ el bot, [ARM](https://es.wikipedia.org/wiki/Arquitectura_ARM) y 
+[Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). Para la base de
+datos se utiliza igualmente PostgreSQL pero esta vez corriendo de manera directa
+en el sistema operativo.  
+
+El resultado final de esta implementación es un bot que da respuestas en **~300 _µs_**, 
+gracias al crate [tokio](https://tokio.rs/) y un cuidoso uso de recursos.
 
 -------------------------------------------------------------------------------
 ## [Mapa Coroplético](/mapa.html)
