@@ -1,6 +1,6 @@
 +++
 title = "Proyectos"
-date = 2020-08-24
+date = 2020-08-31
 [taxonomies]
 tags = ["proyectos"]
 +++
