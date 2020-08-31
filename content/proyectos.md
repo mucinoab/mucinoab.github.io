@@ -38,29 +38,6 @@ Hosteada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Djang
 
 
 -------------------------------------------------------------------------------
-## [Compiladores de Brainfuck](https://github.com/mucinoab/BrainFCompiler-LLVM)
-
-Dos compiladores del lenguaje de programación [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck), el cual es [_Turing-complete_](https://en.wikipedia.org/wiki/Turing_completeness) y se compone de solo ocho comandos.
-
-| + | - | [ | ] | > | < | , | . |
-|---|---|---|---|---|---|---|---|     
-
-Por ejemplo aquí, una implementación del enigmático _Hello World!_.
-
-> ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<++++++++
-+++++++.>.+++.------.--------.>+.>.
-
-El [primero](https://github.com/mucinoab/BrainFCompiler) es una implementación
-que crea un ejecutable al generar instrucciones de lenguaje ensamblador, esto se
-logra al asignar cada instrucción de brainfuck a una serie de instrucciones en _assembly_ , posteriormente las _ensambla_ usando [NASM](https://en.wikipedia.org/wijki/Netwide_Assembler) para finalmente _linkearlas_ con [ld](https://www.gnu.org/software/binutils/).
-
-El [segundo](https://github.com/mucinoab/BrainFCompiler-LLVM) usa el crate
-[Inkwell](https://lib.rs/crates/inkwell), el cual expone el API de [LLVM](https://en.wikipedia.org/wiki/LLVM) que da una interfaz mucho más robusta para crear ejecutables de mayor calidad que hacen uso de las diversas opciones que LLVM ofrece, como agresivas optimizaciones.  
-LLVM crea un archivo [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) que se enlaza de manera dinámica usando [Clang](https://en.wikipedia.org/wiki/Clang) o [GCC](https://en.wikipedia.org/wiki/GNU_Compiler_Collection).
-
-Ambos compiladores están hechos con [Rust](https://www.rust-lang.org/) y disponibles en mi [github](https://github.com/mucinoab/) bajo [MIT](https://opensource.org/licenses/MIT).  
-
--------------------------------------------------------------------------------
 ## [Telegram ChatBot](https://github.com/mucinoab/SistemedicBotRust)
 ![Bot](/bot.png "Red y logo")
 
@@ -89,6 +66,31 @@ El resultado final de esta implementación es un bot que da respuestas en **~300
 gracias al crate [tokio](https://tokio.rs/) y un cuidadoso uso de recursos.
 
 -------------------------------------------------------------------------------
+## [Compiladores de Brainfuck](https://github.com/mucinoab/BrainFCompiler-LLVM)
+![Compiler](/compiler.png "LLVM y Ferris")
+
+Dos compiladores del lenguaje de programación [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck), el cual es [_Turing-complete_](https://en.wikipedia.org/wiki/Turing_completeness) y se compone de solo ocho comandos.
+
+| + | - | [ | ] | > | < | , | . |
+|---|---|---|---|---|---|---|---|     
+
+Por ejemplo aquí, una implementación del enigmático _Hello World!_.
+
+> ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<++++++++
++++++++.>.+++.------.--------.>+.>.
+
+El [primero](https://github.com/mucinoab/BrainFCompiler) es una implementación
+que crea un ejecutable al generar instrucciones de lenguaje ensamblador, esto se
+logra al asignar cada instrucción de brainfuck a una serie de instrucciones en _assembly_ , posteriormente las _ensambla_ usando [NASM](https://en.wikipedia.org/wijki/Netwide_Assembler) para finalmente _linkearlas_ con [ld](https://www.gnu.org/software/binutils/).
+
+El [segundo](https://github.com/mucinoab/BrainFCompiler-LLVM) usa el crate
+[Inkwell](https://lib.rs/crates/inkwell), el cual expone el API de [LLVM](https://en.wikipedia.org/wiki/LLVM) que da una interfaz mucho más robusta para crear ejecutables de mayor calidad que hacen uso de las diversas opciones que LLVM ofrece, como agresivas optimizaciones.  
+LLVM crea un archivo [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) que se enlaza de manera dinámica usando [Clang](https://en.wikipedia.org/wiki/Clang) o [GCC](https://en.wikipedia.org/wiki/GNU_Compiler_Collection).
+
+Ambos compiladores están hechos con [Rust](https://www.rust-lang.org/) y disponibles en mi [github](https://github.com/mucinoab/) bajo [MIT](https://opensource.org/licenses/MIT).  
+
+-------------------------------------------------------------------------------
+
 ## [Mapa Coroplético](/mapa.html)
 
 ![Mapa](/mapac.png "SS de Mapa.")
