@@ -31,7 +31,7 @@ Hosteada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Djang
 <!-- more -->
 ![Grafos](/grafos.png "SS de grafo.")
 
-Página web en la que se pueden crear grafos interactivamente mediante la librería de JavaScript [D3](https://d3js.org/) y arroja información sobre estos, especialmente su matriz de incidencia y/o adyacencia.
+Página web en la que se pueden crear grafos interactivamente mediante la biblioteca de JavaScript [D3](https://d3js.org/) y arroja información sobre estos, especialmente su matriz de incidencia y/o adyacencia.
 
 Hosteada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Django](https://www.djangoproject.com/)). Los recursos utilizados se pueden encontrar [aquí.](https://github.com/mucinoab/TG)
 
@@ -92,6 +92,6 @@ gracias al crate [tokio](https://tokio.rs/) y un cuidadoso uso de recursos.
 
 ![Mapa](/mapac.png "SS de Mapa.")
 
-Mapa coroplético de contagios Covid-19 hecho con Python y el módulo [Folium](https://github.com/python-visualization/folium) que genera un página web interactiva con la librería de JavaScript [Leaflet.](https://leafletjs.com/)
+Mapa coroplético de contagios Covid-19 hecho con Python y el módulo [Folium](https://github.com/python-visualization/folium) que genera un página web interactiva con la biblioteca de JavaScript [Leaflet.](https://leafletjs.com/)
 
 Los recursos y programas utilizados se pueden encontrar [aquí.](https://github.com/mucinoab/mucinoab.github.io/tree/dev/extras/recursos)
