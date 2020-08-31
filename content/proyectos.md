@@ -85,7 +85,7 @@ datos se utiliza igualmente PostgreSQL pero esta vez corriendo de manera directa
 en el sistema operativo.  
 
 El resultado final de esta implementación es un bot que da respuestas en **~300 _µs_**, 
-gracias al crate [tokio](https://tokio.rs/) y un cuidoso uso de recursos.
+gracias al crate [tokio](https://tokio.rs/) y un cuidadoso uso de recursos.
 
 -------------------------------------------------------------------------------
 ## [Mapa Coroplético](/mapa.html)
