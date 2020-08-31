@@ -6,7 +6,7 @@ tags = ["proyectos"]
 +++
 
 
-## [Métodos Numéricos](https://metodos-dos.herokuapp.com/)
+## [Métodos Numéricos II](https://metodos-dos.herokuapp.com/)
 
 ![Métodos](/metodos.png "SS de método de Lagrange.")
 
@@ -98,3 +98,13 @@ Ambos compiladores están hechos con [Rust](https://www.rust-lang.org/) y dispon
 Mapa coroplético de contagios Covid-19 hecho con Python y el módulo [Folium](https://github.com/python-visualization/folium) que genera un página web interactiva con la biblioteca de JavaScript [Leaflet.](https://leafletjs.com/)
 
 Los recursos y programas utilizados se pueden encontrar [aquí.](https://github.com/mucinoab/mucinoab.github.io/tree/dev/extras/recursos)
+
+-------------------------------------------------------------------------------
+
+## [Métodos Numéricos I](https://github.com/mucinoab/SM)
+![Compiler](/MI.png "LLVM y Ferris")
+
+To do...
+
+
+....
