@@ -61,7 +61,8 @@ LLVM crea un archivo [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable
 Ambos compiladores están hechos con [Rust](https://www.rust-lang.org/) y disponibles en mi [github](https://github.com/mucinoab/) bajo [MIT](https://opensource.org/licenses/MIT).  
 
 -------------------------------------------------------------------------------
-## [Bot en Telegram](https://github.com/mucinoab/SistemedicBotRust)
+## [Telegram ChatBot](https://github.com/mucinoab/SistemedicBotRust)
+![Bot](/bot.png "Red y logo")
 
 Dos implementaciones de un bot que hace uso del API de [Telegram](https://telegram.org/) 
 (lamentablemente Whatsapp y [Signal](https://www.signal.org/) no tienen un API razonable).
