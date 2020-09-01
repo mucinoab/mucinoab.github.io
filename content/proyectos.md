@@ -22,13 +22,12 @@ Se implementan los siguientes métodos
 - Interpolación de Newton
 - Entre otros...
 
-Hosteada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Django](https://www.djangoproject.com)). Código fuente [aquí.](https://github.com/mucinoab/MII)
+Hospedada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Django](https://www.djangoproject.com)). Código fuente [aquí.](https://github.com/mucinoab/MII)
 
 
 
 -------------------------------------------------------------------------------
 ## [Gráfos en Teoría](https://grafosenteoria.herokuapp.com/)
-<!-- more -->
 ![Grafos](/grafos.png "SS de grafo.")
 
 Página web en la que se pueden crear grafos interactivamente mediante la biblioteca de JavaScript [D3](https://d3js.org/) y arroja información sobre estos, especialmente su matriz de incidencia y/o adyacencia.
@@ -39,6 +38,7 @@ Hosteada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Djang
 
 -------------------------------------------------------------------------------
 ## [Telegram ChatBot](https://github.com/mucinoab/SistemedicBotRust)
+<!-- more -->
 ![Bot](/bot.png "Red y logo")
 
 Dos implementaciones de un bot que hace uso del API de [Telegram](https://telegram.org/) 
@@ -102,7 +102,7 @@ Los recursos y programas utilizados se pueden encontrar [aquí.](https://github.
 -------------------------------------------------------------------------------
 
 ## [Métodos Numéricos I](https://github.com/mucinoab/SM)
-![Compiler](/MI.png "LLVM y Ferris")
+![Métodos Uno](/MI.png "LLVM y Ferris")
 
 To do...
 

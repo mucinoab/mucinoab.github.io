@@ -2,7 +2,7 @@ base_url = "https://mucinoab.github.io"
 
 theme = "even"
 compile_sass = true
-title = "Bruno Muciño"
+title = "Bruno A. Muciño"
 highlight_code = true
 generate_feed = true
 
