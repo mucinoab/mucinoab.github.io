@@ -1,9 +1,9 @@
 base_url = "https://mucinoab.github.io"
 
 theme = "even"
+default_language = 'es'
 compile_sass = true
 title = "Bruno A. Muciño"
-highlight_code = true
 generate_feed = true
 
 taxonomies = [
@@ -12,14 +12,16 @@ taxonomies = [
 ]
 
 # TODO multilingual 
-# languages = [
-#     {code = "es"}, 
-# ]
+languages = [
+    {code = 'en'}, 
+]
 
 [extra]
 author = "Bruno A. Muciño"
 
 even_menu = [
+    {url = "$BASE_URL/en", name = "English"},
+    {url = "$BASE_URL/", name = "CV"},
     {url = "$BASE_URL/contacto", name = "Contacto"},
 ]
 

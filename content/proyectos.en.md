@@ -3,7 +3,9 @@ title = "Proyectos"
 date = 2020-08-31
 +++
 
+
 ## [Métodos Numéricos II](https://metodos-dos.herokuapp.com/)
+
 ![Métodos](/metodos.png "SS de método de Lagrange.")
 
 Página web donde se realizan simples implementaciones (y su respectivas representaciones gráficas) de diversos métodos numéricos para la resolución de ecuaciones, integración e interpolación numérica.
