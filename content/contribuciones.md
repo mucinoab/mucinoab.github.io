@@ -1,6 +1,6 @@
 +++
 title = "Contribuciones al Mundo del Open Source"
-date = 2020-09-01
+date = 2020-09-02
 +++
 
 ## [Griddle](https://github.com/jonhoo/griddle/)
@@ -8,7 +8,7 @@ date = 2020-09-01
 
 El punto de Griddle es minimizar la latencia de las inserciones a la estructura, 
 esto al **amortizar** la asignación dinámica de memoria, lo que hace que cada
-inserción sea ligeramente más lenta (en comparación con Hashbrown) pero que nuca haya "picos" de latencia.
+inserción sea ligeramente más lenta (en comparación con Hashbrown) pero que nunca haya "picos" de latencia.
 En la siguiente gráfica se pueden ver claramente los distintos comportamientos. 
 
 ![Hashbrown vs Griddle](/plot.png "Hashbrown vs Griddle")
@@ -17,17 +17,16 @@ En la siguiente gráfica se pueden ver claramente los distintos comportamientos.
 sido _ports_ de Hashbrown, especificamente el _[RawEntry](https://docs.rs/hashbrown/0.8.2/hashbrown/hash_map/index.html)_ 
 API y mantener al mínimo las diferencias entre ambas bibliotecas.   
 
-
-
 -------------------------------------------------------------------------------
-## [Place holder](https://grafosenteoria.herokuapp.com/)
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula metus elementum magna placerat pharetra. 
- Vivamus rhoncus neque a fermentum vehicula. In malesuada nunc sit amet arcu pretium, ac semper velit varius. Nam aliquet metus vulputate rhoncus malesuada. Suspendisse consectetur, velit id vehicula maximus, arcu dui consectetur eros, ac lobortis erat elit elementum nisl. Aenean id lobortis eros. Phasellus sed sodales libero.
+
+## [Dijo](https://github.com/NerdyPepper/dijo)
+![Dijo](/dijo.png "Dijo ss")
+
+_Dijo_ es una popular (más de 2.1k 🌟 en github) utilidad que te ayuda a monitorear actividades. Funciona dentro de la terminal.
 <!-- more -->
 
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula metus elementum magna placerat pharetra. Vivamus rhoncus neque a fermentum vehicula. In malesuada nunc sit amet arcu pretium, ac semper velit varius. Nam aliquet metus vulputate rhoncus malesuada. Suspendisse consectetur, velit id vehicula maximus, arcu dui consectetur eros, ac lobortis erat elit elementum nisl. Aenean id lobortis eros. Phasellus sed sodales libero.
-
-Quisque maximus neque eget tortor egestas pharetra. Nam ultrices eleifend elementum. Cras et massa at ex dictum tempor vitae vitae turpis. Sed varius laoreet magna, sit amet tincidunt nisi. Suspendisse quis augue neque. Donec tellus ipsum, molestie ut posuere sed, posuere ac quam. Vivamus eu efficitur felis. Donec tincidunt sed massa mattis viverra. Vestibulum et dui id velit ultrices feugiat vitae vitae felis. Nulla eget blandit libero. Proin lacinia nisl ut lorem porttitor fermentum. Aliquam sit amet sollicitudin sapien, sed consequat elit. Sed mattis enim urna, ut molestie lorem condimentum sit amet.
-
+Mi contribución consistió en agregar un comando que combina la funcionalidad de dos
+comandos ya existentes para así hacer 
 
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula metus elementum magna placerat pharetra. Vivamus rhoncus neque a fermentum vehicula. In malesuada nunc sit amet arcu pretium, ac semper velit varius. Nam aliquet metus vulputate rhoncus malesuada. Suspendisse consectetur, velit id vehicula maximus, arcu dui consectetur eros, ac lobortis erat elit elementum nisl. Aenean id lobortis eros. Phasellus sed sodales libero.
