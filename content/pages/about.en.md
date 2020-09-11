@@ -4,7 +4,7 @@ path = "en/contacto"
 template = "about.html"
 +++
 
-## - Phone +52 11-1111-1111
+## - Phone +52 1 55 8690 7934
 
 ## - Email [mucinoab@comunidad.unam.mx](mailto:mucinoab@comunidad.unam.mx)
 
@@ -12,6 +12,3 @@ template = "about.html"
 
 ## - Twitter [mucinoab](https://twitter.com/mucinoab/likes)
 
-## - Linkedin...
-
-## - StopStalk...? 
