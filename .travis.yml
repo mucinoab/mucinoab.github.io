@@ -3,13 +3,11 @@ dist: bionic
 language: minimal
 
 before_script:
-  - curl -s -L https://github.com/getzola/zola/releases/download/v0.11.0/zola-v0.11.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvzf - -C /usr/local/bin
+  - curl -s -L https://github.com/getzola/zola/releases/download/v0.12.0/zola-v0.12.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvzf - -C /usr/local/bin
 
 script:
   - zola build
 
-# If you are using a different folder than `public` for the output directory, you will
-# need to change the `zola` command and the `ghp-import` path
 after_success: |
   [ $TRAVIS_BRANCH = dev ] &&
   [ $TRAVIS_PULL_REQUEST = false ] &&
