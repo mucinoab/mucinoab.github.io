@@ -1,45 +1,26 @@
 +++
-title = "Proyectos"
+title = "Projects"
 date = 2020-08-31
 +++
 
-
-## [Métodos Numéricos II](https://metodos-dos.herokuapp.com/)
-
+## [Numerical Methods II](https://metodos-dos.herokuapp.com/)
 ![Métodos](/metodos.png "SS de método de Lagrange.")
 
-Página web donde se realizan simples implementaciones (y su respectivas representaciones gráficas) de diversos métodos numéricos para la resolución de ecuaciones, integración e interpolación numérica.
+Página web donde se realizan simples implementaciones y su respectivas representaciones gráficas de diversos métodos numéricos para la resolución de ecuaciones, integración e interpolación numérica.
 
-Se implementan los siguientes métodos
-
-- Método de Newton
-- Regla trapezoidal
-- Punto fijo
-- Interpolación Polinómica de Lagrange
-- Diferencias divididas
-- Interpolación de Newton
-- Entre otros...
+Se implementa el método de Newton, Regla trapezoidal, Punto fijo, Interpolación Polinómica de Lagrange, Diferencias divididas
+, Interpolación de Newton, entre otros.
 
 Hospedada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Django](https://www.djangoproject.com)). Código fuente [aquí.](https://github.com/mucinoab/MII)
 
-
-
--------------------------------------------------------------------------------
-## [Gráfos en Teoría](https://grafosenteoria.herokuapp.com/)
-![Grafos](/grafos.png "SS de grafo.")
-
-Página web en la que se pueden crear grafos interactivamente mediante la biblioteca de JavaScript [D3](https://d3js.org/) y arroja información sobre estos, especialmente su matriz de incidencia y/o adyacencia.
-
-Hosteada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Django](https://www.djangoproject.com/)). Los recursos utilizados se pueden encontrar [aquí.](https://github.com/mucinoab/TG)
-
-
+Web page where various numerical methods are explained and implemented with their respective graphical representations. The methods include 
 
 -------------------------------------------------------------------------------
 ## [Telegram ChatBot](https://github.com/mucinoab/SistemedicBotRust)
-<!-- more -->
 ![Bot](/bot.png "Red y logo")
 
 Dos implementaciones de un bot que hace uso del API de [Telegram](https://telegram.org/) 
+<!-- more -->
 (lamentablemente Whatsapp y [Signal](https://www.signal.org/) no tienen un API razonable).
 
 La [primera](https://github.com/mucinoab/SistemedicBot) implementación del bot
@@ -62,6 +43,14 @@ en el sistema operativo.
 
 El resultado final de esta implementación es un bot que da respuestas en **~300 _µs_**, 
 gracias al crate [tokio](https://tokio.rs/) y un cuidadoso uso de recursos.
+
+-------------------------------------------------------------------------------
+## [Gráfos en Teoría](https://grafosenteoria.herokuapp.com/)
+![Grafos](/grafos.png "SS de grafo.")
+
+Página web en la que se pueden crear grafos interactivamente mediante la biblioteca de JavaScript [D3](https://d3js.org/) y arroja información sobre estos, esencialmente su matriz de incidencia y/o adyacencia.
+
+Hosteada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Django](https://www.djangoproject.com/)). Los recursos utilizados se pueden encontrar [aquí.](https://github.com/mucinoab/TG)
 
 -------------------------------------------------------------------------------
 ## [Compiladores de Brainfuck](https://github.com/mucinoab/BrainFCompiler-LLVM)
@@ -88,21 +77,26 @@ LLVM crea un archivo [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable
 Ambos compiladores están hechos con [Rust](https://www.rust-lang.org/) y disponibles en mi [github](https://github.com/mucinoab/) bajo [MIT](https://opensource.org/licenses/MIT).  
 
 -------------------------------------------------------------------------------
-
-## [Mapa Coroplético](/mapa.html)
-
-![Mapa](/mapac.png "SS de Mapa.")
-
-Mapa coroplético de contagios Covid-19 hecho con Python y el módulo [Folium](https://github.com/python-visualization/folium) que genera un página web interactiva con la biblioteca de JavaScript [Leaflet.](https://leafletjs.com/)
-
-Los recursos y programas utilizados se pueden encontrar [aquí.](https://github.com/mucinoab/mucinoab.github.io/tree/dev/extras/recursos)
-
--------------------------------------------------------------------------------
-
 ## [Métodos Numéricos I](https://github.com/mucinoab/SM)
 ![Métodos Uno](/MI.png "LLVM y Ferris")
 
+Programa nativo multiplatforma para resolver ecuaciones lineales y no lineales. Implementado en
+C++ utilizando el framework [QT](https://www.qt.io/) para la creación de la
+interfaz gráfica. 
+
+Se implementa el método de Newton, Gauss, Secante, Doolittle, Bisección, Falsa posición,
+Gauss Jordan, Gauss Seidel, Jacobi, entre otros más. 
+
+-------------------------------------------------------------------------------
+## [Lunar Lander](https://github.com/mucinoab/LunarLanderRs)
+![Lunar Lander](/lunar.png "SS de Luna Lander")
+
 To do...
 
+-------------------------------------------------------------------------------
+## [Mapa Coroplético](/mapa.html)
+![Remplazar mapa](/mapac.png "SS de Mapa.")
 
-....
+Mapa coroplético de contagios Coved-19 hecho con Python y el módulo [Folian](https://github.com/python-visualization/folium) que genera un página web interactiva con la biblioteca de JavaScript [Leaflet.](https://leafletjs.com/)
+
+Los recursos y programas utilizados se pueden encontrar [aquí.](https://github.com/mucinoab/mucinoab.github.io/tree/dev/extras/recursos)

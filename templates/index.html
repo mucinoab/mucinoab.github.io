@@ -59,7 +59,7 @@
                     <ul>
                         {% for item in config.extra.even_menu %}
                             <li>
-                                <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                                <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
                                     {{ item.name }}
                                 </a>
                             </li>
