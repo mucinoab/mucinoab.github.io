@@ -6,14 +6,14 @@ date = 2020-08-31
 ## [Numerical Methods II](https://metodos-dos.herokuapp.com/)
 ![Métodos](/metodos.png "SS de método de Lagrange.")
 
-Página web donde se realizan simples implementaciones y su respectivas representaciones gráficas de diversos métodos numéricos para la resolución de ecuaciones, integración e interpolación numérica.
 
-Se implementa el método de Newton, Regla trapezoidal, Punto fijo, Interpolación Polinómica de Lagrange, Diferencias divididas
-, Interpolación de Newton, entre otros.
+Web page where various numerical methods for solving equations, approximate integrals and numerical interpolation are implemented, explained and represented through graphs.
 
-Hospedada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Django](https://www.djangoproject.com)). Código fuente [aquí.](https://github.com/mucinoab/MII)
+The methods include Newton's method, some implementation of the trapezoidal rule, fixed point iteration, Lagrange polynomial interpolation, Newton's divided differences interpolation polynomial, among others
 
-Web page where various numerical methods are explained and implemented with their respective graphical representations. The methods include 
+Hosted on [Heroku](https://www.heroku.com/what#), backed written in Python ([Django](https://www.djangoproject.com)). 
+
+Source code [here.](https://github.com/mucinoab/MII)
 
 -------------------------------------------------------------------------------
 ## [Telegram ChatBot](https://github.com/mucinoab/SistemedicBotRust)

@@ -2,107 +2,152 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-      <!-- Enable responsiveness on mobile devices-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-      <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <style>
+.wave {
+  font-weight: 400;
+  padding-bottom: 5px;
+  background: url("wave.svg");
+  background-repeat: repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto auto;
+  background-repeat: repeat-x;
+  background-size: 15px 5px;
+  background-position: 2px 19px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+  animation-play-state: running;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
 
-      {% if config.generate_feed %}
-        <link rel="alternate" type={% if config.feed_filename == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="RSS" href="{{ get_url(path=config.feed_filename) | safe }}">
-      {% endif %}
+.wave:hover {
+  animation-play-state: paused;
+  background-size: 25px 10px;
+}
 
-      {% block js %}
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
-      {% endblock js %}
 
-      {% block css %}
-          <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) }}">
-      {% endblock css %}
+@-webkit-keyframes move {
+  from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
 
-      {% block extra_head %}
-      {% endblock extra_head %}
-    </head>
+@keyframe move {
+  from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
+    </style>
 
-    <body>
-        <div class="container">
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
 
-            <div id="mobile-navbar" class="mobile-navbar">
-              <div class="mobile-header-logo">
-                <a href="/" class="logo">{{ config.extra.even_title }}</a>
-              </div>
-              <div class="mobile-navbar-icon icon-out">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-            </div>
+    {% if config.generate_feed %}
+    <link rel="alternate" type={% if config.feed_filename == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="RSS" href="{{ get_url(path=config.feed_filename) | safe }}">
+    {% endif %}
 
-            <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
-              <ul class="mobile-menu-list">
-                {% for item in config.extra.even_menu %}
-                    <li class="mobile-menu-item">
-                        <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
-                            {{ item.name }}
-                        </a>
-                    </li>
-                {% endfor %}
-              </ul>
-            </nav>
+    {% block js %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+    {% endblock js %}
 
-            <header id="header">
-                <div class="logo"><a href="{{ config.base_url }}">{{ config.extra.even_title }}</a></div>
-                <nav class="menu">
-                    <ul>
-                        {% for item in config.extra.even_menu %}
-                            <li>
-                                <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
-                                    {{ item.name }}
-                                </a>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </nav>
-            </header>
+    {% block css %}
+    <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) }}">
+    {% endblock css %}
 
-            <main>
-                <div class="content" id="mobile-panel">
-                    {% block content %}
-                        <div class="posts">
-                            {% for page in paginator.pages %}
-                                <article class="post">
-                                    {{ post_macros::title(page=page) }}
-                                    <div class="post__summary">
-                                        {{ page.summary | safe }}
-                                    </div>
-                                    <div class="read-more">
-                                        <a href="{{ page.permalink }}">Leer más...</a>
-                                    </div>
-                                </article>
-                            {% endfor %}
-                        </div>
-                        <nav class="pagination">
-                            {% if paginator.previous %}
-                                <a class="previous" href="{{ paginator.previous }}">‹ Anterior</a>
-                            {% endif %}
-                            {% if paginator.next %}
-                                <a class="next" href="{{ paginator.next }}">Siguiente ›</a>
-                            {% endif %}
-                        </nav>
-                    {% endblock content %}
-                </div>
-            </main>
+    {% block extra_head %}
+    {% endblock extra_head %}
+  </head>
 
-            {% block footer %}
-            {% endblock footer %}
+  <body>
+    <div class="container">
+
+      <div id="mobile-navbar" class="mobile-navbar">
+        <div class="mobile-header-logo">
+            <a href="/" class="logo">{{ config.extra.even_title }} </a>
+          </div>
+          <div class="mobile-navbar-icon icon-out">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
 
-      {% block js_body %}
-          <script type="text/javascript" src="{{ get_url(path="even.js", trailing_slash=false) }}" ></script>
-      {% endblock js_body %}
-    </body>
+        <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+          <ul class="mobile-menu-list">
+            {% for item in config.extra.even_menu %}
+            <li class="mobile-menu-item">
+              <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}" class="wave">
+              {{ item.name }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <header id="header">
+        <div class="logo"><a href="{{ config.base_url }}">{{ config.extra.even_title }}</a></div>
+        <nav class="menu">
+          <ul>
+            {% for item in config.extra.even_menu %}
+            <li>
+              <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                {{ item.name }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="content" id="mobile-panel">
+          {% block content %}
+          <div class="posts">
+            {% for page in paginator.pages %}
+            <article class="post">
+              {{ post_macros::title(page=page) }}
+              <div class="post__summary">
+                {{ page.summary | safe }}
+              </div>
+              <div class="read-more">
+                <a href="{{ page.permalink }}">Leer más...</a>
+              </div>
+            </article>
+            {% endfor %}
+          </div>
+          <nav class="pagination">
+            {% if paginator.previous %}
+            <a class="previous" href="{{ paginator.previous }}">‹ Anterior</a>
+            {% endif %}
+            {% if paginator.next %}
+            <a class="next" href="{{ paginator.next }}">Siguiente ›</a>
+            {% endif %}
+          </nav>
+          {% endblock content %}
+        </div>
+      </main>
+
+      {% block footer %}
+      {% endblock footer %}
+    </div>
+
+    {% block js_body %}
+    <script type="text/javascript" src="{{ get_url(path="even.js", trailing_slash=false) }}" ></script>
+    {% endblock js_body %}
+  </body>
 
 </html>
