@@ -6,7 +6,7 @@ date = 2020-10-20
 Here is a list of open source projects that I have contributed to.
 
 - [jonhoo/Griddle](https://github.com/jonhoo/griddle/)  
-- [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)
+- [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)<!-- more -->
 - [NerdyPepper/Dijo](https://github.com/NerdyPepper/dijo/)
 - [dbrgn/Tealdeer](https://github.com/dbrgn/tealdeer/)
 - [xen0n/autojump-rs](https://github.com/xen0n/autojump-rs/)

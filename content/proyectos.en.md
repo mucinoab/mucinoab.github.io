@@ -9,9 +9,9 @@ date = 2020-08-31
 
 Web page where various numerical methods for solving equations, approximate integrals and numerical interpolation are implemented, explained and represented through graphs.
 
-The methods include Newton's method, some implementation of the trapezoidal rule, fixed point iteration, Lagrange polynomial interpolation, Newton's divided differences interpolation polynomial, among others
+The methods include Newton's method, some implementation of the trapezoidal rule, fixed point iteration, Lagrange polynomial interpolation, Newton's divided differences interpolation polynomial, among others.
 
-Hosted on [Heroku](https://www.heroku.com/what#), backed written in Python ([Django](https://www.djangoproject.com)). 
+Hosted on [Heroku](https://www.heroku.com/what#), back end written in Python ([Django](https://www.djangoproject.com)). 
 
 Source code [here.](https://github.com/mucinoab/MII)
 
@@ -19,84 +19,87 @@ Source code [here.](https://github.com/mucinoab/MII)
 ## [Telegram ChatBot](https://github.com/mucinoab/SistemedicBotRust)
 ![Bot](/bot.png "Red y logo")
 
-Dos implementaciones de un bot que hace uso del API de [Telegram](https://telegram.org/) 
+Two implementations of a chatbot using the official [Telegram](https://telegram.org/) API.
 <!-- more -->
-(lamentablemente Whatsapp y [Signal](https://www.signal.org/) no tienen un API razonable).
+(Sadly Whatsapp and [Signal](https://www.signal.org/) do not provide a
+_reasonable_ API).
 
-La [primera](https://github.com/mucinoab/SistemedicBot) implementación del bot
-esta hecha en [Python](https://www.python.org/), corre en [Heroku](https://www.heroku.com/what#) sobre [Docker](https://www.docker.com/)
-y cuenta con una base de datos relacional ([PostgreSQL](https://www.postgresql.org/)) que
-le proporciona toda la información necesaria.   
+The [first](https://github.com/mucinoab/SistemedicBot) bot implementation it is
+written in [Python](https://www.python.org/), hosted on [Heroku](https://www.heroku.com/what#) and runs in a  [Docker](https://www.docker.com/) container.
+It uses a relational database ([PostgreSQL](https://www.postgresql.org/)) for the data needs, which is hosted on heroku as well. 
 
-Desgraciadamente el desempeño de esta primera implementación deja mucho que
-desear, dando tiempos de respuesta al cliente de **~.5 _segundo_**, por lo que
-decido mejorar esos tiempos de repuesta al crear una implementación con un
-enfoque distinto.   
+Unfortunately the performance of this first implementation is not _the_ best and
+leaves a lot to wish. The average response time is around  **.5 _seconds_**, for
+that reason I decided to give this project another shot with a different approach.
 
-En la [segunda](https://github.com/mucinoab/SistemedicBotRust) implementación se
-elige Rust como lenguaje principal pues es conocido por su alto desempeño y
-ademas puede ser compilado para la arquitectura de la máquina que en la
-que se piensa _hostear_ el bot, [ARM](https://es.wikipedia.org/wiki/Arquitectura_ARM) y 
-[Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi). Para la base de
-datos se utiliza igualmente PostgreSQL pero esta vez corriendo de manera directa
-en el sistema operativo.  
+In the [second](https://github.com/mucinoab/SistemedicBotRust) implementation of
+the project I decided to use Rust as the main language because it is know for
+its blazing fast performance and security features, furthermore, it compiles and
+runs natively on the target platform that I chose for this project ([ARM](https://en.wikipedia.org/wiki/ARM_architecture)), in other words, a [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi).
 
-El resultado final de esta implementación es un bot que da respuestas en **~300 _µs_**, 
-gracias al crate [tokio](https://tokio.rs/) y un cuidadoso uso de recursos.
+For the database system I used PostgreSQL as well but this time running
+natively on the host machine.
 
--------------------------------------------------------------------------------
-## [Gráfos en Teoría](https://grafosenteoria.herokuapp.com/)
-![Grafos](/grafos.png "SS de grafo.")
-
-Página web en la que se pueden crear grafos interactivamente mediante la biblioteca de JavaScript [D3](https://d3js.org/) y arroja información sobre estos, esencialmente su matriz de incidencia y/o adyacencia.
-
-Hosteada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Django](https://www.djangoproject.com/)). Los recursos utilizados se pueden encontrar [aquí.](https://github.com/mucinoab/TG)
+The final result is a chat bot implementation in which the average response time
+is around **300 µs**, a _lot faster_ than the first one.
 
 -------------------------------------------------------------------------------
-## [Compiladores de Brainfuck](https://github.com/mucinoab/BrainFCompiler-LLVM)
+## [Brainfuck _Compilers_](https://github.com/mucinoab/BrainFCompiler-LLVM)
 ![Compiler](/compiler.png "LLVM y Ferris")
 
-Dos compiladores del lenguaje de programación [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck), el cual es [_Turing-complete_](https://en.wikipedia.org/wiki/Turing_completeness) y se compone de solo ocho comandos.
+Two compilers for the esoteric programming language, [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck). Brainfuck it is [_Turing-complete_](https://en.wikipedia.org/wiki/Turing_completeness) and consists of only the following instructions. 
 
 | + | - | [ | ] | > | < | , | . |
 |---|---|---|---|---|---|---|---|     
 
-Por ejemplo aquí, una implementación del enigmático _Hello World!_.
+For example, this is an implementation of the enigmatic _Hello World!_ program.
 
 > ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<++++++++
 +++++++.>.+++.------.--------.>+.>.
 
-El [primero](https://github.com/mucinoab/BrainFCompiler) es una implementación
-que crea un ejecutable al generar instrucciones de lenguaje ensamblador, esto se
-logra al asignar cada instrucción de brainfuck a una serie de instrucciones en _assembly_ , posteriormente las _ensambla_ usando [NASM](https://en.wikipedia.org/wijki/Netwide_Assembler) para finalmente _linkearlas_ con [ld](https://www.gnu.org/software/binutils/).
+The [first one](https://github.com/mucinoab/BrainFCompiler) creates an
+executable by mapping the brainfuck commands to assembly instructions, then it
+assembles the generated instructions using [NASM](https://en.wikipedia.org/wijki/Netwide_Assembler) and finally links them using [ld](https://www.gnu.org/software/binutils/).
 
-El [segundo](https://github.com/mucinoab/BrainFCompiler-LLVM) usa el crate
-[Inkwell](https://lib.rs/crates/inkwell), el cual expone el API de [LLVM](https://en.wikipedia.org/wiki/LLVM) que da una interfaz mucho más robusta para crear ejecutables de mayor calidad que hacen uso de las diversas opciones que LLVM ofrece, como agresivas optimizaciones.  
-LLVM crea un archivo [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) que se enlaza de manera dinámica usando [Clang](https://en.wikipedia.org/wiki/Clang) o [GCC](https://en.wikipedia.org/wiki/GNU_Compiler_Collection).
+The [second one](https://github.com/mucinoab/BrainFCompiler-LLVM) uses the
+popular Rust crate [Inkwell](https://lib.rs/crates/inkwell) that exposes the [LLVM](https://en.wikipedia.org/wiki/LLVM) API, which provides a great interface.
 
-Ambos compiladores están hechos con [Rust](https://www.rust-lang.org/) y disponibles en mi [github](https://github.com/mucinoab/) bajo [MIT](https://opensource.org/licenses/MIT).  
+The program crates an [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) file which is dynamically linked using [Clang](https://en.wikipedia.org/wiki/Clang) or [GCC](https://en.wikipedia.org/wiki/GNU_Compiler_Collection).
+
+Both compilers are written in [Rust](https://www.rust-lang.org/), licenced under [MIT](https://opensource.org/licenses/mit) and available on my [GitHub](https://github.com/mucinoab/).
 
 -------------------------------------------------------------------------------
-## [Métodos Numéricos I](https://github.com/mucinoab/SM)
+
+## [Gráfos en Teoría](https://grafosenteoria.herokuapp.com/)
+![Grafos](/grafos.png "SS de grafo.")
+
+A web page that me and a few classmates did for our graph theory class. In the web site you can draw _graphs_ and the output is information related to the graph.
+
+Hosted on [Heroku](https://www.heroku.com/what#) and written in Python ([Django](https://www.djangoproject.com/)).
+
+You can find the source code and resources used [here.](https://github.com/mucinoab/TG)
+
+-------------------------------------------------------------------------------
+
+## [Numerical Methods I](https://github.com/mucinoab/SM)
 ![Métodos Uno](/MI.png "LLVM y Ferris")
 
-Programa nativo multiplatforma para resolver ecuaciones lineales y no lineales. Implementado en
-C++ utilizando el framework [QT](https://www.qt.io/) para la creación de la
-interfaz gráfica. 
+Cross-platform native program to solve linear and non-linear equations.
+Implemented in C++ using the popular GUI framework, [QT](https://www.qt.io/).
 
-Se implementa el método de Newton, Gauss, Secante, Doolittle, Bisección, Falsa posición,
-Gauss Jordan, Gauss Seidel, Jacobi, entre otros más. 
+The full list of methods and source code can be found in the [GitHub repo](https://github.com/mucinoab/SM).
 
 -------------------------------------------------------------------------------
 ## [Lunar Lander](https://github.com/mucinoab/LunarLanderRs)
 ![Lunar Lander](/lunar.png "SS de Luna Lander")
 
-To do...
+**To do...**
+
+A simple game.
 
 -------------------------------------------------------------------------------
-## [Mapa Coroplético](/mapa.html)
-![Remplazar mapa](/mapac.png "SS de Mapa.")
+## [Choropletic Map](/mapa.html)
 
-Mapa coroplético de contagios Coved-19 hecho con Python y el módulo [Folian](https://github.com/python-visualization/folium) que genera un página web interactiva con la biblioteca de JavaScript [Leaflet.](https://leafletjs.com/)
+Choropletic Map representing the COVID-19 cases, made with Python using the [Folian library](https://github.com/python-visualization/folium).  
 
-Los recursos y programas utilizados se pueden encontrar [aquí.](https://github.com/mucinoab/mucinoab.github.io/tree/dev/extras/recursos)
+The python script and resources used can be found [here.](https://github.com/mucinoab/mucinoab.github.io/tree/dev/extras/recursos).
