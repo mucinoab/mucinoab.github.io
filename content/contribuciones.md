@@ -6,6 +6,7 @@ date = 2020-10-20
 Algunos de los los proyectos a los que he contribuido.
 
 - [jonhoo/Griddle](https://github.com/jonhoo/griddle/)  
+- [google/pix-image-viewer](https://github.com/google/pix-image-viewer)  
 - [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)
 - [NerdyPepper/Dijo](https://github.com/NerdyPepper/dijo/)
 - [dbrgn/Tealdeer](https://github.com/dbrgn/tealdeer/)

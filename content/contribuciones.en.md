@@ -6,6 +6,7 @@ date = 2020-10-20
 Here is a list of open source projects that I have contributed to.
 
 - [jonhoo/Griddle](https://github.com/jonhoo/griddle/)  
+- [google/pix-image-viewer](https://github.com/google/pix-image-viewer)  
 - [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)<!-- more -->
 - [NerdyPepper/Dijo](https://github.com/NerdyPepper/dijo/)
 - [dbrgn/Tealdeer](https://github.com/dbrgn/tealdeer/)
