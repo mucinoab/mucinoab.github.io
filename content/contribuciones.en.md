@@ -1,6 +1,6 @@
 +++
 title = "Contributions to the Open Source World"
-date = 2020-10-20
+date = 2020-11-16
 +++
 
 Here is a list of open source projects that I have contributed to.
@@ -11,6 +11,9 @@ Here is a list of open source projects that I have contributed to.
 - [NerdyPepper/Dijo](https://github.com/NerdyPepper/dijo/)
 - [dbrgn/Tealdeer](https://github.com/dbrgn/tealdeer/)
 - [xen0n/autojump-rs](https://github.com/xen0n/autojump-rs/)
+- [Club-de-Algoritmia-Acatlan-GUAPA/vote.rs](https://github.com/Club-de-Algoritmia-Acatlan-GUAPA/vote.rs)
+- [yollotltamayo/text_to_tex](https://github.com/yollotltamayo/text_to_tex)  
+- [Club-de-Algoritmia-Acatlan-GUAPA/club-de-algoritmia-acatlan-guapa.github.io](https://github.com/Club-de-Algoritmia-Acatlan-GUAPA/club-de-algoritmia-acatlan-guapa.github.io)
 - [yollotltamayo/presentation-card](https://github.com/yollotltamayo/presentation-card/tree/master)
 
 ![Hashbrown vs Griddle](/plot.png "Hashbrown vs Griddle")
