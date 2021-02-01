@@ -1,4 +1,4 @@
-entidad,entidad_nombre,municipio,municipio,pobreza,pobreza_e,pobreza_m,vul_car,vul_ing,npnv,ic_rezedu,ic_asalud,ic_segsoc,ic_cv,ic_sbv,ic_ali,carencias,carencias3,plb,plbm
+entidad,entidad_nombre,municipio,municipio_nombre,pobreza,pobreza_e,pobreza_m,vul_car,vul_ing,npnv,ic_rezedu,ic_asalud,ic_segsoc,ic_cv,ic_sbv,ic_ali,carencias,carencias3,plb,plbm
 01,Aguascalientes,001,Aguascalientes,224949,13650,211299,227805,98641,310052,100530,129728,313557,32153,25494,154658,452753,63220,323590,86166
 01,Aguascalientes,002,Asientos,25169,2067,23101,13544,3577,4335,9244,2788,32175,3633,7553,11494,38713,6594,28745,11394
 01,Aguascalientes,003,Calvillo,29951,1650,28301,14561,3348,4913,12254,5212,38857,2746,4082,9148,44513,5528,33299,14118
