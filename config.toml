@@ -21,7 +21,7 @@ author = "Bruno A. Muciño"
 
 even_menu = [
     {url = "$BASE_URL/en", name = "English"},
-    {url = "$BASE_URL/", name = "CV"},
+    {url = "https://raw.githubusercontent.com/mucinoab/mucinoab.github.io/dev/extras/Bruno_Muciño_Resume.pdf", name = "CV"},
     {url = "$BASE_URL/contacto", name = "Contacto"},
 ]
 
