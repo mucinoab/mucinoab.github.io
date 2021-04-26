@@ -7,8 +7,9 @@ Algunos de los los proyectos a los que he contribuido.
 
 - [jonhoo/Griddle](https://github.com/jonhoo/griddle/)  
 - [google/pix-image-viewer](https://github.com/google/pix-image-viewer)  
-- [arturomf94/bitsors](https://github.com/arturomf94/bitsors/)
+- [bitsoex/bitso-rs](https://github.com/bitsoex/bitso-rs)
 - [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)<!-- more -->
+- [arturomf94/bitsors](https://github.com/arturomf94/bitsors/)
 - [NerdyPepper/Dijo](https://github.com/NerdyPepper/dijo/)
 - [dbrgn/Tealdeer](https://github.com/dbrgn/tealdeer/)
 - [xen0n/autojump-rs](https://github.com/xen0n/autojump-rs/)
