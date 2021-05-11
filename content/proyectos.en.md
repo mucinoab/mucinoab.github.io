@@ -1,11 +1,25 @@
 +++
 title = "Projects"
-date = 2020-08-31
+date = 2021-05-12
 +++
 
+## [Reporstat](https://github.com/mucinoab/Reporstat)
+![Julia](/julia_mapa.png "Julia lang mapa")
+
+[Documentation](https://mucinoab.github.io/Reporstat/dev/)  
+
+To Do...
+
+-------------------------------------------------------------------------------
+## [PokeClassifier](https://github.com/mucinoab/Poke-Classifier)
+![Poke](/poke_page.png "SS de método de Lagrange.")
+
+To Do...
+
+<!-- more -->
+-------------------------------------------------------------------------------
 ## [Numerical Methods II](https://metodos-dos.herokuapp.com/)
 ![Métodos](/metodos.png "SS de método de Lagrange.")
-
 
 Web page where various numerical methods for solving equations, approximate integrals and numerical interpolation are implemented, explained and represented through graphs.
 
@@ -20,7 +34,6 @@ Source code [here.](https://github.com/mucinoab/MII)
 ![Bot](/bot.png "Red y logo")
 
 Two implementations of a chatbot using the official [Telegram](https://telegram.org/) API.
-<!-- more -->
 (Sadly Whatsapp and [Signal](https://www.signal.org/) do not provide a
 _reasonable_ API).
 

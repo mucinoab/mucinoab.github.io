@@ -1,8 +1,23 @@
 +++
 title = "Proyectos"
-date = 2020-08-31
+date = 2021-05-12
 +++
 
+## [Reporstat](https://github.com/mucinoab/Reporstat)
+![Julia](/julia_mapa.png "Julia lang mapa")
+
+[Documentación](https://mucinoab.github.io/Reporstat/dev/)   
+
+En progreso...
+
+-------------------------------------------------------------------------------
+## [PokeClassifier](https://github.com/mucinoab/Poke-Classifier)
+![Poke](/poke_page.png "SS de método de Lagrange.")
+
+En progreso...
+
+<!-- more -->
+-------------------------------------------------------------------------------
 ## [Métodos Numéricos II](https://metodos-dos.herokuapp.com/)
 ![Métodos](/metodos.png "SS de método de Lagrange.")
 
@@ -18,7 +33,6 @@ Hospedada en [Heroku](https://www.heroku.com/what#) con backend en Python ([Djan
 ![Bot](/bot.png "Red y logo")
 
 Dos implementaciones de un bot que hace uso del API de [Telegram](https://telegram.org/) 
-<!-- more -->
 (lamentablemente Whatsapp y [Signal](https://www.signal.org/) no tienen un API razonable).
 
 La [primera](https://github.com/mucinoab/SistemedicBot) implementación del bot

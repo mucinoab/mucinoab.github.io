@@ -1,6 +1,6 @@
 +++
 title = "Contribuciones al Mundo del Open Source"
-date = 2020-11-16
+date = 2021-05-13
 +++
 
 Algunos de los los proyectos a los que he contribuido.
