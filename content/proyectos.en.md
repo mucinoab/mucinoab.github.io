@@ -3,6 +3,11 @@ title = "Projects"
 date = 2021-05-12
 +++
 
+## [Perros Covid](https://github.com/mucinoab/)
+![Perritos](/perros_covid.png "Perros Covid")
+To Do...
+
+-------------------------------------------------------------------------------
 ## [Reporstat](https://github.com/mucinoab/Reporstat)
 ![Julia](/julia_mapa.png "Julia lang mapa")
 
@@ -10,13 +15,13 @@ date = 2021-05-12
 
 To Do...
 
+<!-- more -->
 -------------------------------------------------------------------------------
 ## [PokeClassifier](https://github.com/mucinoab/Poke-Classifier)
 ![Poke](/poke_page.png "SS de método de Lagrange.")
 
 To Do...
 
-<!-- more -->
 -------------------------------------------------------------------------------
 ## [Numerical Methods II](https://metodos-dos.herokuapp.com/)
 ![Métodos](/metodos.png "SS de método de Lagrange.")
