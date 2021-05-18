@@ -1,6 +1,6 @@
 +++
 title = "Contributions to the Open Source World"
-date = 2021-05-13
+date = 2021-05-18
 +++
 
 Here is a list of open source projects that I have contributed to.
@@ -8,6 +8,7 @@ Here is a list of open source projects that I have contributed to.
 - [jonhoo/Griddle](https://github.com/jonhoo/griddle/)  
 - [google/pix-image-viewer](https://github.com/google/pix-image-viewer)  
 - [bitsoex/bitso-rs](https://github.com/bitsoex/bitso-rs)
+- [rust-lang/rust-clippy ](https://github.com/rust-lang/rust-clippy)
 - [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)<!-- more -->
 - [arturomf94/bitsors](https://github.com/arturomf94/bitsors/)
 - [NerdyPepper/Dijo](https://github.com/NerdyPepper/dijo/)
