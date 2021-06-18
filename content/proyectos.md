@@ -78,7 +78,7 @@ Dos compiladores del lenguaje de programación [Brainfuck](https://en.wikipedia.
 | + | - | [ | ] | > | < | , | . |
 |---|---|---|---|---|---|---|---|     
 
-Por ejemplo aquí, una implementación del enigmático _Hello World!_.
+Por ejemplo aquí, una implementación del emblemático _Hello World!_.
 
 > ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<++++++++
 +++++++.>.+++.------.--------.>+.>.

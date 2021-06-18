@@ -70,7 +70,7 @@ Two compilers for the esoteric programming language, [Brainfuck](https://en.wiki
 | + | - | [ | ] | > | < | , | . |
 |---|---|---|---|---|---|---|---|     
 
-For example, this is an implementation of the enigmatic _Hello World!_ program.
+For example, this is an implementation of the emblematic _Hello World!_ program.
 
 > ++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<++++++++
 +++++++.>.+++.------.--------.>+.>.
