@@ -5,7 +5,8 @@ date = 2021-05-12
 
 ## [Perros Covid](https://github.com/mucinoab/)
 ![Perritos](/perros_covid.png "Perros Covid")
-To Do...
+Work in progress... In the mean time you can read the auto-translated version
+[here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
 
 -------------------------------------------------------------------------------
 ## [Reporstat](https://github.com/mucinoab/Reporstat)
@@ -13,14 +14,16 @@ To Do...
 
 [Documentation](https://mucinoab.github.io/Reporstat/dev/)  
 
-To Do...
+Work in progress... In the mean time you can read the auto-translated version
+[here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
 
 <!-- more -->
 -------------------------------------------------------------------------------
 ## [PokeClassifier](https://github.com/mucinoab/Poke-Classifier)
 ![Poke](/poke_page.png "SS de método de Lagrange.")
 
-To Do...
+Work in progress... In the mean time you can read the auto-translated version
+[here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
 
 -------------------------------------------------------------------------------
 ## [Numerical Methods II](https://metodos-dos.herokuapp.com/)

@@ -8,7 +8,7 @@ template = "about.html"
 
 ## - Email [mucinoab@comunidad.unam.mx](mailto:mucinoab@comunidad.unam.mx)
 
-## - Github [mucinoab](https://github.com/mucinoab) 
+## - GitHub [mucinoab](https://github.com/mucinoab) 
 
 ## - LinkedIn [Bruno A. Muciño](https://www.linkedin.com/in/bruno-a-muci%C3%B1o-87774a1a8/) 
 
