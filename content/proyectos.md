@@ -1,11 +1,25 @@
 +++
 title = "Proyectos"
-date = 2022-01-14
+date = 2022-01-17
 +++
 
-[comment]: <> (Todo: lux y flux, grafos en teoria, aurocat, lazy loading images, completar PokeClassifier)
+[comment]: <> (Todo: flux, grafos en teoria, aurocat, lazy loading images, completar PokeClassifier)
+
+## [Interprete](https://github.com/mucinoab/Lux)
+![Montaña](/mountain.png "Travesía de los lenguajes")
+
+La implementación de un interprete de _Lux_, un [lenguaje de programación
+dinámico](https://developer.mozilla.org/es/docs/Glossary/Dynamic_programming_language).
+Soporta variables, control de flujo, funciones, un
+[REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) y se
+le dio particular importancia a la presentación y contenido de los mensajes de error.
+
+Se basa en las lecciones presentada en el libro [Crafting
+Interpreters](https://craftinginterpreters.com/) de [Robert
+Nystrom](https://github.com/munificent).
 
 
+-------------------------------------------------------------------------------
 ## [Perros Covid](https://github.com/mucinoab/)
 ![Perritos](/perros_covid.png "Perros Covid")
 Sitio web para la recolección, procesamiento y caracterización de muestras por
@@ -74,7 +88,8 @@ se facilite la realización de análisis y reportes estadísticos al usuario.
 ![Poke](/poke_page.png "SS de bot y logo de pokedex")
 
 Un bot de telegram que trata de identificar pokémon en imágenes utilizando _deep
-learning._
+learning._ Dada una aproximación también proporciona un enlace a la entrada del
+pokémon en el [Pokédex Oficial](https://www.pokemon.com/us/pokedex/).
 
 -------------------------------------------------------------------------------
 ## [Métodos Numéricos II](https://metodos-dos.herokuapp.com/)
@@ -192,7 +207,6 @@ To do...
 
 -------------------------------------------------------------------------------
 ## [Mapa Coroplético](/mapa.html)
-![Remplazar mapa](/mapac.png "SS de Mapa.")
 
 Mapa coroplético de contagios Covid-19 hecho con Python y el módulo
 [Folium](https://github.com/python-visualization/folium) que genera un página
