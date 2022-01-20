@@ -8,16 +8,19 @@ date = 2022-01-17
 ## [Interprete](https://github.com/mucinoab/Lux)
 ![Montaña](/mountain.png "Travesía de los lenguajes")
 
-La implementación de un interprete de _Lux_, un [lenguaje de programación
-dinámico](https://developer.mozilla.org/es/docs/Glossary/Dynamic_programming_language).
-Soporta variables, control de flujo, funciones, un
+La implementación de un [lenguaje de programación
+dinámico](https://developer.mozilla.org/es/docs/Glossary/Dynamic_programming_language),
+_Lux_, y su respectivo interprete. Soporta variables, control de flujo,
+funciones, un
 [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) y se
-le dio particular importancia a la presentación y contenido de los mensajes de error.
+le dio particular importancia a la presentación y contenido de los mensajes de
+error.
 
 Se basa en las lecciones presentada en el libro [Crafting
 Interpreters](https://craftinginterpreters.com/) de [Robert
 Nystrom](https://github.com/munificent).
 
+Puedes probar el REPL compilado a [WebAssembly](https://webassembly.org/) aquí: [Lux Demo](/lux/lux_demo.html)
 
 -------------------------------------------------------------------------------
 ## [Perros Covid](https://github.com/mucinoab/)

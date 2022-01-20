@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>WebAssembly Lux Interpreter</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/prism.min.js" integrity="sha512-pSVqGtpGygQlhN8ZTHXx1kqkjQr30eM+S6OoSzhHGTjh6DKdfy7WZlo1DNO9bhtM0Imf6xNLznZ7iVC2YUMwJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-GP4x8UWxWyh4BMbyJGOGneiTbkrWEF5izsVJByzVLodP8CuJH/n936+yQDMJJrOPUHLgyPbLiGw2rXmdvGdXHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      html {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+      }
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        flex-direction: column;
+        font-family: monospace;
+        font-size: 1.5em;
+        min-height: 100vh;
+        justify-content: flex-end;
+      }
+      .repl-container {
+        display: flex;
+        flex-flow: row nowrap;
+        border-top: 2px solid gray;
+        padding: .25em;
+        width: 100%;
+        background-color: #eee;
+        position: fixed;
+        bottom: 1em;
+      }
+
+      .repl-input {
+        height: 1.5em;
+        max-height: 60vh;
+        font-size: 1.5em;
+        border: none;
+        padding: .25em 0 .25em 0em;
+        font-family: monospace;
+        flex: 1 1 100%;
+        tab-size: 4;
+      }
+      .error {
+        color: red;
+        background-color: lightgray;
+      }
+      .output {
+        background-color: lightgray;
+      }
+      .header {
+        width: 100%;
+        background-color: #eee;
+        position: fixed;
+        top: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="header">WebAssembly Lux Interpreter</h1>
+
+    <output>
+      <pre>
+        <code class="language-csharp" id="output"><br></code>
+      </pre>
+    </output>
+
+    <div class="repl-container">
+      <textarea class="repl-input" id="repl" autofocus>
+// Just press enter
+fn fibo(n) {
+  if (n <= 1) return n;
+  return fibo(n - 2) + fibo(n - 1);
+}
+var res = fibo(12);
+print res;</textarea>
+    </div>
+
+    <script type="module" defer>
+      import  init, { run } from '/lux/lux_web.js';
+
+      async function repl() { 
+        await init();
+
+        const input = document.getElementById("repl");
+        input.style.height = (input.value.split('\n').length * 1.5) + 'em';
+
+        input.addEventListener("keydown", evt => {
+          switch (evt.code) {
+            // TODO: repl history
+            case "ArrowUp":
+            case "ArrowDown":
+              break;
+
+            case "Enter":
+              if (!evt.shiftKey) {
+                evt.preventDefault();
+
+                const replInput = input.value;
+                const inputAsCode = Prism.highlight(replInput, Prism.languages.cs, 'cs');
+                let result = run(replInput).trim();
+
+                // Clear input
+                input.style.height = "1.5em";
+                input.value = "";
+
+                // Highlight errors/results
+                if (result.startsWith("error")) {
+                  result = `<div class="error">${result}</div>`;
+                } else if (result.length !== 0) {
+                  result = `<div class="output"><<< ${result}</div>`;
+                }
+
+                output.innerHTML += `>>> ${inputAsCode}<br>${result}`;
+              } else {
+                input.style.height = `${input.value.split('\n').length * 1.5}em`;
+              }
+
+              break;
+          }
+        });
+      };
+
+      repl();
+</script>
+</html>
