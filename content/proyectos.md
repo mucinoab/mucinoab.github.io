@@ -20,7 +20,8 @@ Se basa en las lecciones presentada en el libro [Crafting
 Interpreters](https://craftinginterpreters.com/) de [Robert
 Nystrom](https://github.com/munificent).
 
-Puedes probar el REPL compilado a [WebAssembly](https://webassembly.org/) aquí: [Lux Demo](/lux/lux_demo.html)
+Puedes probar el REPL compilado a [WebAssembly](https://webassembly.org/) aquí:
+[Lux Demo](/lux/lux_demo.html)
 
 -------------------------------------------------------------------------------
 ## [Perros Covid](https://github.com/mucinoab/)

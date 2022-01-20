@@ -93,13 +93,13 @@ print res;</textarea>
         input.style.height = (input.value.split('\n').length * 1.5) + 'em';
 
         input.addEventListener("keydown", evt => {
-          switch (evt.code) {
+          switch (evt.keyCode) {
             // TODO: repl history
-            case "ArrowUp":
-            case "ArrowDown":
-              break;
+            // case "ArrowUp":
+            // case "ArrowDown":
+            //   break;
 
-            case "Enter":
+            case 13: // Enter
               if (!evt.shiftKey) {
                 evt.preventDefault();
 
