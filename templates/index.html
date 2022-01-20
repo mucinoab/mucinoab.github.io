@@ -10,6 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
     <style>
+a:hover {
+  padding-bottom: 5px;
+  background: url("{{ get_url(path="wave.svg") | safe }}");
+  background-repeat: repeat-x;
+  background-size: 15px 5px;
+  animation: move 15s linear infinite;
+  text-decoration: none;
+  -webkit-animation: move 15s linear infinite;
+  -webkit-text-decoration-skip: objects;
+}
+
 .wave {
   font-weight: 400;
   padding-bottom: 5px;
