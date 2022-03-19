@@ -1,6 +1,6 @@
 +++
 title = "Contributions to the Open Source World"
-date = 2021-05-18
+date = 2022-03-18
 +++
 
 Here is a list of open source projects that I have contributed to.
@@ -9,7 +9,9 @@ Here is a list of open source projects that I have contributed to.
 - [google/pix-image-viewer](https://github.com/google/pix-image-viewer)  
 - [bitsoex/bitso-rs](https://github.com/bitsoex/bitso-rs)
 - [rust-lang/rust-clippy ](https://github.com/rust-lang/rust-clippy)
-- [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)<!-- more -->
+- [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)
+- [mvniekerk/tokio-cron-scheduler](https://github.com/mvniekerk/tokio-cron-scheduler)
+  <!-- more -->
 - [arturomf94/bitsors](https://github.com/arturomf94/bitsors/)
 - [NerdyPepper/Dijo](https://github.com/NerdyPepper/dijo/)
 - [dbrgn/Tealdeer](https://github.com/dbrgn/tealdeer/)
