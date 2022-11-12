@@ -1,17 +1,18 @@
 +++
 title = "Contribuciones al Mundo del Open Source"
-date = 2022-03-18
+date = 2022-11-11
 +++
 
 Algunos de los los proyectos a los que he contribuido.
 
-- [jonhoo/Griddle](https://github.com/jonhoo/griddle/)  
-- [google/pix-image-viewer](https://github.com/google/pix-image-viewer)  
+- [rust-lang/rust](https://github.com/rust-lang/rust)
+- [boxdot/gurk-rs](https://github.com/boxdot/gurk-rs)
 - [rust-lang/rust-clippy ](https://github.com/rust-lang/rust-clippy)
 - [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)
 - [mvniekerk/tokio-cron-scheduler](https://github.com/mvniekerk/tokio-cron-scheduler)
-- [boxdot/gurk-rs](https://github.com/boxdot/gurk-rs)
   <!-- more -->
+- [google/pix-image-viewer](https://github.com/google/pix-image-viewer)  
+- [jonhoo/Griddle](https://github.com/jonhoo/griddle/)  
 - [bitsoex/bitso-rs](https://github.com/bitsoex/bitso-rs)
 - [arturomf94/bitsors](https://github.com/arturomf94/bitsors/)
 - [NerdyPepper/Dijo](https://github.com/NerdyPepper/dijo/)
