@@ -1,6 +1,6 @@
 +++
 title = "Contributions to the Open Source World"
-date = 2022-11-11
+date = 2022-11-20
 +++
 
 Here is a list of open source projects that I have contributed to.
@@ -11,6 +11,7 @@ Here is a list of open source projects that I have contributed to.
 - [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)
 - [mvniekerk/tokio-cron-scheduler](https://github.com/mvniekerk/tokio-cron-scheduler)
   <!-- more -->
+- [stalwartlabs/mail-builder](https://github.com/stalwartlabs/mail-builder)
 - [google/pix-image-viewer](https://github.com/google/pix-image-viewer)  
 - [jonhoo/Griddle](https://github.com/jonhoo/griddle/)  
 - [bitsoex/bitso-rs](https://github.com/bitsoex/bitso-rs)
