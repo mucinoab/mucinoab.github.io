@@ -14,4 +14,6 @@ template = "about.html"
 
 ## - Twitter [mucinoab](https://twitter.com/mucinoab/likes)
 
+## - Mastodon [@mucinoab@fosstodon.org](https://fosstodon.org/@mucinoab)
+
 ## - Instagram [mg_bruno](https://www.instagram.com/mg_bruno/)
