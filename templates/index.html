@@ -5,13 +5,13 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="me" href="https://fosstodon.org/@mucinoab">
 
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
     <style>
 a:hover {
-  padding-bottom: 5px;
   background: url("{{ get_url(path="wave.svg") | safe }}");
   background-repeat: repeat-x;
   background-size: 15px 5px;
@@ -23,7 +23,6 @@ a:hover {
 
 .wave {
   font-weight: 400;
-  padding-bottom: 5px;
   background: url("{{ get_url(path="wave.svg") | safe }}");
   background-repeat: repeat;
   background-position-x: 0%;
@@ -88,7 +87,11 @@ a:hover {
 
       <div id="mobile-navbar" class="mobile-navbar">
         <div class="mobile-header-logo">
+          {% if lang and lang == "en" %}
+            <a href="/en" class="logo">{{ config.extra.even_title }} </a>
+          {% else %}
             <a href="/" class="logo">{{ config.extra.even_title }} </a>
+          {% endif %}
           </div>
           <div class="mobile-navbar-icon icon-out">
             <span></span>
@@ -99,27 +102,56 @@ a:hover {
 
         <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
           <ul class="mobile-menu-list">
-            {% for item in config.extra.even_menu %}
             <li class="mobile-menu-item">
+            {% if lang and lang == "en" %}
+            {% for item in config.extra.even_menu_en %}
               <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}" class="wave">
-              {{ item.name }}
+                    <li>
+                      <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                        {{ item.name }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                {% else %}
+                  {% for item in config.extra.even_menu_es %}
+                    <li>
+                      <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                        {{ item.name }}
+                      </a>
+                    </li>
+                    {% endfor %}
+                {% endif %}
             </a>
           </li>
-          {% endfor %}
         </ul>
       </nav>
 
       <header id="header">
-        <div class="logo"><a href="{{ config.base_url }}">{{ config.extra.even_title }}</a></div>
+        <div class="logo">
+          {% if lang and lang == "en" %}
+            <a href="/en" class="logo">{{ config.extra.even_title }} </a></div>
+          {% else %}
+            <a href="/" class="logo">{{ config.extra.even_title }} </a></div>
+          {% endif %}
         <nav class="menu">
           <ul>
-            {% for item in config.extra.even_menu %}
-            <li>
-              <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
-                {{ item.name }}
-              </a>
-            </li>
-            {% endfor %}
+            {% if lang and lang == "en" %}
+              {% for item in config.extra.even_menu_en %}
+                <li>
+                  <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                    {{ item.name }}
+                  </a>
+                </li>
+              {% endfor %}
+            {% else %}
+              {% for item in config.extra.even_menu_es %}
+                <li>
+                  <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                    {{ item.name }}
+                  </a>
+                </li>
+                {% endfor %}
+            {% endif %}
           </ul>
         </nav>
       </header>
@@ -135,7 +167,13 @@ a:hover {
                 {{ page.summary | safe }}
               </div>
               <div class="read-more">
-                <a href="{{ page.permalink }}">Leer más...</a>
+                <a href="{{ page.permalink }}">
+                {% if lang and lang == "en" %}
+                  Keep reading...
+                {% else %}
+                  Leer más...
+                {% endif %}
+                </a>
               </div>
             </article>
             {% endfor %}

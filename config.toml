@@ -11,18 +11,23 @@ taxonomies = [
     {name = "tags", rss = false},
 ]
 
-# TODO multilingual 
-languages = [
-    {code = 'en'}, 
-]
+[languages.en]
+
+
 
 [extra]
 author = "Bruno A. Muciño"
 
-even_menu = [
+even_menu_es = [
     {url = "$BASE_URL/en", name = "English"},
     {url = "https://raw.githubusercontent.com/mucinoab/mucinoab.github.io/dev/extras/Bruno_Muci%C3%B1o_Resume.pdf", name = "CV"},
     {url = "$BASE_URL/contacto", name = "Contacto"},
+]
+
+even_menu_en = [
+    {url = "$BASE_URL/", name = "Español"},
+    {url = "https://raw.githubusercontent.com/mucinoab/mucinoab.github.io/dev/extras/Bruno_Muci%C3%B1o_Resume.pdf", name = "CV"},
+    {url = "$BASE_URL/en/contact", name = "Contact Info"},
 ]
 
 even_title = "Bruno A. Muciño"

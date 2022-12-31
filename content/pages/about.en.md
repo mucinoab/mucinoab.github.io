@@ -1,6 +1,6 @@
 +++
 title = "About"
-path = "en/contacto"
+path = "en/contact"
 template = "about.html"
 +++
 
