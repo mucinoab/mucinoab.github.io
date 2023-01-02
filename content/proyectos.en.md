@@ -1,7 +1,37 @@
 +++
 title = "Projects"
-date = 2022-01-17
+date = 2023-01-01
 +++
+
+
+## [FIRE](https://github.com/mucinoab/FIRE)
+
+A [modal](https://wincent.com/wiki/Modal_editor) FIle Reader and Editor (FIRE)
+written completely in C, without using external dependencies.
+
+![Fire Demo](/fire_demo.svg "A demo of FIRE, the text editor")
+
+This was written in an attempt to dust off my C knowledge and also to try to
+learn modern common practices, like the usage of standard types (_stdint.h_),
+or to avoid using _malloc_ in favor of using _calloc_. My main guide in
+this process was the blog post [How to C in 2016](https://matt.sh/howto-c) by
+Matt Stancliff, by now is a bit outdated, but still is a good read to catch up
+with somewhat "modern practices".
+
+
+I am a big [neovim](https://neovim.io/) fan and this was my main inspiration
+while building [FIRE](https://github.com/mucinoab/FIRE), as you can see from
+the demo above.
+
+## Features
+   - Normal and Insert mode, as in Vim.
+   - Open, display, edit and save files.
+   - Incrementally search file contents.
+
+The source code and instructions to run the project are available in the
+[repo](https://github.com/mucinoab/FIRE).
+
+-------------------------------------------------------------------------------
 
 ## [Interpreter](https://github.com/mucinoab/Lux)
 ![Mountain](/mountain.png)
@@ -86,7 +116,7 @@ For example, this is an implementation of the emblematic _Hello World!_ program.
 
 The [first one](https://github.com/mucinoab/BrainFCompiler) creates an
 executable by mapping the brainfuck commands to assembly instructions, then it
-assembles the generated instructions using [NASM](https://en.wikipedia.org/wijki/Netwide_Assembler) and finally links them using [ld](https://www.gnu.org/software/binutils/).
+assembles the generated instructions using [NASM](https://en.wikipedia.org/wiki/Netwide_Assembler) and finally links them using [ld](https://www.gnu.org/software/binutils/).
 
 The [second one](https://github.com/mucinoab/BrainFCompiler-LLVM) uses the
 popular Rust crate [Inkwell](https://lib.rs/crates/inkwell) that exposes the [LLVM](https://en.wikipedia.org/wiki/LLVM) API, which provides a great interface.

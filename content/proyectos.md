@@ -1,11 +1,38 @@
 +++
 title = "Proyectos"
-date = 2022-01-17
+date = 2023-01-01
 +++
 
 [comment]: <> (Todo: flux, grafos en teoria, aurocat, lazy loading images, completar PokeClassifier)
 
-## [Interprete](https://github.com/mucinoab/Lux)
+## [FIRE](https://github.com/mucinoab/FIRE)
+
+Un editor de texto [modal](https://wincent.com/wiki/Modal_editor) escrito
+completamente en C, sin usar dependencias externas.
+
+![Fire Demo](/fire_demo.svg "Un demo de FIRE, el editor de texto")
+
+Fue escrito en un intento de desempolvar mi conocimiento de C y también para
+intentar aprender prácticas modernas, como el uso de tipos estándar
+(_stdint.h_), o para evitar usar _malloc_ en favor de _calloc_, etc.
+Mi principal guía en este proceso fue la publicación de Matt Stancliff en el
+blog [How to C in 2016](https://matt.sh/howto-c), es una buena lectura para
+ponerse al día con las "prácticas modernas" de C.
+
+
+Soy un muy fan de [neovim](https://neovim.io/) y esta fue mi principal
+inspiración al construir [FIRE](https://github.com/mucinoab/FIRE), como pueden
+ver en el demo de arriba.
+
+## Principales características
+   - Modos _Normal_ e _Insert_, como en Vim.
+   - Abrir, mostrar, editar y guardar archivos de texto.
+   - Búsqueda incremental del contenido del archivo.
+
+El código y las instrucciones para compilar y ejecutar el proyecto están
+disponibles en el [repo](https://github.com/mucinoab/FIRE).
+
+## [Interprete](https://github.com/mucinoab/FIRE)
 ![Montaña](/mountain.png "Travesía de los lenguajes")
 
 La implementación de un [lenguaje de programación
@@ -176,7 +203,7 @@ El [primero](https://github.com/mucinoab/BrainFCompiler) es una implementación
 que crea un ejecutable al generar instrucciones de lenguaje ensamblador, esto
 se logra al asignar cada instrucción de brainfuck a una serie de instrucciones
 en _assembly_ , posteriormente las _ensambla_ usando
-[NASM](https://en.wikipedia.org/wijki/Netwide_Assembler) para finalmente
+[NASM](https://es.wikipedia.org/wiki/Netwide_Assembler) para finalmente
 _linkearlas_ con [ld](https://www.gnu.org/software/binutils/).
 
 El [segundo](https://github.com/mucinoab/BrainFCompiler-LLVM) usa el crate
