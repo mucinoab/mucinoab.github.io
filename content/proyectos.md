@@ -32,7 +32,7 @@ ver en el demo de arriba.
 El código y las instrucciones para compilar y ejecutar el proyecto están
 disponibles en el [repo](https://github.com/mucinoab/FIRE).
 
-## [Interprete](https://github.com/mucinoab/FIRE)
+## [Interprete](https://github.com/mucinoab/lux)
 ![Montaña](/mountain.png "Travesía de los lenguajes")
 
 La implementación de un [lenguaje de programación
