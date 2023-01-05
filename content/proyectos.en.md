@@ -62,14 +62,19 @@ Work in progress... In the mean time you can read the auto-translated version
 [here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
 
 -------------------------------------------------------------------------------
-## [Numerical Methods II](https://metodos-dos.herokuapp.com/)
+## [Numerical Methods II](https://metodos-dos.fly.dev/)
 ![Métodos](/metodos.png "SS de método de Lagrange.")
 
-Web page where various numerical methods for solving equations, approximate integrals and numerical interpolation are implemented, explained and represented through graphs.
+Web page where various numerical methods for solving equations, approximate
+integrals and numerical interpolation are implemented, explained and
+represented through graphs.
 
-The methods include Newton's method, some implementation of the trapezoidal rule, fixed point iteration, Lagrange polynomial interpolation, Newton's divided differences interpolation polynomial, among others.
+The methods include Newton's method, some implementation of the trapezoidal
+rule, fixed point iteration, Lagrange polynomial interpolation, Newton's
+divided differences interpolation polynomial, among others.
 
-Hosted on [Heroku](https://www.heroku.com/what#), back end written in Python ([Django](https://www.djangoproject.com)). 
+Hosted on ~~[Heroku](https://www.heroku.com/what#)~~ [Fly.io](https://fly.io/),
+back end written in Python ([Django](https://www.djangoproject.com)). 
 
 Source code [here.](https://github.com/mucinoab/MII)
 

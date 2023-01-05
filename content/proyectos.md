@@ -123,7 +123,7 @@ learning._ Dada una aproximación también proporciona un enlace a la entrada de
 pokémon en el [Pokédex Oficial](https://www.pokemon.com/us/pokedex/).
 
 -------------------------------------------------------------------------------
-## [Métodos Numéricos II](https://metodos-dos.herokuapp.com/)
+## [Métodos Numéricos II](https://metodos-dos.fly.dev/)
 ![Métodos](/metodos.png "SS de método de Lagrange.")
 
 Página web donde se realizan simples implementaciones y su respectivas
@@ -134,7 +134,8 @@ Se implementa el método de Newton, Regla trapezoidal, Punto fijo, Interpolació
 Polinómica de Lagrange, Diferencias divididas , Interpolación de Newton, entre
 otros.
 
-Hospedada en [Heroku](https://www.heroku.com/what#) con backend en Python
+Hospedada en ~~[Heroku](https://www.heroku.com/what#)~~
+[Fly.io](https://fly.io/) con backend en Python
 ([Django](https://www.djangoproject.com)). Código fuente
 [aquí.](https://github.com/mucinoab/MII)
 
