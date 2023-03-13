@@ -39,7 +39,7 @@ Work in progress... In the mean time you can read the auto-translated version
 [here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
 
 -------------------------------------------------------------------------------
-## [Perros Covid](https://github.com/mucinoab/)
+## [Covid Dogs](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
 ![Perritos](/perros_covid.png "Perros Covid")
 Work in progress... In the mean time you can read the auto-translated version
 [here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)

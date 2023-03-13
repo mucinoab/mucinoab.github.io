@@ -51,7 +51,7 @@ Puedes probar el REPL compilado a [WebAssembly](https://webassembly.org/) aquí:
 [Lux Demo](/lux/lux_demo.html)
 
 -------------------------------------------------------------------------------
-## [Perros Covid](https://github.com/mucinoab/)
+## [Perros Covid](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
 ![Perritos](/perros_covid.png "Perros Covid")
 Sitio web para la recolección, procesamiento y caracterización de muestras por
 PCR de COVID-19 para su posterior uso en el adiestramiento de perros para
@@ -60,6 +60,7 @@ identificar muestras positivas. Parte de un proyecto colaborativo entre la
 la [SRE](https://www.gob.mx/sre) (Secretaría de Relaciones Exteriores) y la
 [UNAM](https://www.unam.mx/) (Universidad Nacional Autónoma de México).
 
+[Gaceta UNAM: Reconocimiento a la FMVZ por proyecto sobre Covid-19](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
 
 ### Objetivo
 
