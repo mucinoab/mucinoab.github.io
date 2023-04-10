@@ -1,9 +1,15 @@
 +++
 title = "Proyectos"
-date = 2023-01-01
+date = 2023-04-09
 +++
 
 [comment]: <> (Todo: flux, grafos en teoria, aurocat, lazy loading images, completar PokeClassifier)
+
+## [Trueno](https://github.com/mucinoab/trueno)
+
+Descripción en progreso...
+
+![Trueno demo](/rayo.avif "Multiple spheres in different colors, sizes and materials")
 
 ## [FIRE](https://github.com/mucinoab/FIRE)
 
@@ -52,7 +58,7 @@ Puedes probar el REPL compilado a [WebAssembly](https://webassembly.org/) aquí:
 
 -------------------------------------------------------------------------------
 ## [Perros Covid](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
-![Perritos](/perros_covid.png "Perros Covid")
+![Perritos](/perros_covid.avif "Perros Covid")
 Sitio web para la recolección, procesamiento y caracterización de muestras por
 PCR de COVID-19 para su posterior uso en el adiestramiento de perros para
 identificar muestras positivas. Parte de un proyecto colaborativo entre la
@@ -125,7 +131,7 @@ pokémon en el [Pokédex Oficial](https://www.pokemon.com/us/pokedex/).
 
 -------------------------------------------------------------------------------
 ## [Métodos Numéricos II](https://metodos-dos.fly.dev/)
-![Métodos](/metodos.png "SS de método de Lagrange.")
+![Métodos](/metodos.avif "SS de método de Lagrange.")
 
 Página web donde se realizan simples implementaciones y su respectivas
 representaciones gráficas de diversos métodos numéricos para la resolución de
@@ -174,7 +180,7 @@ recursos.
 
 -------------------------------------------------------------------------------
 ## [Gráfos en Teoría](https://grafosenteoria.herokuapp.com/)
-![Grafos](/grafos.png "SS de grafo.")
+![Grafos](/grafos.avif "SS de grafo.")
 
 Página web en la que se pueden crear grafos interactivamente mediante la
 biblioteca de JavaScript [D3](https://d3js.org/) y arroja información sobre
@@ -186,7 +192,7 @@ encontrar [aquí.](https://github.com/mucinoab/TG)
 
 -------------------------------------------------------------------------------
 ## [Compiladores de Brainfuck](https://github.com/mucinoab/BrainFCompiler-LLVM)
-![Compiler](/compiler.png "LLVM y Ferris")
+![Compiler](/compiler.avif "LLVM y Ferris")
 
 Dos compiladores del lenguaje de programación
 [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck), el cual es
@@ -223,7 +229,7 @@ disponibles en mi [github](https://github.com/mucinoab/) bajo
 
 -------------------------------------------------------------------------------
 ## [Métodos Numéricos I](https://github.com/mucinoab/SM)
-![Métodos Uno](/MI.png "LLVM y Ferris")
+![Métodos Uno](/MI.avif "LLVM y Ferris")
 
 Programa nativo multiplatforma para resolver ecuaciones lineales y no lineales.
 Implementado en C++ utilizando el framework [QT](https://www.qt.io/) para la
@@ -234,7 +240,7 @@ posición, Gauss Jordan, Gauss Seidel, Jacobi, entre otros más.
 
 -------------------------------------------------------------------------------
 ## [Lunar Lander](https://github.com/mucinoab/LunarLanderRs)
-![Lunar Lander](/lunar.png "SS de Luna Lander")
+![Lunar Lander](/lunar.avif "SS de Luna Lander")
 
 To do...
 

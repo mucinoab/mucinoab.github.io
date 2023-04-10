@@ -1,8 +1,18 @@
 +++
 title = "Projects"
-date = 2023-01-01
+date = 2023-04-09
 +++
 
+## [Trueno](https://github.com/mucinoab/trueno)
+
+A multithreaded and SIMD enhanced CPU ray tracer.
+
+Supports diffuse, metal and dielectric materials, antialiasing, and fully
+configurable camera (resolution, aperture, focus) and scene.
+
+![Trueno demo](/rayo.avif "Multiple spheres in different colors, sizes and materials")
+
+Implementation based in the book [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 
 ## [FIRE](https://github.com/mucinoab/FIRE)
 
@@ -40,7 +50,7 @@ Work in progress... In the mean time you can read the auto-translated version
 
 -------------------------------------------------------------------------------
 ## [Covid Dogs](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
-![Perritos](/perros_covid.png "Perros Covid")
+![Perritos](/perros_covid.avif "Perros Covid")
 Work in progress... In the mean time you can read the auto-translated version
 [here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
 
@@ -63,7 +73,7 @@ Work in progress... In the mean time you can read the auto-translated version
 
 -------------------------------------------------------------------------------
 ## [Numerical Methods II](https://metodos-dos.fly.dev/)
-![Métodos](/metodos.png "SS de método de Lagrange.")
+![Métodos](/metodos.avif "SS de método de Lagrange.")
 
 Web page where various numerical methods for solving equations, approximate
 integrals and numerical interpolation are implemented, explained and
@@ -107,7 +117,7 @@ is around **300 µs**, a _lot faster_ than the first one.
 
 -------------------------------------------------------------------------------
 ## [Brainfuck _Compilers_](https://github.com/mucinoab/BrainFCompiler-LLVM)
-![Compiler](/compiler.png "LLVM y Ferris")
+![Compiler](/compiler.avif "LLVM y Ferris")
 
 Two compilers for the esoteric programming language, [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck). Brainfuck it is [_Turing-complete_](https://en.wikipedia.org/wiki/Turing_completeness) and consists of only the following instructions. 
 
@@ -133,7 +143,7 @@ Both compilers are written in [Rust](https://www.rust-lang.org/), licenced under
 -------------------------------------------------------------------------------
 
 ## [Gráfos en Teoría](https://grafosenteoria.herokuapp.com/)
-![Grafos](/grafos.png "SS de grafo.")
+![Grafos](/grafos.avif "SS de grafo.")
 
 A web page that me and a few classmates did for our graph theory class. In the web site you can draw _graphs_ and the output is information related to the graph.
 
@@ -144,7 +154,7 @@ You can find the source code and resources used [here.](https://github.com/mucin
 -------------------------------------------------------------------------------
 
 ## [Numerical Methods I](https://github.com/mucinoab/SM)
-![Métodos Uno](/MI.png "LLVM y Ferris")
+![Métodos Uno](/MI.avif "LLVM y Ferris")
 
 Cross-platform native program to solve linear and non-linear equations.
 Implemented in C++ using the popular GUI framework, [QT](https://www.qt.io/).
@@ -153,7 +163,7 @@ The full list of methods and source code can be found in the [GitHub repo](https
 
 -------------------------------------------------------------------------------
 ## [Lunar Lander](https://github.com/mucinoab/LunarLanderRs)
-![Lunar Lander](/lunar.png "SS de Luna Lander")
+![Lunar Lander](/lunar.avif "SS de Luna Lander")
 
 **To do...**
 

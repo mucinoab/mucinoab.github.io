@@ -24,6 +24,6 @@ Algunos de los los proyectos a los que he contribuido.
 - [Club-de-Algoritmia-Acatlan-GUAPA/club-de-algoritmia-acatlan-guapa.github.io](https://github.com/Club-de-Algoritmia-Acatlan-GUAPA/club-de-algoritmia-acatlan-guapa.github.io)
 - [yollotltamayo/presentation-card](https://github.com/yollotltamayo/presentation-card/tree/master)
 
-![Hashbrown vs Griddle](/plot.png "Hashbrown vs Griddle")
-![Dijo](/dijo.png "Dijo ss")
-![sptr-tealdeer-chikis](/sptr-tealdeer-chikis.png "sptr-tealdeer-chikis")
+![Hashbrown vs Griddle](/plot.avif "Hashbrown vs Griddle")
+![Dijo](/dijo.avif "Dijo ss")
+![sptr-tealdeer-chikis](/sptr-tealdeer-chikis.avif "sptr-tealdeer-chikis")
