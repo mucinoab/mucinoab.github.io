@@ -10,7 +10,8 @@ A multithreaded and SIMD enhanced CPU ray tracer.
 Supports diffuse, metal and dielectric materials, antialiasing, and fully
 configurable camera (resolution, aperture, focus) and scene.
 
-![Trueno demo](/rayo.avif "Multiple spheres in different colors, sizes and materials")
+{{ figure(src="/rayo.avif", title="Multiple spheres in different colors, sizes
+and materials", alt="Trueno demo", height="1080", width="1920") }}
 
 Implementation based in the book [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 
@@ -19,7 +20,8 @@ Implementation based in the book [_Ray Tracing in One Weekend_](https://raytraci
 A [modal](https://wincent.com/wiki/Modal_editor) FIle Reader and Editor (FIRE)
 written completely in C, without using external dependencies.
 
-![Fire Demo](/fire_demo.svg "A demo of FIRE, the text editor")
+{{ figure(src="/fire_demo.svg", title="A demo of FIRE, the text editor",
+alt="Fire Demo") }}
 
 This was written in an attempt to dust off my C knowledge and also to try to
 learn modern common practices, like the usage of standard types (_stdint.h_),
@@ -44,19 +46,21 @@ The source code and instructions to run the project are available in the
 -------------------------------------------------------------------------------
 
 ## [Interpreter](https://github.com/mucinoab/Lux)
-![Mountain](/mountain.png)
+{{ figure(src="/mountain.png", alt="Monataña") }}
+
 Work in progress... In the mean time you can read the auto-translated version
 [here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
 
 -------------------------------------------------------------------------------
 ## [Covid Dogs](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
-![Perritos](/perros_covid.avif "Perros Covid")
+{{ figure(src="/perros_covid.avif", title="Perros Covid", alt="Perritos") }}
+
 Work in progress... In the mean time you can read the auto-translated version
 [here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
 
 -------------------------------------------------------------------------------
 ## [Reporstat](https://github.com/mucinoab/Reporstat)
-![Julia](/julia_mapa.png "Julia lang mapa")
+{{ figure(src="/julia_mapa.png", title="Julia lang mapa", alt="Julia") }}
 
 [Documentation](https://mucinoab.github.io/Reporstat/dev/)  
 
@@ -66,14 +70,14 @@ Work in progress... In the mean time you can read the auto-translated version
 <!-- more -->
 -------------------------------------------------------------------------------
 ## [PokeClassifier](https://github.com/mucinoab/Poke-Classifier)
-![Poke](/poke_page.png "SS de método de Lagrange.")
+{{ figure(src="/poke_page.png", title="SS de bot y logo de pokedex", alt="Poke") }}
 
 Work in progress... In the mean time you can read the auto-translated version
 [here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
 
 -------------------------------------------------------------------------------
 ## [Numerical Methods II](https://metodos-dos.fly.dev/)
-![Métodos](/metodos.avif "SS de método de Lagrange.")
+{{ figure(src="/metodos.avif", title="SS de page in use", alt="Métodos") }}
 
 Web page where various numerical methods for solving equations, approximate
 integrals and numerical interpolation are implemented, explained and
@@ -90,7 +94,7 @@ Source code [here.](https://github.com/mucinoab/MII)
 
 -------------------------------------------------------------------------------
 ## [Telegram ChatBot](https://github.com/mucinoab/SistemedicBotRust)
-![Bot](/bot.png "Red y logo")
+{{ figure(src="/bot.png", title="Red y logo", alt="Bot") }}
 
 Two implementations of a chatbot using the official [Telegram](https://telegram.org/) API.
 (Sadly Whatsapp and [Signal](https://www.signal.org/) do not provide a
@@ -117,7 +121,7 @@ is around **300 µs**, a _lot faster_ than the first one.
 
 -------------------------------------------------------------------------------
 ## [Brainfuck _Compilers_](https://github.com/mucinoab/BrainFCompiler-LLVM)
-![Compiler](/compiler.avif "LLVM y Ferris")
+{{ figure(src="/compiler.avif", title="LLVM y Ferris", alt="Compiler") }}
 
 Two compilers for the esoteric programming language, [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck). Brainfuck it is [_Turing-complete_](https://en.wikipedia.org/wiki/Turing_completeness) and consists of only the following instructions. 
 
@@ -143,7 +147,7 @@ Both compilers are written in [Rust](https://www.rust-lang.org/), licenced under
 -------------------------------------------------------------------------------
 
 ## [Gráfos en Teoría](https://grafosenteoria.herokuapp.com/)
-![Grafos](/grafos.avif "SS de grafo.")
+{{ figure(src="/grafos.avif", title="SS de grafo", alt="Grafos") }}
 
 A web page that me and a few classmates did for our graph theory class. In the web site you can draw _graphs_ and the output is information related to the graph.
 
@@ -154,7 +158,7 @@ You can find the source code and resources used [here.](https://github.com/mucin
 -------------------------------------------------------------------------------
 
 ## [Numerical Methods I](https://github.com/mucinoab/SM)
-![Métodos Uno](/MI.avif "LLVM y Ferris")
+{{ figure(src="/MI.avif", title="Logo de Métodos Uno", alt="Métodos Uno") }}
 
 Cross-platform native program to solve linear and non-linear equations.
 Implemented in C++ using the popular GUI framework, [QT](https://www.qt.io/).
@@ -163,15 +167,8 @@ The full list of methods and source code can be found in the [GitHub repo](https
 
 -------------------------------------------------------------------------------
 ## [Lunar Lander](https://github.com/mucinoab/LunarLanderRs)
-![Lunar Lander](/lunar.avif "SS de Luna Lander")
+{{ figure(src="/lunar.avif", title="SS de Lunar Lander", alt="Lunar Lander") }}
 
 **To do...**
 
 A simple game.
-
--------------------------------------------------------------------------------
-## [Choropletic Map](/mapa.html)
-
-Choropletic Map representing the COVID-19 cases, made with Python using the [Folian library](https://github.com/python-visualization/folium).  
-
-The python script and resources used can be found [here.](https://github.com/mucinoab/mucinoab.github.io/tree/dev/extras/recursos).

@@ -1,48 +1,31 @@
-<figure>
-    {% if link %}
-    <a href="{{ link }}">
-        {% endif %}
+<p>
+  {% set meta_path = page.path~src %}
 
-        {# The decoder for WebP does not support the format features #}
-        {% set meta_path = page.path~src %}
-        {# {% if not meta_path is ending_with(".webp") %} #}
-           {# {% set meta = get_image_metadata(path=meta_path) %} #}
-        {# {% endif %} #}
-        <img src="{{ src }}" 
-        loading="lazy"
-        {% if alt %}
-            alt="{{ alt }}"
-        {% elif caption %}
-            alt="{{ caption | markdown(inline=true) | safe }}"
-        {% elif credits %}
-            alt="{{ credits | markdown(inline=true) | safe }}"
-        {% endif %}
-        {% if width %}
-            width="{{ width }}"
-        {% elif meta.width %}
-            width="{{ meta.width }}"
-        {% endif %}
-        {% if height %}
-            height ="{{ height }}"
-        {% elif meta.height %}
-            height="{{ meta.height }}"
-        {% endif %} 
-        />
+  {% if not meta_path is ending_with(".avif") %}
+    {% set meta = get_image_metadata(path=src) %}
+  {% endif %}
 
-        {% if link %}
-    </a>
+  <img src="{{ src }}"
+    {% if alt %}
+        alt="{{ alt }}"
     {% endif %}
-    {% if caption or credits %}
-    <figcaption>
-        {% if caption %}
-        {{ caption | markdown(inline=true) | safe }}
-        {% endif %}
-        {% if caption and credits %}
-        <br />
-        {% endif %}
-        {% if credits %}
-        {{ credits | markdown(inline=true)| safe }}
-        {% endif %}
-    </figcaption>
+
+    {% if title %}
+        title="{{ title }}"
     {% endif %}
-</figure>
+
+    {% if width %}
+        width="{{ width }}"
+    {% elif meta.width %}
+        width="{{ meta.width }}"
+    {% endif %}
+
+    {% if height %}
+        height ="{{ height }}"
+    {% elif meta.height %}
+        height="{{ meta.height }}"
+    {% endif %} 
+
+    loading="lazy"
+  />
+</p>

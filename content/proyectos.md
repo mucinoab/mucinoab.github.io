@@ -3,20 +3,21 @@ title = "Proyectos"
 date = 2023-04-09
 +++
 
-[comment]: <> (Todo: flux, grafos en teoria, aurocat, lazy loading images, completar PokeClassifier)
+[comment]: <> (Todo: flux, grafos en teoria, aurocat, completar PokeClassifier)
 
 ## [Trueno](https://github.com/mucinoab/trueno)
 
 Descripción en progreso...
 
-![Trueno demo](/rayo.avif "Multiple spheres in different colors, sizes and materials")
+{{ figure(src="/rayo.avif", title="Multiple spheres in different colors, sizes
+and materials", alt="Trueno demo", height="1080", width="1920") }}
 
 ## [FIRE](https://github.com/mucinoab/FIRE)
 
 Un editor de texto [modal](https://wincent.com/wiki/Modal_editor) escrito
 completamente en C, sin usar dependencias externas.
 
-![Fire Demo](/fire_demo.svg "Un demo de FIRE, el editor de texto")
+{{ figure(src="/fire_demo.svg", title="Un demo de FIRE, el editor de texto", alt="Fire Demo") }}
 
 Fue escrito en un intento de desempolvar mi conocimiento de C y también para
 intentar aprender prácticas modernas, como el uso de tipos estándar
@@ -39,7 +40,7 @@ El código y las instrucciones para compilar y ejecutar el proyecto están
 disponibles en el [repo](https://github.com/mucinoab/FIRE).
 
 ## [Interprete](https://github.com/mucinoab/lux)
-![Montaña](/mountain.png "Travesía de los lenguajes")
+{{ figure(src="/mountain.png", title="Travesía de los lenguajes", alt="Monataña") }}
 
 La implementación de un [lenguaje de programación
 dinámico](https://developer.mozilla.org/es/docs/Glossary/Dynamic_programming_language),
@@ -58,7 +59,8 @@ Puedes probar el REPL compilado a [WebAssembly](https://webassembly.org/) aquí:
 
 -------------------------------------------------------------------------------
 ## [Perros Covid](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
-![Perritos](/perros_covid.avif "Perros Covid")
+{{ figure(src="/perros_covid.avif", title="Perros Covid", alt="Perritos") }}
+
 Sitio web para la recolección, procesamiento y caracterización de muestras por
 PCR de COVID-19 para su posterior uso en el adiestramiento de perros para
 identificar muestras positivas. Parte de un proyecto colaborativo entre la
@@ -107,7 +109,7 @@ fuente ni el enlace a la página.  : (_
 
 -------------------------------------------------------------------------------
 ## [Reporstat](https://github.com/mucinoab/Reporstat)
-![Julia](/julia_mapa.png "Julia lang mapa")
+{{ figure(src="/julia_mapa.png", title="Julia lang mapa", alt="Julia") }}
 
 Es un [paquete](https://julialang.org/packages/) para el lenguaje de
 programación [Julia](https://julialang.org/) que tiene como objetivo agilizar
@@ -123,7 +125,7 @@ se facilite la realización de análisis y reportes estadísticos al usuario.
 
 -------------------------------------------------------------------------------
 ## [PokeClassifier](https://github.com/mucinoab/Poke-Classifier)
-![Poke](/poke_page.png "SS de bot y logo de pokedex")
+{{ figure(src="/poke_page.png", title="SS de bot y logo de pokedex", alt="Poke") }}
 
 Un bot de telegram que trata de identificar pokémon en imágenes utilizando _deep
 learning._ Dada una aproximación también proporciona un enlace a la entrada del
@@ -131,7 +133,7 @@ pokémon en el [Pokédex Oficial](https://www.pokemon.com/us/pokedex/).
 
 -------------------------------------------------------------------------------
 ## [Métodos Numéricos II](https://metodos-dos.fly.dev/)
-![Métodos](/metodos.avif "SS de método de Lagrange.")
+{{ figure(src="/metodos.avif", title="SS de método de Lagrange.", alt="Métodos") }}
 
 Página web donde se realizan simples implementaciones y su respectivas
 representaciones gráficas de diversos métodos numéricos para la resolución de
@@ -148,7 +150,7 @@ Hospedada en ~~[Heroku](https://www.heroku.com/what#)~~
 
 -------------------------------------------------------------------------------
 ## [Telegram ChatBot](https://github.com/mucinoab/SistemedicBotRust)
-![Bot](/bot.png "Red y logo")
+{{ figure(src="/bot.png", title="Red y logo", alt="Bot") }}
 
 Dos implementaciones de un bot que hace uso del API de
 [Telegram](https://telegram.org/) (lamentablemente Whatsapp y
@@ -180,7 +182,7 @@ recursos.
 
 -------------------------------------------------------------------------------
 ## [Gráfos en Teoría](https://grafosenteoria.herokuapp.com/)
-![Grafos](/grafos.avif "SS de grafo.")
+{{ figure(src="/grafos.avif", title="SS de grafo", alt="Grafos") }}
 
 Página web en la que se pueden crear grafos interactivamente mediante la
 biblioteca de JavaScript [D3](https://d3js.org/) y arroja información sobre
@@ -192,7 +194,7 @@ encontrar [aquí.](https://github.com/mucinoab/TG)
 
 -------------------------------------------------------------------------------
 ## [Compiladores de Brainfuck](https://github.com/mucinoab/BrainFCompiler-LLVM)
-![Compiler](/compiler.avif "LLVM y Ferris")
+{{ figure(src="/compiler.avif", title="LLVM y Ferris", alt="Compiler") }}
 
 Dos compiladores del lenguaje de programación
 [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck), el cual es
@@ -229,7 +231,7 @@ disponibles en mi [github](https://github.com/mucinoab/) bajo
 
 -------------------------------------------------------------------------------
 ## [Métodos Numéricos I](https://github.com/mucinoab/SM)
-![Métodos Uno](/MI.avif "LLVM y Ferris")
+{{ figure(src="/MI.avif", title="Logo de Métodos Uno", alt="Métodos Uno") }}
 
 Programa nativo multiplatforma para resolver ecuaciones lineales y no lineales.
 Implementado en C++ utilizando el framework [QT](https://www.qt.io/) para la
@@ -240,17 +242,5 @@ posición, Gauss Jordan, Gauss Seidel, Jacobi, entre otros más.
 
 -------------------------------------------------------------------------------
 ## [Lunar Lander](https://github.com/mucinoab/LunarLanderRs)
-![Lunar Lander](/lunar.avif "SS de Luna Lander")
-
+{{ figure(src="/lunar.avif", title="SS de Lunar Lander", alt="Lunar Lander") }}
 To do...
-
--------------------------------------------------------------------------------
-## [Mapa Coroplético](/mapa.html)
-
-Mapa coroplético de contagios Covid-19 hecho con Python y el módulo
-[Folium](https://github.com/python-visualization/folium) que genera un página
-web interactiva con la biblioteca de JavaScript
-[Leaflet.](https://leafletjs.com/)
-
-Los recursos y programas utilizados se pueden encontrar
-[aquí.](https://github.com/mucinoab/mucinoab.github.io/tree/dev/extras/recursos)
