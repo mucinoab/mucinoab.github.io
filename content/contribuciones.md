@@ -1,6 +1,6 @@
 +++
 title = "Contribuciones al Mundo del Open Source"
-date = 2022-11-20
+date = 2023-05-06
 +++
 
 Algunos de los los proyectos a los que he contribuido.
@@ -9,8 +9,9 @@ Algunos de los los proyectos a los que he contribuido.
 - [boxdot/gurk-rs](https://github.com/boxdot/gurk-rs)
 - [rust-lang/rust-clippy ](https://github.com/rust-lang/rust-clippy)
 - [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)
-- [mvniekerk/tokio-cron-scheduler](https://github.com/mvniekerk/tokio-cron-scheduler)
+- [wasmerio/wasmer](https://github.com/wasmerio/wasmer)
   <!-- more -->
+  - [mvniekerk/tokio-cron-scheduler](https://github.com/mvniekerk/tokio-cron-scheduler)
 - [stalwartlabs/mail-builder](https://github.com/stalwartlabs/mail-builder)
 - [google/pix-image-viewer](https://github.com/google/pix-image-viewer)  
 - [jonhoo/Griddle](https://github.com/jonhoo/griddle/)  
