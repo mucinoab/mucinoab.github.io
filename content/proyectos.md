@@ -7,10 +7,16 @@ date = 2023-04-09
 
 ## [Trueno](https://github.com/mucinoab/trueno)
 
-Descripción en progreso...
+Un _Ray Tracer multithreaded_ que hace uso de [SIMD](https://es.wikipedia.org/wiki/SIMD).
 
-{{ figure(src="/rayo.avif", title="Multiple spheres in different colors, sizes
-and materials", alt="Trueno demo", height="1080", width="1920") }}
+Soporta diversos tipos de materiales (difuso, metálico, dieléctrico),
+_antialiasing_, una cámara configurable (resolución, apertura, enfoque) y
+composición de escena.
+
+{{ figure(src="/rayo.avif", title="Múltiples esferas en diferentes colores,
+materiales y tamaños", alt="Demo Trueno", height="1080", width="1920") }}
+
+Implementación basada en el libro [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 
 ## [FIRE](https://github.com/mucinoab/FIRE)
 
@@ -50,8 +56,8 @@ funciones, un
 le dio particular importancia a la presentación y contenido de los mensajes de
 error.
 
-Se basa en las lecciones presentada en el libro [Crafting
-Interpreters](https://craftinginterpreters.com/) de [Robert
+Se basa en las lecciones presentada en el libro [_Crafting
+Interpreters_](https://craftinginterpreters.com/) de [Robert
 Nystrom](https://github.com/munificent).
 
 Puedes probar el REPL compilado a [WebAssembly](https://webassembly.org/) aquí:

@@ -11,7 +11,7 @@ Here is a list of open source projects that I have contributed to.
 - [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)
 - [wasmerio/wasmer](https://github.com/wasmerio/wasmer)
   <!-- more -->
-  - [mvniekerk/tokio-cron-scheduler](https://github.com/mvniekerk/tokio-cron-scheduler)
+- [mvniekerk/tokio-cron-scheduler](https://github.com/mvniekerk/tokio-cron-scheduler)
 - [stalwartlabs/mail-builder](https://github.com/stalwartlabs/mail-builder)
 - [google/pix-image-viewer](https://github.com/google/pix-image-viewer)  
 - [jonhoo/Griddle](https://github.com/jonhoo/griddle/)  

@@ -5,9 +5,11 @@ date = 2023-04-09
 
 ## [Trueno](https://github.com/mucinoab/trueno)
 
-A multithreaded and SIMD enhanced CPU ray tracer.
+A multithreaded and
+[SIMD](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data)
+enhanced CPU ray tracer.
 
-Supports diffuse, metal and dielectric materials, antialiasing, and fully
+Supports diffuse, metal and dielectric materials, antialiasing, a fully
 configurable camera (resolution, aperture, focus) and scene.
 
 {{ figure(src="/rayo.avif", title="Multiple spheres in different colors, sizes
@@ -46,10 +48,20 @@ The source code and instructions to run the project are available in the
 -------------------------------------------------------------------------------
 
 ## [Interpreter](https://github.com/mucinoab/Lux)
-{{ figure(src="/mountain.png", alt="Monataña") }}
+{{ figure(src="/mountain.png", alt="Mountain") }}
 
-Work in progress... In the mean time you can read the auto-translated version
-[here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
+The implementation of a [dynamic programming
+language](https://developer.mozilla.org/es/docs/Glossary/Dynamic_programming_language),
+_Lux_, and also his interpreter. It supports variables, flow control and functions.
+It has a 
+[REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
+ and it was made with a particular focus on the quality of error messages.
+
+Implementation based in the book [_Crafting
+Interpreters_](https://craftinginterpreters.com/) de [Robert Nystrom](https://github.com/munificent).
+
+You can try the REPL (compiled to [WebAssembly](https://webassembly.org/)) here:
+[Lux Demo](/lux/lux_demo.html)
 
 -------------------------------------------------------------------------------
 ## [Covid Dogs](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
