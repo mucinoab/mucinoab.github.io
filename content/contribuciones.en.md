@@ -1,6 +1,6 @@
 +++
 title = "Contributions to the Open Source World"
-date = 2023-05-06
+date = 2023-07-07
 +++
 
 Here is a list of open source projects that I have contributed to.
@@ -11,6 +11,7 @@ Here is a list of open source projects that I have contributed to.
 - [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)
 - [wasmerio/wasmer](https://github.com/wasmerio/wasmer)
   <!-- more -->
+- [livegrep/livegrep](https://github.com/livegrep/livegrep)
 - [mvniekerk/tokio-cron-scheduler](https://github.com/mvniekerk/tokio-cron-scheduler)
 - [stalwartlabs/mail-builder](https://github.com/stalwartlabs/mail-builder)
 - [google/pix-image-viewer](https://github.com/google/pix-image-viewer)  
