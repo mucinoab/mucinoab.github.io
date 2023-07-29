@@ -60,7 +60,8 @@ Interpreters_](https://craftinginterpreters.com/) de [Robert
 Nystrom](https://github.com/munificent).
 
 Puedes probar el REPL compilado a [WebAssembly](https://webassembly.org/) aquí:
-[Lux Demo](/lux/lux_demo.html)
+
+{{ iframe(src="/lux/lux_demo.html") }}
 
 -------------------------------------------------------------------------------
 ## [Perros Covid](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)

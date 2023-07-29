@@ -61,7 +61,8 @@ Implementation based in the book [_Crafting
 Interpreters_](https://craftinginterpreters.com/) de [Robert Nystrom](https://github.com/munificent).
 
 You can try the REPL (compiled to [WebAssembly](https://webassembly.org/)) here:
-[Lux Demo](/lux/lux_demo.html)
+
+{{ iframe(src="/lux/lux_demo.html") }}
 
 -------------------------------------------------------------------------------
 ## [Covid Dogs](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
