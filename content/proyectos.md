@@ -49,9 +49,8 @@ disponibles en el [repo](https://github.com/mucinoab/FIRE).
 {{ figure(src="/mountain.png", title="Travesía de los lenguajes", alt="Monataña") }}
 
 La implementación de un [lenguaje de programación
-dinámico](https://developer.mozilla.org/es/docs/Glossary/Dynamic_programming_language),
-_Lux_, y su respectivo interprete. Soporta variables, control de flujo,
-funciones, un
+dinámico](https://en.wikipedia.org/wiki/Dynamic_programming_language), _Lux_, y
+su respectivo interprete. Soporta variables, control de flujo, funciones, un
 [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) y se
 le dio particular importancia a la presentación y contenido de los mensajes de
 error.
@@ -162,8 +161,8 @@ Dos implementaciones de un bot que hace uso del API de
 [Telegram](https://telegram.org/) (lamentablemente Whatsapp y
 [Signal](https://www.signal.org/) no tienen un API razonable).
 
-La [primera](https://github.com/mucinoab/SistemedicBot) implementación del bot
-esta hecha en [Python](https://www.python.org/), corre en
+La primera implementación del bot esta hecha en
+[Python](https://www.python.org/), corre en
 [Heroku](https://www.heroku.com/what#) sobre [Docker](https://www.docker.com/)
 y cuenta con una base de datos relacional
 ([PostgreSQL](https://www.postgresql.org/)) que le proporciona toda la
@@ -187,7 +186,7 @@ _µs_**, gracias al crate [tokio](https://tokio.rs/) y un cuidadoso uso de
 recursos.
 
 -------------------------------------------------------------------------------
-## [Gráfos en Teoría](https://grafosenteoria.herokuapp.com/)
+## [Gráfos en Teoría](https://github.com/mucinoab/TG)
 {{ figure(src="/grafos.avif", title="SS de grafo", alt="Grafos") }}
 
 Página web en la que se pueden crear grafos interactivamente mediante la

@@ -51,8 +51,8 @@ The source code and instructions to run the project are available in the
 {{ figure(src="/mountain.png", alt="Mountain") }}
 
 The implementation of a [dynamic programming
-language](https://developer.mozilla.org/es/docs/Glossary/Dynamic_programming_language),
-_Lux_, and also his interpreter. It supports variables, flow control and functions.
+language](https://en.wikipedia.org/wiki/Dynamic_programming_language), _Lux_,
+and also his interpreter. It supports variables, flow control and functions.
 It has a 
 [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)
  and it was made with a particular focus on the quality of error messages.
@@ -112,9 +112,12 @@ Two implementations of a chatbot using the official [Telegram](https://telegram.
 (Sadly Whatsapp and [Signal](https://www.signal.org/) do not provide a
 _reasonable_ API).
 
-The [first](https://github.com/mucinoab/SistemedicBot) bot implementation it is
-written in [Python](https://www.python.org/), hosted on [Heroku](https://www.heroku.com/what#) and runs in a  [Docker](https://www.docker.com/) container.
-It uses a relational database ([PostgreSQL](https://www.postgresql.org/)) for the data needs, which is hosted on heroku as well. 
+The first bot implementation it is written in
+[Python](https://www.python.org/), hosted on
+[Heroku](https://www.heroku.com/what#) and runs in a
+[Docker](https://www.docker.com/) container. It uses a relational database
+([PostgreSQL](https://www.postgresql.org/)) for the data needs, which is hosted
+on heroku as well. 
 
 Unfortunately the performance of this first implementation is not _the_ best and
 leaves a lot to wish. The average response time is around  **.5 _seconds_**, for
@@ -158,7 +161,7 @@ Both compilers are written in [Rust](https://www.rust-lang.org/), licenced under
 
 -------------------------------------------------------------------------------
 
-## [Gráfos en Teoría](https://grafosenteoria.herokuapp.com/)
+## [Gráfos en Teoría](https://github.com/mucinoab/TG)
 {{ figure(src="/grafos.avif", title="SS de grafo", alt="Grafos") }}
 
 A web page that me and a few classmates did for our graph theory class. In the web site you can draw _graphs_ and the output is information related to the graph.
