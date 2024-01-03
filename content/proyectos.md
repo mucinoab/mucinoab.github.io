@@ -1,9 +1,17 @@
 +++
 title = "Proyectos"
-date = 2023-04-09
+date = 2024-02-01
 +++
 
 [comment]: <> (Todo: flux, grafos en teoria, aurocat, completar PokeClassifier)
+
+## [Chip 8](https://github.com/mucinoab/chip-8)
+
+Una simple implementación de [CHIP-8](https://es.wikipedia.org/wiki/CHIP-8)
+Demo (WIP):
+
+{{ iframe(src="/chip-8-emulator/index.html") }}
+
 
 ## [Trueno](https://github.com/mucinoab/trueno)
 

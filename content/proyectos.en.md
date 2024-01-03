@@ -1,7 +1,15 @@
 +++
 title = "Projects"
-date = 2023-04-09
+date = 2024-02-01
 +++
+
+## [Chip 8](https://github.com/mucinoab/chip-8)
+
+A very simple implementation of [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8)
+Demo (WIP):
+
+{{ iframe(src="/chip-8-emulator/index.html") }}
+
 
 ## [Trueno](https://github.com/mucinoab/trueno)
 

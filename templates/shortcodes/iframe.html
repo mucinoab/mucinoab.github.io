@@ -1,14 +1,4 @@
 <p>
-  <iframe
-    src="{{ src }}"
-
-    {% if title %}
-       title="{{ title }}"
-    {% endif %}
-
-    loading="lazy"
-    height="250px"
-    width="100%">
+  <iframe src="{{ src }}" {% if title %} title="{{ title }}" {% endif %} loading="lazy" height="450px" width="100%">
   </iframe>
 </p>
-
