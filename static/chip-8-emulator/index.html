@@ -4,14 +4,46 @@
 <head>
   <title>Chip-8</title>
   <meta charset="utf-8">
+  <style>
+    @keyframes blink {
+      50% {
+        opacity: 0.25;
+      }
+    }
+
+    button:hover {
+      animation-duration: 99s !important;
+      border: #b01f74 solid 2px;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 
 <body>
-  <label for="fileinput">Upload a Chip-8 game:</label>
-  <input type="file" id="fileinput" autocomplete="off" />
+  <button id="start-button"
+    style="width: 30%; font-size: 20px; margin-left: 35%; animation: blink 1300ms linear infinite; cursor: pointer;">
+    Run Emulator
+  </button>
 
-  <br />
-  <canvas id="canvas" />
+  <span style="display: none" id="game-panel">
+
+    <button id="play" style="width: 25%;"> Stop/Start </button>
+    <button id="step" style="width: 25%;"> Step </button>
+
+    <label for="game-selector" style="padding-left: 5%">Choose a Game:</label>
+    <select name="game-selector" id="game-selector">
+      <option selected="selected" value="EKG.ch8">EKG.ch8</option>
+      <option value="wipeoff.ch8">wipeoff.ch8</option>
+      <option value="morse_demo.ch8">morse_demo.ch8</option>
+      <option value="OpCodeTest.ch8">OpCodeTest.ch8</option>
+    </select>
+
+    <br />
+
+    <canvas style="padding-top: 1vh" id="canvas" />
+  </span>
+
+
   <script type="module" src="index.js"></script>
 </body>
 

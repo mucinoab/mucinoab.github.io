@@ -308,6 +308,9 @@ function __wbg_get_imports() {
     imports.wbg.__wbg_fillRect_ae135cf52671cb3d = function(arg0, arg1, arg2, arg3, arg4) {
         getObject(arg0).fillRect(arg1, arg2, arg3, arg4);
     };
+    imports.wbg.__wbg_fillText_2dc739bc08581cf8 = function() { return handleError(function (arg0, arg1, arg2, arg3, arg4) {
+        getObject(arg0).fillText(getStringFromWasm0(arg1, arg2), arg3, arg4);
+    }, arguments) };
     imports.wbg.__wbg_instanceof_HtmlCanvasElement_fba0ac991170cc00 = function(arg0) {
         let result;
         try {
