@@ -10,7 +10,7 @@ date = 2024-02-01
 Una simple implementación de [CHIP-8](https://es.wikipedia.org/wiki/CHIP-8)
 Demo (WIP):
 
-{{ iframe(src="/chip-8-emulator/index.html") }}
+{{ iframe(id="chip8", src="/chip-8-emulator/index.html", height="75vh") }}
 
 
 ## [Trueno](https://github.com/mucinoab/trueno)
@@ -69,7 +69,7 @@ Nystrom](https://github.com/munificent).
 
 Puedes probar el REPL compilado a [WebAssembly](https://webassembly.org/) aquí:
 
-{{ iframe(src="/lux/lux_demo.html") }}
+{{ iframe(id="lux", src="/lux/lux_demo.html", height="250vh") }}
 
 -------------------------------------------------------------------------------
 ## [Perros Covid](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)

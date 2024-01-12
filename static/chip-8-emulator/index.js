@@ -40,6 +40,9 @@ function startEmulator() {
   playButton.onclick = _ => { isStopped = !isStopped; console.log(isStopped); };
   stepButton.onclick = _ => { step(); };
 
+  // Resize the iframe to show the whole emulator
+  window.parent.document.getElementById("chip8").style.height = "450px";
+
   // Show emulator
   startButton.style.display = "none";
   document.getElementById("game-panel").style.display = "block";
@@ -80,11 +83,11 @@ function step() {
   chip8.draw_screen(SCALE, canvas.width, canvas.height);
 }
 
-function mainloop(chip8) {
+function mainloop() {
   if (!isStopped)
     step();
 
-  frameId = window.requestAnimationFrame(_ => mainloop(chip8));
+  frameId = window.requestAnimationFrame(_ => mainloop());
 }
 
 function clear_screen() {

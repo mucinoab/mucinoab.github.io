@@ -8,7 +8,7 @@ date = 2024-02-01
 A very simple implementation of [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8)
 Demo (WIP):
 
-{{ iframe(src="/chip-8-emulator/index.html") }}
+{{ iframe(id="chip8", src="/chip-8-emulator/index.html", height="75vh") }}
 
 
 ## [Trueno](https://github.com/mucinoab/trueno)
@@ -70,7 +70,7 @@ Interpreters_](https://craftinginterpreters.com/) de [Robert Nystrom](https://gi
 
 You can try the REPL (compiled to [WebAssembly](https://webassembly.org/)) here:
 
-{{ iframe(src="/lux/lux_demo.html") }}
+{{ iframe(id="lux", src="/lux/lux_demo.html", height="250vh") }}
 
 -------------------------------------------------------------------------------
 ## [Covid Dogs](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
