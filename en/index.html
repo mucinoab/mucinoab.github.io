@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="me" href="https://fosstodon.org/@mucinoab">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <style>
+a:hover {
+  background: url("https://mucinoab.github.io/wave.svg");
+  background-repeat: repeat-x;
+  background-size: 15px 5px;
+  animation: move 15s linear infinite;
+  text-decoration: none;
+  -webkit-animation: move 15s linear infinite;
+  -webkit-text-decoration-skip: objects;
+}
+
+.wave {
+  background: url("https://mucinoab.github.io/wave.svg");
+  background-repeat: repeat;
+  background-size: auto auto;
+  background-repeat: repeat-x;
+  background-size: 15px 5px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+  animation-play-state: running;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.wave:hover {
+  animation-play-state: paused;
+}
+
+
+@-webkit-keyframes move {
+  from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
+
+@keyframe move {
+  from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
+    </style>
+
+    <title></title>
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+    
+
+    
+    <link rel="stylesheet" href="https://mucinoab.github.io/site.css">
+    
+
+    
+    
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div id="mobile-navbar" class="mobile-navbar">
+        <div class="mobile-header-logo">
+          
+            <a href="/en" class="logo">Bruno A. Muciño </a>
+          
+          </div>
+          <div class="mobile-navbar-icon icon-out">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-item">
+            
+            
+              <a href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;" class="wave">
+                    <li>
+                      <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;">
+                        Español
+                      </a>
+                    </li>
+                  
+              <a href="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;mucinoab&#x2F;mucinoab.github.io&#x2F;dev&#x2F;extras&#x2F;Bruno_Muci%C3%B1o_Resume.pdf" class="wave">
+                    <li>
+                      <a class="wave" href="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;mucinoab&#x2F;mucinoab.github.io&#x2F;dev&#x2F;extras&#x2F;Bruno_Muci%C3%B1o_Resume.pdf">
+                        CV
+                      </a>
+                    </li>
+                  
+              <a href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;en&#x2F;contact" class="wave">
+                    <li>
+                      <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;en&#x2F;contact">
+                        Contact Info
+                      </a>
+                    </li>
+                  
+                
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <header id="header">
+        <div class="logo">
+          
+            <a href="/en" class="logo">Bruno A. Muciño </a></div>
+          
+        <nav class="menu">
+          <ul>
+            
+              
+                <li>
+                  <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;">
+                    Español
+                  </a>
+                </li>
+              
+                <li>
+                  <a class="wave" href="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;mucinoab&#x2F;mucinoab.github.io&#x2F;dev&#x2F;extras&#x2F;Bruno_Muci%C3%B1o_Resume.pdf">
+                    CV
+                  </a>
+                </li>
+              
+                <li>
+                  <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;en&#x2F;contact">
+                    Contact Info
+                  </a>
+                </li>
+              
+            
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="content" id="mobile-panel">
+          
+          <div class="posts">
+            
+            <article class="post">
+              
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;en&#x2F;proyectos&#x2F;">Projects</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">01&#x2F;02&#x2F;2024</span>
+            
+        </div>
+    </header>
+
+              <div class="post__summary">
+                <h2 id="chip-8"><a href="https://github.com/mucinoab/chip-8">Chip 8</a></h2>
+<p>A very simple implementation of <a href="https://en.wikipedia.org/wiki/CHIP-8">CHIP-8</a>
+Demo (WIP):</p>
+<p>
+  <iframe  id="chip8"  src="&#x2F;chip-8-emulator&#x2F;index.html" 
+    loading="lazy" height="75vh" width="100%">
+  </iframe>
+</p>
+<h2 id="trueno"><a href="https://github.com/mucinoab/trueno">Trueno</a></h2>
+<p>A multithreaded and
+<a href="https://en.wikipedia.org/wiki/Single_instruction,_multiple_data">SIMD</a>
+enhanced CPU ray tracer.</p>
+<p>Supports diffuse, metal and dielectric materials, antialiasing, a fully
+configurable camera (resolution, aperture, focus) and scene.</p>
+<p>
+  
+
+  
+
+  <img src="&#x2F;rayo.avif"
+    
+        alt="Trueno demo"
+    
+
+    
+        title="Multiple spheres in different colors, sizes
+and materials"
+    
+
+    
+        width="1920"
+    
+
+    
+        height ="1080"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Implementation based in the book <a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html"><em>Ray Tracing in One Weekend</em></a></p>
+<h2 id="fire"><a href="https://github.com/mucinoab/FIRE">FIRE</a></h2>
+<p>A <a href="https://wincent.com/wiki/Modal_editor">modal</a> FIle Reader and Editor (FIRE)
+written completely in C, without using external dependencies.</p>
+<p>
+  
+
+  
+    
+  
+
+  <img src="&#x2F;fire_demo.svg"
+    
+        alt="Fire Demo"
+    
+
+    
+        title="A demo of FIRE, the text editor"
+    
+
+    
+        width="870"
+    
+
+    
+        height="472"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>This was written in an attempt to dust off my C knowledge and also to try to
+learn modern common practices, like the usage of standard types (<em>stdint.h</em>),
+or to avoid using <em>malloc</em> in favor of using <em>calloc</em>. My main guide in
+this process was the blog post <a href="https://matt.sh/howto-c">How to C in 2016</a> by
+Matt Stancliff, by now is a bit outdated, but still is a good read to catch up
+with somewhat &quot;modern practices&quot;.</p>
+<p>I am a big <a href="https://neovim.io/">neovim</a> fan and this was my main inspiration
+while building <a href="https://github.com/mucinoab/FIRE">FIRE</a>, as you can see from
+the demo above.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Normal and Insert mode, as in Vim.</li>
+<li>Open, display, edit and save files.</li>
+<li>Incrementally search file contents.</li>
+</ul>
+<p>The source code and instructions to run the project are available in the
+<a href="https://github.com/mucinoab/FIRE">repo</a>.</p>
+<hr />
+<h2 id="interpreter"><a href="https://github.com/mucinoab/Lux">Interpreter</a></h2>
+<p>
+  
+
+  
+    
+  
+
+  <img src="&#x2F;mountain.png"
+    
+        alt="Mountain"
+    
+
+    
+
+    
+        width="1824"
+    
+
+    
+        height="833"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>The implementation of a <a href="https://en.wikipedia.org/wiki/Dynamic_programming_language">dynamic programming
+language</a>, <em>Lux</em>,
+and also his interpreter. It supports variables, flow control and functions.
+It has a 
+<a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">REPL</a>
+and it was made with a particular focus on the quality of error messages.</p>
+<p>Implementation based in the book <a href="https://craftinginterpreters.com/"><em>Crafting
+Interpreters</em></a> de <a href="https://github.com/munificent">Robert Nystrom</a>.</p>
+<p>You can try the REPL (compiled to <a href="https://webassembly.org/">WebAssembly</a>) here:</p>
+<p>
+  <iframe  id="lux"  src="&#x2F;lux&#x2F;lux_demo.html" 
+    loading="lazy" height="250vh" width="100%">
+  </iframe>
+</p>
+<hr />
+<h2 id="covid-dogs"><a href="https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/">Covid Dogs</a></h2>
+<p>
+  
+
+  
+
+  <img src="&#x2F;perros_covid.avif"
+    
+        alt="Perritos"
+    
+
+    
+        title="Perros Covid"
+    
+
+    
+
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Work in progress... In the mean time you can read the auto-translated version
+<a href="https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&amp;_x_tr_tl=en&amp;_x_tr_hl=es-419&amp;_x_tr_pto=wapp">here.</a></p>
+<hr />
+<h2 id="reporstat"><a href="https://github.com/mucinoab/Reporstat">Reporstat</a></h2>
+<p>
+  
+
+  
+    
+  
+
+  <img src="&#x2F;julia_mapa.png"
+    
+        alt="Julia"
+    
+
+    
+        title="Julia lang mapa"
+    
+
+    
+        width="4521"
+    
+
+    
+        height="1690"
+     
+
+    loading="lazy"
+  />
+</p>
+<p><a href="https://mucinoab.github.io/Reporstat/dev/">Documentation</a></p>
+<p>Work in progress... In the mean time you can read the auto-translated version
+<a href="https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&amp;_x_tr_tl=en&amp;_x_tr_hl=es-419&amp;_x_tr_pto=wapp">here.</a></p>
+
+              </div>
+              <div class="read-more">
+                <a href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;en&#x2F;proyectos&#x2F;" class="wave">
+                
+                  Keep reading...
+                
+                </a>
+              </div>
+            </article>
+            
+            <article class="post">
+              
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;en&#x2F;contribuciones&#x2F;">Contributions to the Open Source World</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">07&#x2F;07&#x2F;2023</span>
+            
+        </div>
+    </header>
+
+              <div class="post__summary">
+                <p>Here is a list of open source projects that I have contributed to.</p>
+<ul>
+<li><a href="https://github.com/rust-lang/rust">rust-lang/rust</a></li>
+<li><a href="https://github.com/boxdot/gurk-rs">boxdot/gurk-rs</a></li>
+<li><a href="https://github.com/rust-lang/rust-clippy">rust-lang/rust-clippy </a></li>
+<li><a href="https://github.com/Rigellute/spotify-tui">Rigellute/spotify-tui</a></li>
+<li><a href="https://github.com/wasmerio/wasmer">wasmerio/wasmer</a>
+              </div>
+              <div class="read-more">
+                <a href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;en&#x2F;contribuciones&#x2F;" class="wave">
+                
+                  Keep reading...
+                
+                </a>
+              </div>
+            </article>
+            
+          </div>
+          <nav class="pagination">
+            
+            
+          </nav>
+          
+        </div>
+      </main>
+
+      
+      
+    </div>
+
+    
+    <script type="text/javascript" src="https://mucinoab.github.io/even.js" ></script>
+    
+  </body>
+
+</html>

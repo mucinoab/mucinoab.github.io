@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>WebAssembly Lux Interpreter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-SkmBfuA2hqjzEVpmnMt/LINrjop3GKWqsuLSSB3e7iBmYK7JuWw4ldmmxwD9mdm2IRTTi0OxSAfEGvgEi0i2Kw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      body {
+        font-family: monospace;
+        background-color: #f5f2f0;
+      }
+      .repl-input {
+        width:95%;
+        height: 1.5em;
+        max-height: 60vh;
+        tab-size: 4;
+        position: absolute;
+        bottom: 0;
+        border: 2px solid coral;
+        border-radius: 5px;
+      }
+      .output-container {
+        max-height: 70vh;
+        width: 95%;
+        overflow-y: scroll;
+        display: inline-flex;
+      }
+      .error { color: red; }
+      .output { background-color: #f5f2f0; }
+    </style>
+  </head>
+
+  <body>
+    <pre class="output-container" id="container">
+      <code class="language-csharp" id="output"><br></code>
+    </pre> <br>
+    <textarea class="repl-input" id="repl" placeholder="Type your code here">
+// Just press enter to run
+fn fibonacci(n) {
+  if (n <= 1) return n;
+  return fibonacci(n - 2) + fibonacci(n - 1);
+}
+var res = fibonacci(12);
+print res;</textarea>
+
+    <script type="module" defer>
+      import  init, { run } from '/lux/lux_web.js';
+
+      async function repl() { 
+        await init();
+
+        const input = document.getElementById("repl");
+        const output = document.getElementById("output");
+        const container = document.getElementById("container");
+
+        input.style.height = (input.value.split('\n').length * 1.5) + 'em';
+
+        input.addEventListener("keydown", evt => {
+          switch (evt.keyCode) {
+            case 13: // Enter
+              if (!evt.shiftKey) {
+                evt.preventDefault();
+
+                const replInput = input.value;
+                const inputAsCode = Prism.highlight(replInput, Prism.languages.cs, 'cs');
+                let result = run(replInput).trim();
+
+                // Clear input
+                input.style.height = "1.5em";
+                input.value = "";
+
+                // Highlight errors/results
+                if (result.startsWith("error")) {
+                  result = `<div class="error">${result}</div>`;
+                } else if (result.length !== 0) {
+                  result = `<div class="output"><<< ${result}</div>`;
+                }
+
+                output.innerHTML += `>>> ${inputAsCode}<br>${result}`;
+                container.scroll(0, container.scrollHeight);
+              } else {
+                input.style.height = `${input.value.split('\n').length * 1.5}em`;
+              }
+
+              break;
+          }
+        });
+      };
+
+      repl();
+</script>
+  </body>
+</html>

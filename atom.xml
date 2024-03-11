@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+    <title>Bruno A. Muciño</title>
+    <link href="https://mucinoab.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://mucinoab.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-02-01T00:00:00+00:00</updated>
+    <id>https://mucinoab.github.io/atom.xml</id>
+    <entry xml:lang="es">
+        <title>Proyectos</title>
+        <published>2024-02-01T00:00:00+00:00</published>
+        <updated>2024-02-01T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://mucinoab.github.io/proyectos/" type="text/html"/>
+        <id>https://mucinoab.github.io/proyectos/</id>
+        <content type="html">&lt;h2 id=&quot;chip-8&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;chip-8&quot;&gt;Chip 8&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Una simple implementación de &lt;a href=&quot;https:&#x2F;&#x2F;es.wikipedia.org&#x2F;wiki&#x2F;CHIP-8&quot;&gt;CHIP-8&lt;&#x2F;a&gt;
+Demo (WIP):&lt;&#x2F;p&gt;
+&lt;p&gt;
+  &lt;iframe  id=&quot;chip8&quot;  src=&quot;&amp;#x2F;chip-8-emulator&amp;#x2F;index.html&quot; 
+    loading=&quot;lazy&quot; height=&quot;75vh&quot; width=&quot;100%&quot;&gt;
+  &lt;&#x2F;iframe&gt;
+&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;trueno&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;trueno&quot;&gt;Trueno&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Un &lt;em&gt;Ray Tracer multithreaded&lt;&#x2F;em&gt; que hace uso de &lt;a href=&quot;https:&#x2F;&#x2F;es.wikipedia.org&#x2F;wiki&#x2F;SIMD&quot;&gt;SIMD&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Soporta diversos tipos de materiales (difuso, metálico, dieléctrico),
+&lt;em&gt;antialiasing&lt;&#x2F;em&gt;, una cámara configurable (resolución, apertura, enfoque) y
+composición de escena.&lt;&#x2F;p&gt;
+&lt;p&gt;
+  
+
+  
+
+  &lt;img src=&quot;&amp;#x2F;rayo.avif&quot;
+    
+        alt=&quot;Demo Trueno&quot;
+    
+
+    
+        title=&quot;Múltiples esferas en diferentes colores,
+materiales y tamaños&quot;
+    
+
+    
+        width=&quot;1920&quot;
+    
+
+    
+        height =&quot;1080&quot;
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Implementación basada en el libro &lt;a href=&quot;https:&#x2F;&#x2F;raytracing.github.io&#x2F;books&#x2F;RayTracingInOneWeekend.html&quot;&gt;&lt;em&gt;Ray Tracing in One Weekend&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;fire&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;FIRE&quot;&gt;FIRE&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Un editor de texto &lt;a href=&quot;https:&#x2F;&#x2F;wincent.com&#x2F;wiki&#x2F;Modal_editor&quot;&gt;modal&lt;&#x2F;a&gt; escrito
+completamente en C, sin usar dependencias externas.&lt;&#x2F;p&gt;
+&lt;p&gt;
+  
+
+  
+    
+  
+
+  &lt;img src=&quot;&amp;#x2F;fire_demo.svg&quot;
+    
+        alt=&quot;Fire Demo&quot;
+    
+
+    
+        title=&quot;Un demo de FIRE, el editor de texto&quot;
+    
+
+    
+        width=&quot;870&quot;
+    
+
+    
+        height=&quot;472&quot;
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Fue escrito en un intento de desempolvar mi conocimiento de C y también para
+intentar aprender prácticas modernas, como el uso de tipos estándar
+(&lt;em&gt;stdint.h&lt;&#x2F;em&gt;), o para evitar usar &lt;em&gt;malloc&lt;&#x2F;em&gt; en favor de &lt;em&gt;calloc&lt;&#x2F;em&gt;, etc.
+Mi principal guía en este proceso fue la publicación de Matt Stancliff en el
+blog &lt;a href=&quot;https:&#x2F;&#x2F;matt.sh&#x2F;howto-c&quot;&gt;How to C in 2016&lt;&#x2F;a&gt;, es una buena lectura para
+ponerse al día con las &amp;quot;prácticas modernas&amp;quot; de C.&lt;&#x2F;p&gt;
+&lt;p&gt;Soy un muy fan de &lt;a href=&quot;https:&#x2F;&#x2F;neovim.io&#x2F;&quot;&gt;neovim&lt;&#x2F;a&gt; y esta fue mi principal
+inspiración al construir &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;FIRE&quot;&gt;FIRE&lt;&#x2F;a&gt;, como pueden
+ver en el demo de arriba.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;principales-caracteristicas&quot;&gt;Principales características&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Modos &lt;em&gt;Normal&lt;&#x2F;em&gt; e &lt;em&gt;Insert&lt;&#x2F;em&gt;, como en Vim.&lt;&#x2F;li&gt;
+&lt;li&gt;Abrir, mostrar, editar y guardar archivos de texto.&lt;&#x2F;li&gt;
+&lt;li&gt;Búsqueda incremental del contenido del archivo.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;El código y las instrucciones para compilar y ejecutar el proyecto están
+disponibles en el &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;FIRE&quot;&gt;repo&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;interprete&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;lux&quot;&gt;Interprete&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;
+  
+
+  
+    
+  
+
+  &lt;img src=&quot;&amp;#x2F;mountain.png&quot;
+    
+        alt=&quot;Monataña&quot;
+    
+
+    
+        title=&quot;Travesía de los lenguajes&quot;
+    
+
+    
+        width=&quot;1824&quot;
+    
+
+    
+        height=&quot;833&quot;
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;La implementación de un &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Dynamic_programming_language&quot;&gt;lenguaje de programación
+dinámico&lt;&#x2F;a&gt;, &lt;em&gt;Lux&lt;&#x2F;em&gt;, y
+su respectivo interprete. Soporta variables, control de flujo, funciones, un
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Read%E2%80%93eval%E2%80%93print_loop&quot;&gt;REPL&lt;&#x2F;a&gt; y se
+le dio particular importancia a la presentación y contenido de los mensajes de
+error.&lt;&#x2F;p&gt;
+&lt;p&gt;Se basa en las lecciones presentada en el libro &lt;a href=&quot;https:&#x2F;&#x2F;craftinginterpreters.com&#x2F;&quot;&gt;&lt;em&gt;Crafting
+Interpreters&lt;&#x2F;em&gt;&lt;&#x2F;a&gt; de &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;munificent&quot;&gt;Robert
+Nystrom&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Puedes probar el REPL compilado a &lt;a href=&quot;https:&#x2F;&#x2F;webassembly.org&#x2F;&quot;&gt;WebAssembly&lt;&#x2F;a&gt; aquí:&lt;&#x2F;p&gt;
+&lt;p&gt;
+  &lt;iframe  id=&quot;lux&quot;  src=&quot;&amp;#x2F;lux&amp;#x2F;lux_demo.html&quot; 
+    loading=&quot;lazy&quot; height=&quot;250vh&quot; width=&quot;100%&quot;&gt;
+  &lt;&#x2F;iframe&gt;
+&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;perros-covid&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.gaceta.unam.mx&#x2F;reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19&#x2F;&quot;&gt;Perros Covid&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;
+  
+
+  
+
+  &lt;img src=&quot;&amp;#x2F;perros_covid.avif&quot;
+    
+        alt=&quot;Perritos&quot;
+    
+
+    
+        title=&quot;Perros Covid&quot;
+    
+
+    
+
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Sitio web para la recolección, procesamiento y caracterización de muestras por
+PCR de COVID-19 para su posterior uso en el adiestramiento de perros para
+identificar muestras positivas. Parte de un proyecto colaborativo entre la
+&lt;a href=&quot;https:&#x2F;&#x2F;www.gob.mx&#x2F;sedena&#x2F;&quot;&gt;SEDENA&lt;&#x2F;a&gt; (Secretaría de la Defensa Nacional),
+la &lt;a href=&quot;https:&#x2F;&#x2F;www.gob.mx&#x2F;sre&quot;&gt;SRE&lt;&#x2F;a&gt; (Secretaría de Relaciones Exteriores) y la
+&lt;a href=&quot;https:&#x2F;&#x2F;www.unam.mx&#x2F;&quot;&gt;UNAM&lt;&#x2F;a&gt; (Universidad Nacional Autónoma de México).&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.gaceta.unam.mx&#x2F;reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19&#x2F;&quot;&gt;Gaceta UNAM: Reconocimiento a la FMVZ por proyecto sobre Covid-19&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;objetivo&quot;&gt;Objetivo&lt;&#x2F;h3&gt;
+&lt;p&gt;El objetivo principal de la página es ayudar a agilizar el proceso de
+entrenamiento de los perros, esto al facilitar el registro de las muestras
+utilizadas, las respuestas dadas durante las pruebas, la identidad del perro
+entrenando, el resultado obtenido en cada sesión y de igual manera mostrar
+estadísticas generales respecto al progreso de un perro en específico y en
+general de todos los caninos registrados.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;muestras&quot;&gt;Muestras&lt;&#x2F;h3&gt;
+&lt;p&gt;Una muestra es el resultado de la prueba PCR más algunos otros datos relevantes
+del individuo en el que se realizó la prueba, como su edad, sexo,
+comorbilidades, etc. Esta información adicional es relevante pues puede ayudar
+a detectar sesgos o patrones dentro de las muestras seleccionadas por los
+perros en los entrenamientos (ej. los falsos positivos suelen ser muestras de
+personas que toman &lt;em&gt;x&lt;&#x2F;em&gt; medicamento).&lt;&#x2F;p&gt;
+&lt;p&gt;Las pruebas son almacenadas y consultadas directamente en el sitio web.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;tech-stack&quot;&gt;Tech Stack&lt;&#x2F;h3&gt;
+&lt;p&gt;El frontend consta principalmente del stack básico: HTML, CSS y para añadir
+interactividad se utiliza &lt;a href=&quot;https:&#x2F;&#x2F;www.typescriptlang.org&#x2F;&quot;&gt;TypeScript&lt;&#x2F;a&gt; y un
+par de bibliotecas de JavaScript: &lt;a href=&quot;https:&#x2F;&#x2F;www.chartjs.org&#x2F;&quot;&gt;Chart.js&lt;&#x2F;a&gt;,
+&lt;a href=&quot;https:&#x2F;&#x2F;momentjs.com&#x2F;&quot;&gt;Moment.js&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;selectize.dev&#x2F;&quot;&gt;Selectize.js&lt;&#x2F;a&gt; y un
+poco de &lt;a href=&quot;https:&#x2F;&#x2F;jquery.com&#x2F;&quot;&gt;JQuery&lt;&#x2F;a&gt;. El backend fue construido completamente
+en &lt;a href=&quot;https:&#x2F;&#x2F;www.rust-lang.org&#x2F;&quot;&gt;Rust&lt;&#x2F;a&gt; utilizando el framework
+&lt;a href=&quot;https:&#x2F;&#x2F;rocket.rs&#x2F;&quot;&gt;Rocket&lt;&#x2F;a&gt;. Los datos se almacenan en una instancia de 
+&lt;a href=&quot;https:&#x2F;&#x2F;www.postgresql.org&#x2F;&quot;&gt;PostgreSQL&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Lamentablemente no cuento con la autorización para hacer público  el código
+fuente ni el enlace a la página.  : (&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;reporstat&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;Reporstat&quot;&gt;Reporstat&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;
+  
+
+  
+    
+  
+
+  &lt;img src=&quot;&amp;#x2F;julia_mapa.png&quot;
+    
+        alt=&quot;Julia&quot;
+    
+
+    
+        title=&quot;Julia lang mapa&quot;
+    
+
+    
+        width=&quot;4521&quot;
+    
+
+    
+        height=&quot;1690&quot;
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Es un &lt;a href=&quot;https:&#x2F;&#x2F;julialang.org&#x2F;packages&#x2F;&quot;&gt;paquete&lt;&#x2F;a&gt; para el lenguaje de
+programación &lt;a href=&quot;https:&#x2F;&#x2F;julialang.org&#x2F;&quot;&gt;Julia&lt;&#x2F;a&gt; que tiene como objetivo agilizar
+la consulta de información poblacional de instituciones como el
+&lt;a href=&quot;https:&#x2F;&#x2F;www.inegi.org.mx&#x2F;&quot;&gt;INEGI&lt;&#x2F;a&gt;, el &lt;a href=&quot;https:&#x2F;&#x2F;www.gob.mx&#x2F;conapo&quot;&gt;CONAPO&lt;&#x2F;a&gt; y el
+&lt;a href=&quot;https:&#x2F;&#x2F;www.coneval.org.mx&#x2F;paginas&#x2F;principal.aspx&quot;&gt;CONEVAL&lt;&#x2F;a&gt;, ésta segregada
+por municipios y estados para que, en conjunto con datos de cualquier índole,
+se facilite la realización de análisis y reportes estadísticos al usuario.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;mucinoab.github.io&#x2F;Reporstat&#x2F;dev&#x2F;&quot;&gt;Documentación&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;pokeclassifier&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;Poke-Classifier&quot;&gt;PokeClassifier&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;
+  
+
+  
+    
+  
+
+  &lt;img src=&quot;&amp;#x2F;poke_page.png&quot;
+    
+        alt=&quot;Poke&quot;
+    
+
+    
+        title=&quot;SS de bot y logo de pokedex&quot;
+    
+
+    
+        width=&quot;4521&quot;
+    
+
+    
+        height=&quot;1690&quot;
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Un bot de telegram que trata de identificar pokémon en imágenes utilizando &lt;em&gt;deep
+learning.&lt;&#x2F;em&gt; Dada una aproximación también proporciona un enlace a la entrada del
+pokémon en el &lt;a href=&quot;https:&#x2F;&#x2F;www.pokemon.com&#x2F;us&#x2F;pokedex&#x2F;&quot;&gt;Pokédex Oficial&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;metodos-numericos-ii&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;metodos-dos.fly.dev&#x2F;&quot;&gt;Métodos Numéricos II&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;
+  
+
+  
+
+  &lt;img src=&quot;&amp;#x2F;metodos.avif&quot;
+    
+        alt=&quot;Métodos&quot;
+    
+
+    
+        title=&quot;SS de método de Lagrange.&quot;
+    
+
+    
+
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Página web donde se realizan simples implementaciones y su respectivas
+representaciones gráficas de diversos métodos numéricos para la resolución de
+ecuaciones, integración e interpolación numérica.&lt;&#x2F;p&gt;
+&lt;p&gt;Se implementa el método de Newton, Regla trapezoidal, Punto fijo, Interpolación
+Polinómica de Lagrange, Diferencias divididas , Interpolación de Newton, entre
+otros.&lt;&#x2F;p&gt;
+&lt;p&gt;Hospedada en &lt;del&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.heroku.com&#x2F;what#&quot;&gt;Heroku&lt;&#x2F;a&gt;&lt;&#x2F;del&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;fly.io&#x2F;&quot;&gt;Fly.io&lt;&#x2F;a&gt; con backend en Python
+(&lt;a href=&quot;https:&#x2F;&#x2F;www.djangoproject.com&quot;&gt;Django&lt;&#x2F;a&gt;). Código fuente
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;MII&quot;&gt;aquí.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;telegram-chatbot&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;SistemedicBotRust&quot;&gt;Telegram ChatBot&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;
+  
+
+  
+    
+  
+
+  &lt;img src=&quot;&amp;#x2F;bot.png&quot;
+    
+        alt=&quot;Bot&quot;
+    
+
+    
+        title=&quot;Red y logo&quot;
+    
+
+    
+        width=&quot;5652&quot;
+    
+
+    
+        height=&quot;2056&quot;
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Dos implementaciones de un bot que hace uso del API de
+&lt;a href=&quot;https:&#x2F;&#x2F;telegram.org&#x2F;&quot;&gt;Telegram&lt;&#x2F;a&gt; (lamentablemente Whatsapp y
+&lt;a href=&quot;https:&#x2F;&#x2F;www.signal.org&#x2F;&quot;&gt;Signal&lt;&#x2F;a&gt; no tienen un API razonable).&lt;&#x2F;p&gt;
+&lt;p&gt;La primera implementación del bot esta hecha en
+&lt;a href=&quot;https:&#x2F;&#x2F;www.python.org&#x2F;&quot;&gt;Python&lt;&#x2F;a&gt;, corre en
+&lt;a href=&quot;https:&#x2F;&#x2F;www.heroku.com&#x2F;what#&quot;&gt;Heroku&lt;&#x2F;a&gt; sobre &lt;a href=&quot;https:&#x2F;&#x2F;www.docker.com&#x2F;&quot;&gt;Docker&lt;&#x2F;a&gt;
+y cuenta con una base de datos relacional
+(&lt;a href=&quot;https:&#x2F;&#x2F;www.postgresql.org&#x2F;&quot;&gt;PostgreSQL&lt;&#x2F;a&gt;) que le proporciona toda la
+información necesaria.&lt;&#x2F;p&gt;
+&lt;p&gt;Desgraciadamente el desempeño de esta primera implementación deja mucho que
+desear, dando tiempos de respuesta al cliente de &lt;strong&gt;~.5 &lt;em&gt;segundo&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;, por lo que
+decido mejorar esos tiempos de repuesta al crear una implementación con un
+enfoque distinto.&lt;&#x2F;p&gt;
+&lt;p&gt;En la &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;SistemedicBotRust&quot;&gt;segunda&lt;&#x2F;a&gt; implementación
+se elige Rust como lenguaje principal pues es conocido por su alto desempeño y
+ademas puede ser compilado para la arquitectura de la máquina que en la que se
+piensa &lt;em&gt;hostear&lt;&#x2F;em&gt; el bot, &lt;a href=&quot;https:&#x2F;&#x2F;es.wikipedia.org&#x2F;wiki&#x2F;Arquitectura_ARM&quot;&gt;ARM&lt;&#x2F;a&gt;
+y &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Raspberry_Pi&quot;&gt;Raspberry Pi&lt;&#x2F;a&gt;. Para la base de
+datos se utiliza igualmente PostgreSQL pero esta vez corriendo de manera
+directa en el sistema operativo.&lt;&#x2F;p&gt;
+&lt;p&gt;El resultado final de esta implementación es un bot que da respuestas en &lt;strong&gt;~300
+&lt;em&gt;µs&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;, gracias al crate &lt;a href=&quot;https:&#x2F;&#x2F;tokio.rs&#x2F;&quot;&gt;tokio&lt;&#x2F;a&gt; y un cuidadoso uso de
+recursos.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;grafos-en-teoria&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;TG&quot;&gt;Gráfos en Teoría&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;
+  
+
+  
+
+  &lt;img src=&quot;&amp;#x2F;grafos.avif&quot;
+    
+        alt=&quot;Grafos&quot;
+    
+
+    
+        title=&quot;SS de grafo&quot;
+    
+
+    
+
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Página web en la que se pueden crear grafos interactivamente mediante la
+biblioteca de JavaScript &lt;a href=&quot;https:&#x2F;&#x2F;d3js.org&#x2F;&quot;&gt;D3&lt;&#x2F;a&gt; y arroja información sobre
+estos, esencialmente su matriz de incidencia y&#x2F;o adyacencia.&lt;&#x2F;p&gt;
+&lt;p&gt;Hosteada en &lt;a href=&quot;https:&#x2F;&#x2F;www.heroku.com&#x2F;what#&quot;&gt;Heroku&lt;&#x2F;a&gt; con backend en Python
+(&lt;a href=&quot;https:&#x2F;&#x2F;www.djangoproject.com&#x2F;&quot;&gt;Django&lt;&#x2F;a&gt;). Los recursos utilizados se pueden
+encontrar &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;TG&quot;&gt;aquí.&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;compiladores-de-brainfuck&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;BrainFCompiler-LLVM&quot;&gt;Compiladores de Brainfuck&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;
+  
+
+  
+
+  &lt;img src=&quot;&amp;#x2F;compiler.avif&quot;
+    
+        alt=&quot;Compiler&quot;
+    
+
+    
+        title=&quot;LLVM y Ferris&quot;
+    
+
+    
+
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Dos compiladores del lenguaje de programación
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Brainfuck&quot;&gt;Brainfuck&lt;&#x2F;a&gt;, el cual es
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Turing_completeness&quot;&gt;&lt;em&gt;Turing-complete&lt;&#x2F;em&gt;&lt;&#x2F;a&gt; y se
+compone de solo ocho comandos.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;+&lt;&#x2F;th&gt;&lt;th&gt;-&lt;&#x2F;th&gt;&lt;th&gt;[&lt;&#x2F;th&gt;&lt;th&gt;]&lt;&#x2F;th&gt;&lt;th&gt;&amp;gt;&lt;&#x2F;th&gt;&lt;th&gt;&amp;lt;&lt;&#x2F;th&gt;&lt;th&gt;,&lt;&#x2F;th&gt;&lt;th&gt;.&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;Por ejemplo aquí, una implementación del emblemático &lt;em&gt;Hello World!&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;++++++++++[&amp;gt;+++++++&amp;gt;++++++++++&amp;gt;+++&amp;gt;+&amp;lt;&amp;lt;&amp;lt;&amp;lt;-]&amp;gt;++.&amp;gt;+.+++++++..+++.&amp;gt;++.&amp;lt;&amp;lt;++++++++
++++++++.&amp;gt;.+++.------.--------.&amp;gt;+.&amp;gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;El &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;BrainFCompiler&quot;&gt;primero&lt;&#x2F;a&gt; es una implementación
+que crea un ejecutable al generar instrucciones de lenguaje ensamblador, esto
+se logra al asignar cada instrucción de brainfuck a una serie de instrucciones
+en &lt;em&gt;assembly&lt;&#x2F;em&gt; , posteriormente las &lt;em&gt;ensambla&lt;&#x2F;em&gt; usando
+&lt;a href=&quot;https:&#x2F;&#x2F;es.wikipedia.org&#x2F;wiki&#x2F;Netwide_Assembler&quot;&gt;NASM&lt;&#x2F;a&gt; para finalmente
+&lt;em&gt;linkearlas&lt;&#x2F;em&gt; con &lt;a href=&quot;https:&#x2F;&#x2F;www.gnu.org&#x2F;software&#x2F;binutils&#x2F;&quot;&gt;ld&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;El &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;BrainFCompiler-LLVM&quot;&gt;segundo&lt;&#x2F;a&gt; usa el crate
+&lt;a href=&quot;https:&#x2F;&#x2F;lib.rs&#x2F;crates&#x2F;inkwell&quot;&gt;Inkwell&lt;&#x2F;a&gt;, el cual expone el API de
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;LLVM&quot;&gt;LLVM&lt;&#x2F;a&gt; que da una interfaz mucho más
+robusta para crear ejecutables de mayor calidad que hacen uso de las diversas
+opciones que LLVM ofrece, como agresivas optimizaciones.  LLVM crea un archivo
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Executable_and_Linkable_Format&quot;&gt;ELF&lt;&#x2F;a&gt; que se
+enlaza de manera dinámica usando &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Clang&quot;&gt;Clang&lt;&#x2F;a&gt; o
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;GNU_Compiler_Collection&quot;&gt;GCC&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Ambos compiladores están hechos con &lt;a href=&quot;https:&#x2F;&#x2F;www.rust-lang.org&#x2F;&quot;&gt;Rust&lt;&#x2F;a&gt; y
+disponibles en mi &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;&quot;&gt;github&lt;&#x2F;a&gt; bajo
+&lt;a href=&quot;https:&#x2F;&#x2F;opensource.org&#x2F;licenses&#x2F;MIT&quot;&gt;MIT&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;metodos-numericos-i&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;SM&quot;&gt;Métodos Numéricos I&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;
+  
+
+  
+
+  &lt;img src=&quot;&amp;#x2F;MI.avif&quot;
+    
+        alt=&quot;Métodos Uno&quot;
+    
+
+    
+        title=&quot;Logo de Métodos Uno&quot;
+    
+
+    
+
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Programa nativo multiplatforma para resolver ecuaciones lineales y no lineales.
+Implementado en C++ utilizando el framework &lt;a href=&quot;https:&#x2F;&#x2F;www.qt.io&#x2F;&quot;&gt;QT&lt;&#x2F;a&gt; para la
+creación de la interfaz gráfica. &lt;&#x2F;p&gt;
+&lt;p&gt;Se implementa el método de Newton, Gauss, Secante, Doolittle, Bisección, Falsa
+posición, Gauss Jordan, Gauss Seidel, Jacobi, entre otros más. &lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;lunar-lander&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mucinoab&#x2F;LunarLanderRs&quot;&gt;Lunar Lander&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;p&gt;
+  
+
+  
+
+  &lt;img src=&quot;&amp;#x2F;lunar.avif&quot;
+    
+        alt=&quot;Lunar Lander&quot;
+    
+
+    
+        title=&quot;SS de Lunar Lander&quot;
+    
+
+    
+
+     
+
+    loading=&quot;lazy&quot;
+  &#x2F;&gt;
+&lt;&#x2F;p&gt;
+
+To do...&lt;&#x2F;p&gt;
+</content>
+    </entry>
+    <entry xml:lang="es">
+        <title>Contribuciones al Mundo del Open Source</title>
+        <published>2023-07-07T00:00:00+00:00</published>
+        <updated>2023-07-07T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://mucinoab.github.io/contribuciones/" type="text/html"/>
+        <id>https://mucinoab.github.io/contribuciones/</id>
+        <content type="html">&lt;p&gt;Algunos de los los proyectos a los que he contribuido.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rust&quot;&gt;rust-lang&#x2F;rust&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boxdot&#x2F;gurk-rs&quot;&gt;boxdot&#x2F;gurk-rs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-lang&#x2F;rust-clippy&quot;&gt;rust-lang&#x2F;rust-clippy &lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Rigellute&#x2F;spotify-tui&quot;&gt;Rigellute&#x2F;spotify-tui&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;wasmerio&#x2F;wasmer&quot;&gt;wasmerio&#x2F;wasmer&lt;&#x2F;a&gt;&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;livegrep&#x2F;livegrep&quot;&gt;livegrep&#x2F;livegrep&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mvniekerk&#x2F;tokio-cron-scheduler&quot;&gt;mvniekerk&#x2F;tokio-cron-scheduler&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;stalwartlabs&#x2F;mail-builder&quot;&gt;stalwartlabs&#x2F;mail-builder&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;google&#x2F;pix-image-viewer&quot;&gt;google&#x2F;pix-image-viewer&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;jonhoo&#x2F;griddle&#x2F;&quot;&gt;jonhoo&#x2F;Griddle&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;bitsoex&#x2F;bitso-rs&quot;&gt;bitsoex&#x2F;bitso-rs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;arturomf94&#x2F;bitsors&#x2F;&quot;&gt;arturomf94&#x2F;bitsors&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;NerdyPepper&#x2F;dijo&#x2F;&quot;&gt;NerdyPepper&#x2F;Dijo&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;dbrgn&#x2F;tealdeer&#x2F;&quot;&gt;dbrgn&#x2F;Tealdeer&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;xen0n&#x2F;autojump-rs&#x2F;&quot;&gt;xen0n&#x2F;autojump-rs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Club-de-Algoritmia-Acatlan-GUAPA&#x2F;vote.rs&quot;&gt;Club-de-Algoritmia-Acatlan-GUAPA&#x2F;vote.rs&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;yollotltamayo&#x2F;text_to_tex&quot;&gt;yollotltamayo&#x2F;text_to_tex&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Club-de-Algoritmia-Acatlan-GUAPA&#x2F;club-de-algoritmia-acatlan-guapa.github.io&quot;&gt;Club-de-Algoritmia-Acatlan-GUAPA&#x2F;club-de-algoritmia-acatlan-guapa.github.io&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;yollotltamayo&#x2F;presentation-card&#x2F;tree&#x2F;master&quot;&gt;yollotltamayo&#x2F;presentation-card&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;plot.avif&quot; alt=&quot;Hashbrown vs Griddle&quot; title=&quot;Hashbrown vs Griddle&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;dijo.avif&quot; alt=&quot;Dijo&quot; title=&quot;Dijo ss&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;sptr-tealdeer-chikis.avif&quot; alt=&quot;sptr-tealdeer-chikis&quot; title=&quot;sptr-tealdeer-chikis&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+    </entry>
+</feed>

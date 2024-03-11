@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="me" href="https://fosstodon.org/@mucinoab">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <style>
+a:hover {
+  background: url("https://mucinoab.github.io/wave.svg");
+  background-repeat: repeat-x;
+  background-size: 15px 5px;
+  animation: move 15s linear infinite;
+  text-decoration: none;
+  -webkit-animation: move 15s linear infinite;
+  -webkit-text-decoration-skip: objects;
+}
+
+.wave {
+  background: url("https://mucinoab.github.io/wave.svg");
+  background-repeat: repeat;
+  background-size: auto auto;
+  background-repeat: repeat-x;
+  background-size: 15px 5px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+  animation-play-state: running;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.wave:hover {
+  animation-play-state: paused;
+}
+
+
+@-webkit-keyframes move {
+  from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
+
+@keyframe move {
+  from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
+    </style>
+
+    <title>Bruno A. Muciño - Proyectos</title>
+
+    
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://mucinoab.github.io/atom.xml">
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+    
+
+    
+    <link rel="stylesheet" href="https://mucinoab.github.io/site.css">
+    
+
+    
+    
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div id="mobile-navbar" class="mobile-navbar">
+        <div class="mobile-header-logo">
+          
+            <a href="/" class="logo">Bruno A. Muciño </a>
+          
+          </div>
+          <div class="mobile-navbar-icon icon-out">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-item">
+            
+                  
+                    <li>
+                      <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;en">
+                        English
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a class="wave" href="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;mucinoab&#x2F;mucinoab.github.io&#x2F;dev&#x2F;extras&#x2F;Bruno_Muci%C3%B1o_Resume.pdf">
+                        CV
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;contacto">
+                        Contacto
+                      </a>
+                    </li>
+                    
+                
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <header id="header">
+        <div class="logo">
+          
+            <a href="/" class="logo">Bruno A. Muciño </a></div>
+          
+        <nav class="menu">
+          <ul>
+            
+              
+                <li>
+                  <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;en">
+                    English
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="wave" href="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;mucinoab&#x2F;mucinoab.github.io&#x2F;dev&#x2F;extras&#x2F;Bruno_Muci%C3%B1o_Resume.pdf">
+                    CV
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;contacto">
+                    Contacto
+                  </a>
+                </li>
+                
+            
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="content" id="mobile-panel">
+          
+
+
+<div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title">
+      
+        Índice
+      
+    </h2>
+    <div class="post-toc-content always-active">
+        <nav id="TableOfContents">
+            <ul>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#chip-8" class="toc-link">Chip 8</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#trueno" class="toc-link">Trueno</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#fire" class="toc-link">FIRE</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#principales-caracteristicas" class="toc-link">Principales características</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#interprete" class="toc-link">Interprete</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#perros-covid" class="toc-link">Perros Covid</a>
+                    
+                    <ul>
+                        
+                        <li>
+                            <a href="https://mucinoab.github.io/proyectos/#objetivo" class="toc-link">Objetivo</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://mucinoab.github.io/proyectos/#muestras" class="toc-link">Muestras</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://mucinoab.github.io/proyectos/#tech-stack" class="toc-link">Tech Stack</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#reporstat" class="toc-link">Reporstat</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#pokeclassifier" class="toc-link">PokeClassifier</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#metodos-numericos-ii" class="toc-link">Métodos Numéricos II</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#telegram-chatbot" class="toc-link">Telegram ChatBot</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#grafos-en-teoria" class="toc-link">Gráfos en Teoría</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#compiladores-de-brainfuck" class="toc-link">Compiladores de Brainfuck</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#metodos-numericos-i" class="toc-link">Métodos Numéricos I</a>
+                    
+                </li>
+                
+                <li>
+                    <a href="https://mucinoab.github.io/proyectos/#lunar-lander" class="toc-link">Lunar Lander</a>
+                    
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+<article class="post">
+    
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;proyectos&#x2F;">Proyectos</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">01&#x2F;02&#x2F;2024</span>
+            
+        </div>
+    </header>
+
+    <div class="post-content">
+      <h2 id="chip-8"><a href="https://github.com/mucinoab/chip-8">Chip 8</a></h2>
+<p>Una simple implementación de <a href="https://es.wikipedia.org/wiki/CHIP-8">CHIP-8</a>
+Demo (WIP):</p>
+<p>
+  <iframe  id="chip8"  src="&#x2F;chip-8-emulator&#x2F;index.html" 
+    loading="lazy" height="75vh" width="100%">
+  </iframe>
+</p>
+<h2 id="trueno"><a href="https://github.com/mucinoab/trueno">Trueno</a></h2>
+<p>Un <em>Ray Tracer multithreaded</em> que hace uso de <a href="https://es.wikipedia.org/wiki/SIMD">SIMD</a>.</p>
+<p>Soporta diversos tipos de materiales (difuso, metálico, dieléctrico),
+<em>antialiasing</em>, una cámara configurable (resolución, apertura, enfoque) y
+composición de escena.</p>
+<p>
+  
+
+  
+
+  <img src="&#x2F;rayo.avif"
+    
+        alt="Demo Trueno"
+    
+
+    
+        title="Múltiples esferas en diferentes colores,
+materiales y tamaños"
+    
+
+    
+        width="1920"
+    
+
+    
+        height ="1080"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Implementación basada en el libro <a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html"><em>Ray Tracing in One Weekend</em></a></p>
+<h2 id="fire"><a href="https://github.com/mucinoab/FIRE">FIRE</a></h2>
+<p>Un editor de texto <a href="https://wincent.com/wiki/Modal_editor">modal</a> escrito
+completamente en C, sin usar dependencias externas.</p>
+<p>
+  
+
+  
+    
+  
+
+  <img src="&#x2F;fire_demo.svg"
+    
+        alt="Fire Demo"
+    
+
+    
+        title="Un demo de FIRE, el editor de texto"
+    
+
+    
+        width="870"
+    
+
+    
+        height="472"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Fue escrito en un intento de desempolvar mi conocimiento de C y también para
+intentar aprender prácticas modernas, como el uso de tipos estándar
+(<em>stdint.h</em>), o para evitar usar <em>malloc</em> en favor de <em>calloc</em>, etc.
+Mi principal guía en este proceso fue la publicación de Matt Stancliff en el
+blog <a href="https://matt.sh/howto-c">How to C in 2016</a>, es una buena lectura para
+ponerse al día con las &quot;prácticas modernas&quot; de C.</p>
+<p>Soy un muy fan de <a href="https://neovim.io/">neovim</a> y esta fue mi principal
+inspiración al construir <a href="https://github.com/mucinoab/FIRE">FIRE</a>, como pueden
+ver en el demo de arriba.</p>
+<h2 id="principales-caracteristicas">Principales características</h2>
+<ul>
+<li>Modos <em>Normal</em> e <em>Insert</em>, como en Vim.</li>
+<li>Abrir, mostrar, editar y guardar archivos de texto.</li>
+<li>Búsqueda incremental del contenido del archivo.</li>
+</ul>
+<p>El código y las instrucciones para compilar y ejecutar el proyecto están
+disponibles en el <a href="https://github.com/mucinoab/FIRE">repo</a>.</p>
+<h2 id="interprete"><a href="https://github.com/mucinoab/lux">Interprete</a></h2>
+<p>
+  
+
+  
+    
+  
+
+  <img src="&#x2F;mountain.png"
+    
+        alt="Monataña"
+    
+
+    
+        title="Travesía de los lenguajes"
+    
+
+    
+        width="1824"
+    
+
+    
+        height="833"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>La implementación de un <a href="https://en.wikipedia.org/wiki/Dynamic_programming_language">lenguaje de programación
+dinámico</a>, <em>Lux</em>, y
+su respectivo interprete. Soporta variables, control de flujo, funciones, un
+<a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">REPL</a> y se
+le dio particular importancia a la presentación y contenido de los mensajes de
+error.</p>
+<p>Se basa en las lecciones presentada en el libro <a href="https://craftinginterpreters.com/"><em>Crafting
+Interpreters</em></a> de <a href="https://github.com/munificent">Robert
+Nystrom</a>.</p>
+<p>Puedes probar el REPL compilado a <a href="https://webassembly.org/">WebAssembly</a> aquí:</p>
+<p>
+  <iframe  id="lux"  src="&#x2F;lux&#x2F;lux_demo.html" 
+    loading="lazy" height="250vh" width="100%">
+  </iframe>
+</p>
+<hr />
+<h2 id="perros-covid"><a href="https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/">Perros Covid</a></h2>
+<p>
+  
+
+  
+
+  <img src="&#x2F;perros_covid.avif"
+    
+        alt="Perritos"
+    
+
+    
+        title="Perros Covid"
+    
+
+    
+
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Sitio web para la recolección, procesamiento y caracterización de muestras por
+PCR de COVID-19 para su posterior uso en el adiestramiento de perros para
+identificar muestras positivas. Parte de un proyecto colaborativo entre la
+<a href="https://www.gob.mx/sedena/">SEDENA</a> (Secretaría de la Defensa Nacional),
+la <a href="https://www.gob.mx/sre">SRE</a> (Secretaría de Relaciones Exteriores) y la
+<a href="https://www.unam.mx/">UNAM</a> (Universidad Nacional Autónoma de México).</p>
+<p><a href="https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/">Gaceta UNAM: Reconocimiento a la FMVZ por proyecto sobre Covid-19</a></p>
+<h3 id="objetivo">Objetivo</h3>
+<p>El objetivo principal de la página es ayudar a agilizar el proceso de
+entrenamiento de los perros, esto al facilitar el registro de las muestras
+utilizadas, las respuestas dadas durante las pruebas, la identidad del perro
+entrenando, el resultado obtenido en cada sesión y de igual manera mostrar
+estadísticas generales respecto al progreso de un perro en específico y en
+general de todos los caninos registrados.</p>
+<h3 id="muestras">Muestras</h3>
+<p>Una muestra es el resultado de la prueba PCR más algunos otros datos relevantes
+del individuo en el que se realizó la prueba, como su edad, sexo,
+comorbilidades, etc. Esta información adicional es relevante pues puede ayudar
+a detectar sesgos o patrones dentro de las muestras seleccionadas por los
+perros en los entrenamientos (ej. los falsos positivos suelen ser muestras de
+personas que toman <em>x</em> medicamento).</p>
+<p>Las pruebas son almacenadas y consultadas directamente en el sitio web.</p>
+<h3 id="tech-stack">Tech Stack</h3>
+<p>El frontend consta principalmente del stack básico: HTML, CSS y para añadir
+interactividad se utiliza <a href="https://www.typescriptlang.org/">TypeScript</a> y un
+par de bibliotecas de JavaScript: <a href="https://www.chartjs.org/">Chart.js</a>,
+<a href="https://momentjs.com/">Moment.js</a>, <a href="https://selectize.dev/">Selectize.js</a> y un
+poco de <a href="https://jquery.com/">JQuery</a>. El backend fue construido completamente
+en <a href="https://www.rust-lang.org/">Rust</a> utilizando el framework
+<a href="https://rocket.rs/">Rocket</a>. Los datos se almacenan en una instancia de 
+<a href="https://www.postgresql.org/">PostgreSQL</a>.</p>
+<p><em>Lamentablemente no cuento con la autorización para hacer público  el código
+fuente ni el enlace a la página.  : (</em></p>
+<hr />
+<h2 id="reporstat"><a href="https://github.com/mucinoab/Reporstat">Reporstat</a></h2>
+<p>
+  
+
+  
+    
+  
+
+  <img src="&#x2F;julia_mapa.png"
+    
+        alt="Julia"
+    
+
+    
+        title="Julia lang mapa"
+    
+
+    
+        width="4521"
+    
+
+    
+        height="1690"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Es un <a href="https://julialang.org/packages/">paquete</a> para el lenguaje de
+programación <a href="https://julialang.org/">Julia</a> que tiene como objetivo agilizar
+la consulta de información poblacional de instituciones como el
+<a href="https://www.inegi.org.mx/">INEGI</a>, el <a href="https://www.gob.mx/conapo">CONAPO</a> y el
+<a href="https://www.coneval.org.mx/paginas/principal.aspx">CONEVAL</a>, ésta segregada
+por municipios y estados para que, en conjunto con datos de cualquier índole,
+se facilite la realización de análisis y reportes estadísticos al usuario.</p>
+<p><a href="https://mucinoab.github.io/Reporstat/dev/">Documentación</a></p>
+<span id="continue-reading"></span>
+<hr />
+<h2 id="pokeclassifier"><a href="https://github.com/mucinoab/Poke-Classifier">PokeClassifier</a></h2>
+<p>
+  
+
+  
+    
+  
+
+  <img src="&#x2F;poke_page.png"
+    
+        alt="Poke"
+    
+
+    
+        title="SS de bot y logo de pokedex"
+    
+
+    
+        width="4521"
+    
+
+    
+        height="1690"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Un bot de telegram que trata de identificar pokémon en imágenes utilizando <em>deep
+learning.</em> Dada una aproximación también proporciona un enlace a la entrada del
+pokémon en el <a href="https://www.pokemon.com/us/pokedex/">Pokédex Oficial</a>.</p>
+<hr />
+<h2 id="metodos-numericos-ii"><a href="https://metodos-dos.fly.dev/">Métodos Numéricos II</a></h2>
+<p>
+  
+
+  
+
+  <img src="&#x2F;metodos.avif"
+    
+        alt="Métodos"
+    
+
+    
+        title="SS de método de Lagrange."
+    
+
+    
+
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Página web donde se realizan simples implementaciones y su respectivas
+representaciones gráficas de diversos métodos numéricos para la resolución de
+ecuaciones, integración e interpolación numérica.</p>
+<p>Se implementa el método de Newton, Regla trapezoidal, Punto fijo, Interpolación
+Polinómica de Lagrange, Diferencias divididas , Interpolación de Newton, entre
+otros.</p>
+<p>Hospedada en <del><a href="https://www.heroku.com/what#">Heroku</a></del>
+<a href="https://fly.io/">Fly.io</a> con backend en Python
+(<a href="https://www.djangoproject.com">Django</a>). Código fuente
+<a href="https://github.com/mucinoab/MII">aquí.</a></p>
+<hr />
+<h2 id="telegram-chatbot"><a href="https://github.com/mucinoab/SistemedicBotRust">Telegram ChatBot</a></h2>
+<p>
+  
+
+  
+    
+  
+
+  <img src="&#x2F;bot.png"
+    
+        alt="Bot"
+    
+
+    
+        title="Red y logo"
+    
+
+    
+        width="5652"
+    
+
+    
+        height="2056"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Dos implementaciones de un bot que hace uso del API de
+<a href="https://telegram.org/">Telegram</a> (lamentablemente Whatsapp y
+<a href="https://www.signal.org/">Signal</a> no tienen un API razonable).</p>
+<p>La primera implementación del bot esta hecha en
+<a href="https://www.python.org/">Python</a>, corre en
+<a href="https://www.heroku.com/what#">Heroku</a> sobre <a href="https://www.docker.com/">Docker</a>
+y cuenta con una base de datos relacional
+(<a href="https://www.postgresql.org/">PostgreSQL</a>) que le proporciona toda la
+información necesaria.</p>
+<p>Desgraciadamente el desempeño de esta primera implementación deja mucho que
+desear, dando tiempos de respuesta al cliente de <strong>~.5 <em>segundo</em></strong>, por lo que
+decido mejorar esos tiempos de repuesta al crear una implementación con un
+enfoque distinto.</p>
+<p>En la <a href="https://github.com/mucinoab/SistemedicBotRust">segunda</a> implementación
+se elige Rust como lenguaje principal pues es conocido por su alto desempeño y
+ademas puede ser compilado para la arquitectura de la máquina que en la que se
+piensa <em>hostear</em> el bot, <a href="https://es.wikipedia.org/wiki/Arquitectura_ARM">ARM</a>
+y <a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a>. Para la base de
+datos se utiliza igualmente PostgreSQL pero esta vez corriendo de manera
+directa en el sistema operativo.</p>
+<p>El resultado final de esta implementación es un bot que da respuestas en <strong>~300
+<em>µs</em></strong>, gracias al crate <a href="https://tokio.rs/">tokio</a> y un cuidadoso uso de
+recursos.</p>
+<hr />
+<h2 id="grafos-en-teoria"><a href="https://github.com/mucinoab/TG">Gráfos en Teoría</a></h2>
+<p>
+  
+
+  
+
+  <img src="&#x2F;grafos.avif"
+    
+        alt="Grafos"
+    
+
+    
+        title="SS de grafo"
+    
+
+    
+
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Página web en la que se pueden crear grafos interactivamente mediante la
+biblioteca de JavaScript <a href="https://d3js.org/">D3</a> y arroja información sobre
+estos, esencialmente su matriz de incidencia y/o adyacencia.</p>
+<p>Hosteada en <a href="https://www.heroku.com/what#">Heroku</a> con backend en Python
+(<a href="https://www.djangoproject.com/">Django</a>). Los recursos utilizados se pueden
+encontrar <a href="https://github.com/mucinoab/TG">aquí.</a></p>
+<hr />
+<h2 id="compiladores-de-brainfuck"><a href="https://github.com/mucinoab/BrainFCompiler-LLVM">Compiladores de Brainfuck</a></h2>
+<p>
+  
+
+  
+
+  <img src="&#x2F;compiler.avif"
+    
+        alt="Compiler"
+    
+
+    
+        title="LLVM y Ferris"
+    
+
+    
+
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Dos compiladores del lenguaje de programación
+<a href="https://en.wikipedia.org/wiki/Brainfuck">Brainfuck</a>, el cual es
+<a href="https://en.wikipedia.org/wiki/Turing_completeness"><em>Turing-complete</em></a> y se
+compone de solo ocho comandos.</p>
+<table><thead><tr><th>+</th><th>-</th><th>[</th><th>]</th><th>&gt;</th><th>&lt;</th><th>,</th><th>.</th></tr></thead><tbody>
+</tbody></table>
+<p>Por ejemplo aquí, una implementación del emblemático <em>Hello World!</em>.</p>
+<blockquote>
+<p>++++++++++[&gt;+++++++&gt;++++++++++&gt;+++&gt;+&lt;&lt;&lt;&lt;-]&gt;++.&gt;+.+++++++..+++.&gt;++.&lt;&lt;++++++++
++++++++.&gt;.+++.------.--------.&gt;+.&gt;.</p>
+</blockquote>
+<p>El <a href="https://github.com/mucinoab/BrainFCompiler">primero</a> es una implementación
+que crea un ejecutable al generar instrucciones de lenguaje ensamblador, esto
+se logra al asignar cada instrucción de brainfuck a una serie de instrucciones
+en <em>assembly</em> , posteriormente las <em>ensambla</em> usando
+<a href="https://es.wikipedia.org/wiki/Netwide_Assembler">NASM</a> para finalmente
+<em>linkearlas</em> con <a href="https://www.gnu.org/software/binutils/">ld</a>.</p>
+<p>El <a href="https://github.com/mucinoab/BrainFCompiler-LLVM">segundo</a> usa el crate
+<a href="https://lib.rs/crates/inkwell">Inkwell</a>, el cual expone el API de
+<a href="https://en.wikipedia.org/wiki/LLVM">LLVM</a> que da una interfaz mucho más
+robusta para crear ejecutables de mayor calidad que hacen uso de las diversas
+opciones que LLVM ofrece, como agresivas optimizaciones.  LLVM crea un archivo
+<a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">ELF</a> que se
+enlaza de manera dinámica usando <a href="https://en.wikipedia.org/wiki/Clang">Clang</a> o
+<a href="https://en.wikipedia.org/wiki/GNU_Compiler_Collection">GCC</a>.</p>
+<p>Ambos compiladores están hechos con <a href="https://www.rust-lang.org/">Rust</a> y
+disponibles en mi <a href="https://github.com/mucinoab/">github</a> bajo
+<a href="https://opensource.org/licenses/MIT">MIT</a>.</p>
+<hr />
+<h2 id="metodos-numericos-i"><a href="https://github.com/mucinoab/SM">Métodos Numéricos I</a></h2>
+<p>
+  
+
+  
+
+  <img src="&#x2F;MI.avif"
+    
+        alt="Métodos Uno"
+    
+
+    
+        title="Logo de Métodos Uno"
+    
+
+    
+
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Programa nativo multiplatforma para resolver ecuaciones lineales y no lineales.
+Implementado en C++ utilizando el framework <a href="https://www.qt.io/">QT</a> para la
+creación de la interfaz gráfica. </p>
+<p>Se implementa el método de Newton, Gauss, Secante, Doolittle, Bisección, Falsa
+posición, Gauss Jordan, Gauss Seidel, Jacobi, entre otros más. </p>
+<hr />
+<h2 id="lunar-lander"><a href="https://github.com/mucinoab/LunarLanderRs">Lunar Lander</a></h2>
+<p><p>
+  
+
+  
+
+  <img src="&#x2F;lunar.avif"
+    
+        alt="Lunar Lander"
+    
+
+    
+        title="SS de Lunar Lander"
+    
+
+    
+
+     
+
+    loading="lazy"
+  />
+</p>
+
+To do...</p>
+
+    </div>
+
+    
+    
+
+    <div class="post-footer">
+        
+            
+            
+
+        
+
+    </div>
+
+    
+    
+</article>
+
+
+        </div>
+      </main>
+
+      
+      
+    </div>
+
+    
+    <script type="text/javascript" src="https://mucinoab.github.io/even.js" ></script>
+    
+  </body>
+
+</html>

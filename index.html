@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="me" href="https://fosstodon.org/@mucinoab">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <style>
+a:hover {
+  background: url("https://mucinoab.github.io/wave.svg");
+  background-repeat: repeat-x;
+  background-size: 15px 5px;
+  animation: move 15s linear infinite;
+  text-decoration: none;
+  -webkit-animation: move 15s linear infinite;
+  -webkit-text-decoration-skip: objects;
+}
+
+.wave {
+  background: url("https://mucinoab.github.io/wave.svg");
+  background-repeat: repeat;
+  background-size: auto auto;
+  background-repeat: repeat-x;
+  background-size: 15px 5px;
+  animation: move 15s linear infinite;
+  -webkit-animation: move 15s linear infinite;
+  animation-play-state: running;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.wave:hover {
+  animation-play-state: paused;
+}
+
+
+@-webkit-keyframes move {
+  from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
+
+@keyframe move {
+  from {
+    background-position: 2px 19px;
+  }
+  to {
+    background-position: 500px 19px;
+  }
+}
+    </style>
+
+    <title>Bruno A. Muciño</title>
+
+    
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://mucinoab.github.io/atom.xml">
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+    
+
+    
+    <link rel="stylesheet" href="https://mucinoab.github.io/site.css">
+    
+
+    
+    
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div id="mobile-navbar" class="mobile-navbar">
+        <div class="mobile-header-logo">
+          
+            <a href="/" class="logo">Bruno A. Muciño </a>
+          
+          </div>
+          <div class="mobile-navbar-icon icon-out">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-item">
+            
+                  
+                    <li>
+                      <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;en">
+                        English
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a class="wave" href="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;mucinoab&#x2F;mucinoab.github.io&#x2F;dev&#x2F;extras&#x2F;Bruno_Muci%C3%B1o_Resume.pdf">
+                        CV
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;contacto">
+                        Contacto
+                      </a>
+                    </li>
+                    
+                
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <header id="header">
+        <div class="logo">
+          
+            <a href="/" class="logo">Bruno A. Muciño </a></div>
+          
+        <nav class="menu">
+          <ul>
+            
+              
+                <li>
+                  <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;en">
+                    English
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="wave" href="https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;mucinoab&#x2F;mucinoab.github.io&#x2F;dev&#x2F;extras&#x2F;Bruno_Muci%C3%B1o_Resume.pdf">
+                    CV
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="wave" href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;contacto">
+                    Contacto
+                  </a>
+                </li>
+                
+            
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="content" id="mobile-panel">
+          
+          <div class="posts">
+            
+            <article class="post">
+              
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;proyectos&#x2F;">Proyectos</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">01&#x2F;02&#x2F;2024</span>
+            
+        </div>
+    </header>
+
+              <div class="post__summary">
+                <h2 id="chip-8"><a href="https://github.com/mucinoab/chip-8">Chip 8</a></h2>
+<p>Una simple implementación de <a href="https://es.wikipedia.org/wiki/CHIP-8">CHIP-8</a>
+Demo (WIP):</p>
+<p>
+  <iframe  id="chip8"  src="&#x2F;chip-8-emulator&#x2F;index.html" 
+    loading="lazy" height="75vh" width="100%">
+  </iframe>
+</p>
+<h2 id="trueno"><a href="https://github.com/mucinoab/trueno">Trueno</a></h2>
+<p>Un <em>Ray Tracer multithreaded</em> que hace uso de <a href="https://es.wikipedia.org/wiki/SIMD">SIMD</a>.</p>
+<p>Soporta diversos tipos de materiales (difuso, metálico, dieléctrico),
+<em>antialiasing</em>, una cámara configurable (resolución, apertura, enfoque) y
+composición de escena.</p>
+<p>
+  
+
+  
+
+  <img src="&#x2F;rayo.avif"
+    
+        alt="Demo Trueno"
+    
+
+    
+        title="Múltiples esferas en diferentes colores,
+materiales y tamaños"
+    
+
+    
+        width="1920"
+    
+
+    
+        height ="1080"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Implementación basada en el libro <a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html"><em>Ray Tracing in One Weekend</em></a></p>
+<h2 id="fire"><a href="https://github.com/mucinoab/FIRE">FIRE</a></h2>
+<p>Un editor de texto <a href="https://wincent.com/wiki/Modal_editor">modal</a> escrito
+completamente en C, sin usar dependencias externas.</p>
+<p>
+  
+
+  
+    
+  
+
+  <img src="&#x2F;fire_demo.svg"
+    
+        alt="Fire Demo"
+    
+
+    
+        title="Un demo de FIRE, el editor de texto"
+    
+
+    
+        width="870"
+    
+
+    
+        height="472"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Fue escrito en un intento de desempolvar mi conocimiento de C y también para
+intentar aprender prácticas modernas, como el uso de tipos estándar
+(<em>stdint.h</em>), o para evitar usar <em>malloc</em> en favor de <em>calloc</em>, etc.
+Mi principal guía en este proceso fue la publicación de Matt Stancliff en el
+blog <a href="https://matt.sh/howto-c">How to C in 2016</a>, es una buena lectura para
+ponerse al día con las &quot;prácticas modernas&quot; de C.</p>
+<p>Soy un muy fan de <a href="https://neovim.io/">neovim</a> y esta fue mi principal
+inspiración al construir <a href="https://github.com/mucinoab/FIRE">FIRE</a>, como pueden
+ver en el demo de arriba.</p>
+<h2 id="principales-caracteristicas">Principales características</h2>
+<ul>
+<li>Modos <em>Normal</em> e <em>Insert</em>, como en Vim.</li>
+<li>Abrir, mostrar, editar y guardar archivos de texto.</li>
+<li>Búsqueda incremental del contenido del archivo.</li>
+</ul>
+<p>El código y las instrucciones para compilar y ejecutar el proyecto están
+disponibles en el <a href="https://github.com/mucinoab/FIRE">repo</a>.</p>
+<h2 id="interprete"><a href="https://github.com/mucinoab/lux">Interprete</a></h2>
+<p>
+  
+
+  
+    
+  
+
+  <img src="&#x2F;mountain.png"
+    
+        alt="Monataña"
+    
+
+    
+        title="Travesía de los lenguajes"
+    
+
+    
+        width="1824"
+    
+
+    
+        height="833"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>La implementación de un <a href="https://en.wikipedia.org/wiki/Dynamic_programming_language">lenguaje de programación
+dinámico</a>, <em>Lux</em>, y
+su respectivo interprete. Soporta variables, control de flujo, funciones, un
+<a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop">REPL</a> y se
+le dio particular importancia a la presentación y contenido de los mensajes de
+error.</p>
+<p>Se basa en las lecciones presentada en el libro <a href="https://craftinginterpreters.com/"><em>Crafting
+Interpreters</em></a> de <a href="https://github.com/munificent">Robert
+Nystrom</a>.</p>
+<p>Puedes probar el REPL compilado a <a href="https://webassembly.org/">WebAssembly</a> aquí:</p>
+<p>
+  <iframe  id="lux"  src="&#x2F;lux&#x2F;lux_demo.html" 
+    loading="lazy" height="250vh" width="100%">
+  </iframe>
+</p>
+<hr />
+<h2 id="perros-covid"><a href="https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/">Perros Covid</a></h2>
+<p>
+  
+
+  
+
+  <img src="&#x2F;perros_covid.avif"
+    
+        alt="Perritos"
+    
+
+    
+        title="Perros Covid"
+    
+
+    
+
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Sitio web para la recolección, procesamiento y caracterización de muestras por
+PCR de COVID-19 para su posterior uso en el adiestramiento de perros para
+identificar muestras positivas. Parte de un proyecto colaborativo entre la
+<a href="https://www.gob.mx/sedena/">SEDENA</a> (Secretaría de la Defensa Nacional),
+la <a href="https://www.gob.mx/sre">SRE</a> (Secretaría de Relaciones Exteriores) y la
+<a href="https://www.unam.mx/">UNAM</a> (Universidad Nacional Autónoma de México).</p>
+<p><a href="https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/">Gaceta UNAM: Reconocimiento a la FMVZ por proyecto sobre Covid-19</a></p>
+<h3 id="objetivo">Objetivo</h3>
+<p>El objetivo principal de la página es ayudar a agilizar el proceso de
+entrenamiento de los perros, esto al facilitar el registro de las muestras
+utilizadas, las respuestas dadas durante las pruebas, la identidad del perro
+entrenando, el resultado obtenido en cada sesión y de igual manera mostrar
+estadísticas generales respecto al progreso de un perro en específico y en
+general de todos los caninos registrados.</p>
+<h3 id="muestras">Muestras</h3>
+<p>Una muestra es el resultado de la prueba PCR más algunos otros datos relevantes
+del individuo en el que se realizó la prueba, como su edad, sexo,
+comorbilidades, etc. Esta información adicional es relevante pues puede ayudar
+a detectar sesgos o patrones dentro de las muestras seleccionadas por los
+perros en los entrenamientos (ej. los falsos positivos suelen ser muestras de
+personas que toman <em>x</em> medicamento).</p>
+<p>Las pruebas son almacenadas y consultadas directamente en el sitio web.</p>
+<h3 id="tech-stack">Tech Stack</h3>
+<p>El frontend consta principalmente del stack básico: HTML, CSS y para añadir
+interactividad se utiliza <a href="https://www.typescriptlang.org/">TypeScript</a> y un
+par de bibliotecas de JavaScript: <a href="https://www.chartjs.org/">Chart.js</a>,
+<a href="https://momentjs.com/">Moment.js</a>, <a href="https://selectize.dev/">Selectize.js</a> y un
+poco de <a href="https://jquery.com/">JQuery</a>. El backend fue construido completamente
+en <a href="https://www.rust-lang.org/">Rust</a> utilizando el framework
+<a href="https://rocket.rs/">Rocket</a>. Los datos se almacenan en una instancia de 
+<a href="https://www.postgresql.org/">PostgreSQL</a>.</p>
+<p><em>Lamentablemente no cuento con la autorización para hacer público  el código
+fuente ni el enlace a la página.  : (</em></p>
+<hr />
+<h2 id="reporstat"><a href="https://github.com/mucinoab/Reporstat">Reporstat</a></h2>
+<p>
+  
+
+  
+    
+  
+
+  <img src="&#x2F;julia_mapa.png"
+    
+        alt="Julia"
+    
+
+    
+        title="Julia lang mapa"
+    
+
+    
+        width="4521"
+    
+
+    
+        height="1690"
+     
+
+    loading="lazy"
+  />
+</p>
+<p>Es un <a href="https://julialang.org/packages/">paquete</a> para el lenguaje de
+programación <a href="https://julialang.org/">Julia</a> que tiene como objetivo agilizar
+la consulta de información poblacional de instituciones como el
+<a href="https://www.inegi.org.mx/">INEGI</a>, el <a href="https://www.gob.mx/conapo">CONAPO</a> y el
+<a href="https://www.coneval.org.mx/paginas/principal.aspx">CONEVAL</a>, ésta segregada
+por municipios y estados para que, en conjunto con datos de cualquier índole,
+se facilite la realización de análisis y reportes estadísticos al usuario.</p>
+<p><a href="https://mucinoab.github.io/Reporstat/dev/">Documentación</a></p>
+
+              </div>
+              <div class="read-more">
+                <a href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;proyectos&#x2F;" class="wave">
+                
+                  Leer más...
+                
+                </a>
+              </div>
+            </article>
+            
+            <article class="post">
+              
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;contribuciones&#x2F;">Contribuciones al Mundo del Open Source</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">07&#x2F;07&#x2F;2023</span>
+            
+        </div>
+    </header>
+
+              <div class="post__summary">
+                <p>Algunos de los los proyectos a los que he contribuido.</p>
+<ul>
+<li><a href="https://github.com/rust-lang/rust">rust-lang/rust</a></li>
+<li><a href="https://github.com/boxdot/gurk-rs">boxdot/gurk-rs</a></li>
+<li><a href="https://github.com/rust-lang/rust-clippy">rust-lang/rust-clippy </a></li>
+<li><a href="https://github.com/Rigellute/spotify-tui">Rigellute/spotify-tui</a></li>
+<li><a href="https://github.com/wasmerio/wasmer">wasmerio/wasmer</a>
+              </div>
+              <div class="read-more">
+                <a href="https:&#x2F;&#x2F;mucinoab.github.io&#x2F;contribuciones&#x2F;" class="wave">
+                
+                  Leer más...
+                
+                </a>
+              </div>
+            </article>
+            
+          </div>
+          <nav class="pagination">
+            
+            
+          </nav>
+          
+        </div>
+      </main>
+
+      
+      
+    </div>
+
+    
+    <script type="text/javascript" src="https://mucinoab.github.io/even.js" ></script>
+    
+  </body>
+
+</html>
