@@ -1,12 +1,40 @@
 +++
 title = "Projects"
-date = 2024-02-01
+date = 2024-04-13
 +++
+
+## [ZofIA](https://www.zofia.com.mx/)
+
+{{ figure(src="/zofia.avif", title="ZofIA logo", alt="ZofIA logo") }}
+
+A specialized educational platform geared towards assisting students in their
+preparation for the admission exam at the most prestigious university in
+Mexico. Gained over [10k Instagram](https://www.instagram.com/zofia_mx/)
+followers in approximately three weeks after launch.
+
+We have an automated pipeline that produces videos containing text, images and
+audio where we present a question and its solution. This content is generated
+with the help of Large Language Models (LLMs), text-to-image models and
+text-to-speech models. We then integrate these elements using Python to create
+the final video, that is later posted to our [social media
+accounts.](https://www.zofia.com.mx/contact.html)
+
+The backend for the platform is written in Rust, the frontend in React and
+TypeScript, the database is PostgreSQL and the server is hosted on
+[Heroku](https://www.heroku.com/what#).
+
+You can try the platform here: [ZofIA](https://www.zofia.com.mx/)
+
 
 ## [Chip 8](https://github.com/mucinoab/chip-8)
 
-A very simple implementation of [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8)
-Demo (WIP):
+A very simple implementation of [CHIP-8](https://en.wikipedia.org/wiki/CHIP-8),
+written in Rust and compiled to [WebAssembly](https://webassembly.org/); it
+uses a simple canvas to render the graphics.
+
+Demo:
+
+In the game _wipeoff_ you can move the paddle with the keys _q_ and _e_.
 
 {{ iframe(id="chip8", src="/chip-8-emulator/index.html", height="75vh") }}
 

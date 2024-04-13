@@ -1,14 +1,42 @@
 +++
 title = "Proyectos"
-date = 2024-02-01
+date = 2024-04-13
 +++
 
 [comment]: <> (Todo: flux, grafos en teoria, aurocat, completar PokeClassifier)
 
+## [ZofIA](https://www.zofia.com.mx/)
+
+{{ figure(src="/zofia.avif", title="ZofIA logo", alt="ZofIA logo") }}
+
+Una plataforma educativa orientada a ayudar a los estudiantes en su preparación
+para el examen de admisión a la universidad más prestigiosa de México. Obtuvo
+más de [10,000 seguidores en Instagram](https://www.instagram.com/zofia_mx/) en
+aproximadamente tres semanas después de su lanzamiento.
+
+Contamos con un flujo automatizado que produce videos que contienen texto,
+imágenes y audio donde presentamos una pregunta con su solución y explicación.
+Este contenido se genera con la ayuda de _Large Language Models (LLMs)_,
+modelos _text-to-image_ y _modelos text-to-speech_. Luego integramos estos
+elementos usando Python para crear el video final, que luego se publica en
+nuestras distintas [redes sociales.](https://www.zofia.com.mx/contact.html)
+
+El backend de la plataforma está escrito en Rust, el frontend en React y
+TypeScript, la base de datos es PostgreSQL y el servidor está alojado en
+[Heroku](https://www.heroku.com/what#).
+
+Puedes probar la plataforma aquí: [ZofIA](https://www.zofia.com.mx/)
+
+
 ## [Chip 8](https://github.com/mucinoab/chip-8)
 
-Una simple implementación de [CHIP-8](https://es.wikipedia.org/wiki/CHIP-8)
-Demo (WIP):
+Una simple implementación de [CHIP-8](https://es.wikipedia.org/wiki/CHIP-8),
+escrita en Rust y compilada a [WebAssembly](https://webassembly.org/); utiliza
+un simple canvas para renderizar los gráficas.
+
+Demo:
+
+En el juego _wipeoff_ se controla la plataforma con las teclas _q_ y _e_.
 
 {{ iframe(id="chip8", src="/chip-8-emulator/index.html", height="75vh") }}
 
