@@ -24,10 +24,6 @@ $toc-max-sreen-width: 2 * 200px + $post-toc-margin-left !default;
   .post-toc-content {
     font-size: 15px;
 
-    &.always-active ul {
-      display: block;
-    }
-
     >nav>ul {
       margin: 10px 0;
     }
@@ -35,19 +31,18 @@ $toc-max-sreen-width: 2 * 200px + $post-toc-margin-left !default;
     ul {
       padding-left: 20px;
       list-style: square;
+      display: block;
 
       ul {
         padding-left: 15px;
-        display: none;
-      }
-
-      .has-active > ul {
         display: block;
       }
     }
 
-    .toc-link.active {
-      color: $main-colour;
+    .toc-link {
+      &:hover {
+        color: $main-colour;
+      }
     }
   }
 }

@@ -2,6 +2,10 @@
 // Mobile Navbar
 // ==============================
 
+.mobile-menu-toggle {
+  display: none;
+}
+
 .mobile-navbar {
   display: none;
   position: fixed;
@@ -14,10 +18,6 @@
   text-align: center;
   transition: transform 300ms ease;
   z-index: 99;
-
-  &.fixed-open {
-    transform: translate3d(180px, 0px, 0px);
-  }
 
   .mobile-header-logo {
     display: inline-block;
@@ -40,12 +40,36 @@
     position: relative;
     transition: background 0.5s;
 
-    @include mobile-menu-icon();
+    span {
+      position: absolute;
+      left: calc((100% - 20px) / 2);
+      top: calc((100% - 1px) / 2);
+      width: 20px;
+      height: 1px;
+      background-color: $main-colour;
+      transition: transform 0.3s ease, opacity 0.2s ease;
+
+      &:nth-child(1) {
+        transform: translateY(-6px);
+      }
+
+      &:nth-child(3) {
+        transform: translateY(6px);
+      }
+    }
   }
 }
 
 .mobile-menu {
+  position: fixed;
+  top: 0;
+  left: -180px;
+  bottom: 0;
+  width: 180px;
+  min-height: 100vh;
   background-color: rgba($secondary-colour, 0.5);
+  transition: transform 300ms ease;
+  z-index: 98;
 
   .mobile-menu-list {
     position: relative;
@@ -66,6 +90,30 @@
         color: $main-colour;
       }
     }
+  }
+}
+
+// When checkbox is checked, open the menu
+.mobile-menu-toggle:checked ~ .mobile-menu {
+  transform: translateX(180px);
+}
+
+.mobile-menu-toggle:checked ~ .mobile-navbar {
+  transform: translateX(180px);
+}
+
+// Hamburger icon animation when menu is open
+.mobile-menu-toggle:checked ~ .mobile-navbar .mobile-navbar-icon {
+  span:nth-child(1) {
+    transform: translateY(0) rotate(45deg);
+  }
+
+  span:nth-child(2) {
+    opacity: 0;
+  }
+
+  span:nth-child(3) {
+    transform: translateY(0) rotate(-45deg);
   }
 }
 

@@ -28,7 +28,6 @@
     {% endif %}
 
     {% block js %}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
     {% endblock js %}
 
     {% block css %}
@@ -41,6 +40,7 @@
 
   <body>
     <div class="container">
+      <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
 
       <div id="mobile-navbar" class="mobile-navbar">
         <div class="mobile-header-logo">
@@ -50,14 +50,14 @@
             <a href="/" class="logo">{{ config.extra.even_title }} </a>
           {% endif %}
           </div>
-          <div class="mobile-navbar-icon icon-out">
+          <label for="mobile-menu-toggle" class="mobile-navbar-icon">
             <span></span>
             <span></span>
             <span></span>
-          </div>
+          </label>
         </div>
 
-        <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
+        <nav id="mobile-menu" class="mobile-menu">
           <ul class="mobile-menu-list">
             {% if lang and lang == "en" %}
               {% for item in config.extra.even_menu_en %}
@@ -148,7 +148,6 @@
     </div>
 
     {% block js_body %}
-    <script type="text/javascript" src="{{ get_url(path="even.js", trailing_slash=false) }}" ></script>
     {% endblock js_body %}
   </body>
 
