@@ -48,29 +48,25 @@
 
         <nav id="mobile-menu" class="mobile-menu slideout-menu slideout-menu-left">
           <ul class="mobile-menu-list">
-            <li class="mobile-menu-item">
             {% if lang and lang == "en" %}
-            {% for item in config.extra.even_menu_en %}
-              <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
-                    <li>
-                      <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
-                        {{ item.name }}
-                      </a>
-                    </li>
-                  {% endfor %}
-                {% else %}
-                  {% for item in config.extra.even_menu_es %}
-                    <li>
-                      <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
-                        {{ item.name }}
-                      </a>
-                    </li>
-                    {% endfor %}
-                {% endif %}
-            </a>
-          </li>
-        </ul>
-      </nav>
+              {% for item in config.extra.even_menu_en %}
+                <li class="mobile-menu-item">
+                  <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                    {{ item.name }}
+                  </a>
+                </li>
+              {% endfor %}
+            {% else %}
+              {% for item in config.extra.even_menu_es %}
+                <li class="mobile-menu-item">
+                  <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                    {{ item.name }}
+                  </a>
+                </li>
+              {% endfor %}
+            {% endif %}
+          </ul>
+        </nav>
 
       <header id="header">
         <div class="logo">
