@@ -98,7 +98,7 @@ Interpreters_](https://craftinginterpreters.com/) de [Robert Nystrom](https://gi
 
 You can try the REPL (compiled to [WebAssembly](https://webassembly.org/)) here:
 
-{{ iframe(id="lux", src="/lux/lux_demo.html", height="250vh") }}
+{{ iframe(id="lux", src="/lux/lux_demo.html", height="250vh" click_to_load=true, button_text="Load REPL") }}
 
 -------------------------------------------------------------------------------
 ## [Covid Dogs](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)

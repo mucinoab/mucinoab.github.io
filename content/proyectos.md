@@ -97,7 +97,8 @@ Nystrom](https://github.com/munificent).
 
 Puedes probar el REPL compilado a [WebAssembly](https://webassembly.org/) aquí:
 
-{{ iframe(id="lux", src="/lux/lux_demo.html", height="250vh") }}
+{{ iframe(id="lux", src="/lux/lux_demo.html", height="250vh" click_to_load=true, button_text="Cargar REPL") }}
+
 
 -------------------------------------------------------------------------------
 ## [Perros Covid](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
