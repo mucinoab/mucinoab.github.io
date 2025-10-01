@@ -6,9 +6,7 @@
   {% endif %}
 
   <img src="{{ src }}"
-    {% if alt %}
-        alt="{{ alt }}"
-    {% endif %}
+        alt="{{ alt | default(value="") }}"
 
     {% if title %}
         title="{{ title }}"
