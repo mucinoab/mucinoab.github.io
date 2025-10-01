@@ -39,6 +39,10 @@ a {
   }
 }
 
+p a {
+  text-decoration: underline;
+}
+
 @keyframes wave-move {
   from {
     background-position: 0 bottom;
