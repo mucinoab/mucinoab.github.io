@@ -22,8 +22,16 @@
         height ="{{ height }}"
     {% elif meta.height %}
         height="{{ meta.height }}"
-    {% endif %} 
+    {% endif %}
 
+    {# Load first 2 images per page with high priority for better LCP (Largest Contentful Paint).
+       The 'nth' variable tracks how many times this shortcode has been called on the current page.
+       Remaining images are lazy loaded to improve initial page load performance. #}
+    {% if nth <= 2 %}
+    loading="eager"
+    fetchpriority="high"
+    {% else %}
     loading="lazy"
+    {% endif %}
   />
 </p>
