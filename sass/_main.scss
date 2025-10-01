@@ -209,6 +209,47 @@ main {
   }
 }
 
+@keyframes button-glow {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(168, 7, 101, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(168, 7, 101, 0.3), 0 0 20px rgba(168, 7, 101, 0.15);
+  }
+}
+
+.demo-load-button {
+  cursor: pointer;
+  padding: 12px 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  background: $secondary-colour;
+  font-family: $decoration-font-family;
+  font-size: 1rem;
+  color: #34495e;
+  transition: all 0.3s ease;
+  display: inline-block;
+  margin: 1rem 0;
+  animation: button-glow 3s ease-in-out infinite;
+
+  &:hover {
+    color: $main-colour;
+    border-color: $main-colour;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(168, 7, 101, 0.15);
+    animation: none;
+  }
+
+  &::before {
+    content: '▶ ';
+    margin-right: 0.3em;
+  }
+}
+
+details[open] > .demo-load-button {
+  display: none;
+}
+
 .taxonomies {
   margin: 2em 0 3em;
   text-align: center;

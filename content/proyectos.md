@@ -38,7 +38,7 @@ Demo:
 
 En el juego _wipeoff_ se controla la plataforma con las teclas _q_ y _e_.
 
-{{ iframe(id="chip8", src="/chip-8-emulator/index.html", height="75vh") }}
+{{ iframe(id="chip8", src="/chip-8-emulator/index.html", height="75vh", click_to_load=true, button_text="Cargar emulador") }}
 
 
 ## [Trueno](https://github.com/mucinoab/trueno)

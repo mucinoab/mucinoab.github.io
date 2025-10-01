@@ -1,5 +1,12 @@
-<p>
+{% if click_to_load %}
+<details>
+  <summary class="demo-load-button">{{ button_text | default(value="Click to load demo") }}</summary>
+{% endif %}
+
   <iframe {% if id %} id="{{ id }}" {% endif %} src="{{ src }}" {% if title %} title="{{ title }}" {% endif %}
     loading="lazy" height="{{ height }}" width="100%">
   </iframe>
-</p>
+
+{% if click_to_load %}
+</details>
+{% endif %}

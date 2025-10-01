@@ -36,7 +36,7 @@ Demo:
 
 In the game _wipeoff_ you can move the paddle with the keys _q_ and _e_.
 
-{{ iframe(id="chip8", src="/chip-8-emulator/index.html", height="75vh") }}
+{{ iframe(id="chip8", src="/chip-8-emulator/index.html", height="75vh", click_to_load=true, button_text="Load emulator") }}
 
 
 ## [Trueno](https://github.com/mucinoab/trueno)
