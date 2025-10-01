@@ -30,6 +30,22 @@ body {
 a {
   color: $main-colour;
   text-decoration: none;
+
+  &:hover {
+    background: url("/wave.svg") repeat-x 0 bottom;
+    background-size: 0.95em 0.3em;
+    text-decoration: none;
+    animation: wave-move 15s linear infinite;
+  }
+}
+
+@keyframes wave-move {
+  from {
+    background-position: 0 bottom;
+  }
+  to {
+    background-position: 15em bottom;
+  }
 }
 
 img {

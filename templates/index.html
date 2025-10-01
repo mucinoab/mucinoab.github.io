@@ -10,55 +10,6 @@
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-    <style>
-a:hover {
-  background: url("{{ get_url(path="wave.svg") | safe }}");
-  background-repeat: repeat-x;
-  background-size: 15px 5px;
-  animation: move 15s linear infinite;
-  text-decoration: none;
-  -webkit-animation: move 15s linear infinite;
-  -webkit-text-decoration-skip: objects;
-}
-
-.wave {
-  background: url("{{ get_url(path="wave.svg") | safe }}");
-  background-repeat: repeat;
-  background-size: auto auto;
-  background-repeat: repeat-x;
-  background-size: 15px 5px;
-  animation: move 15s linear infinite;
-  -webkit-animation: move 15s linear infinite;
-  animation-play-state: running;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
-
-.wave:hover {
-  animation-play-state: paused;
-}
-
-
-@-webkit-keyframes move {
-  from {
-    background-position: 2px 19px;
-  }
-  to {
-    background-position: 500px 19px;
-  }
-}
-
-@keyframe move {
-  from {
-    background-position: 2px 19px;
-  }
-  to {
-    background-position: 500px 19px;
-  }
-}
-    </style>
-
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
 
     {% if config.generate_feeds %}
@@ -100,9 +51,9 @@ a:hover {
             <li class="mobile-menu-item">
             {% if lang and lang == "en" %}
             {% for item in config.extra.even_menu_en %}
-              <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}" class="wave">
+              <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
                     <li>
-                      <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                      <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
                         {{ item.name }}
                       </a>
                     </li>
@@ -110,7 +61,7 @@ a:hover {
                 {% else %}
                   {% for item in config.extra.even_menu_es %}
                     <li>
-                      <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                      <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
                         {{ item.name }}
                       </a>
                     </li>
@@ -133,7 +84,7 @@ a:hover {
             {% if lang and lang == "en" %}
               {% for item in config.extra.even_menu_en %}
                 <li>
-                  <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                  <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
                     {{ item.name }}
                   </a>
                 </li>
@@ -141,7 +92,7 @@ a:hover {
             {% else %}
               {% for item in config.extra.even_menu_es %}
                 <li>
-                  <a class="wave" href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
+                  <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
                     {{ item.name }}
                   </a>
                 </li>
@@ -162,7 +113,7 @@ a:hover {
                 {{ page.summary | safe }}
               </div>
               <div class="read-more">
-                <a href="{{ page.permalink }}" class="wave">
+                <a href="{{ page.permalink }}">
                 {% if lang and lang == "en" %}
                   Keep reading...
                 {% else %}
