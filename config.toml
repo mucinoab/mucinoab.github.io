@@ -4,7 +4,8 @@ theme = "even"
 default_language = 'es'
 compile_sass = true
 title = "Bruno A. Muciño"
-generate_feed = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
 
 taxonomies = [
     {name = "categories", rss = false},
