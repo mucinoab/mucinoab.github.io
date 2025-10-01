@@ -4,6 +4,7 @@ theme = "even"
 default_language = 'es'
 compile_sass = true
 title = "Bruno A. Muciño"
+description = "Software engineer. Personal website and blog."
 generate_feeds = true
 feed_filenames = ["atom.xml"]
 

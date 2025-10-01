@@ -10,6 +10,17 @@
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+    <!-- SEO -->
+    <meta name="description" content="{% block description %}{{ config.description | default(value="Software developer. Personal website and blog.") }}{% endblock description %}">
+    <meta name="author" content="{{ config.extra.author }}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="{% block og_type %}website{% endblock og_type %}">
+    <meta property="og:url" content="{{ current_url | default(value=config.base_url) }}">
+    <meta property="og:title" content="{% block og_title %}{{ config.title }}{% endblock og_title %}">
+    <meta property="og:description" content="{% block og_description %}{{ config.description | default(value="Software developer. Personal website and blog.") }}{% endblock og_description %}">
+    <meta property="og:site_name" content="{{ config.title }}">
+
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
 
     {% if config.generate_feeds %}
