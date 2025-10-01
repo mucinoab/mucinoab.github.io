@@ -1,14 +1,21 @@
 {% import "post_macros.html" as post_macros %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{% if lang and lang == "en" %}en{% else %}es{% endif %}">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% block css %}
+    <link rel="preload" href="{{ get_url(path="site.css", trailing_slash=false) }}" as="style">
+    <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) }}">
+    {% endblock css %}
+
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link rel="me" href="https://fosstodon.org/@mucinoab">
 
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+
+    <link rel="me" href="https://fosstodon.org/@mucinoab">
 
     <!-- SEO -->
     <meta name="description" content="{% block description %}{{ config.description | default(value="Software developer. Personal website and blog.") }}{% endblock description %}">
@@ -21,18 +28,12 @@
     <meta property="og:description" content="{% block og_description %}{{ config.description | default(value="Software developer. Personal website and blog.") }}{% endblock og_description %}">
     <meta property="og:site_name" content="{{ config.title }}">
 
-    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
-
     {% if config.generate_feeds %}
     <link rel="alternate" type={% if config.feed_filenames[0] == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="RSS" href="{{ get_url(path=config.feed_filenames[0]) | safe }}">
     {% endif %}
 
     {% block js %}
     {% endblock js %}
-
-    {% block css %}
-    <link rel="stylesheet" href="{{ get_url(path="site.css", trailing_slash=false) }}">
-    {% endblock css %}
 
     {% block extra_head %}
     {% endblock extra_head %}
