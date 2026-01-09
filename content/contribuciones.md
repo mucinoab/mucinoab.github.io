@@ -9,6 +9,7 @@ Algunos de los los proyectos a los que he contribuido.
 - [boxdot/gurk-rs](https://github.com/boxdot/gurk-rs)
 - [rust-lang/rust-clippy ](https://github.com/rust-lang/rust-clippy)
 - [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)
+- [jline/jline3](https://github.com/jline/jline3)
 - [wasmerio/wasmer](https://github.com/wasmerio/wasmer)
   <!-- more -->
 - [livegrep/livegrep](https://github.com/livegrep/livegrep)
