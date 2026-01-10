@@ -55,7 +55,7 @@ Implementation based in the book [_Ray Tracing in One Weekend_](https://raytraci
 
 ## [FIRE](https://github.com/mucinoab/FIRE)
 
-A [modal](https://wincent.com/wiki/Modal_editor) FIle Reader and Editor (FIRE)
+A [modal](https://web.archive.org/web/20240121073641/https://www.wincent.com/wiki/Modal_editor) FIle Reader and Editor (FIRE)
 written completely in C, without using external dependencies.
 
 {{ figure(src="/fire_demo.svg", title="A demo of FIRE, the text editor",

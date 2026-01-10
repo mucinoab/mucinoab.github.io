@@ -56,7 +56,7 @@ Implementación basada en el libro [_Ray Tracing in One Weekend_](https://raytra
 
 ## [FIRE](https://github.com/mucinoab/FIRE)
 
-Un editor de texto [modal](https://wincent.com/wiki/Modal_editor) escrito
+Un editor de texto [modal](https://web.archive.org/web/20240121073641/https://www.wincent.com/wiki/Modal_editor) escrito
 completamente en C, sin usar dependencias externas.
 
 {{ figure(src="/fire_demo.svg", title="Un demo de FIRE, el editor de texto", alt="Fire Demo") }}
