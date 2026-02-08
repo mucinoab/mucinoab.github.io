@@ -32,7 +32,7 @@ main {
       }
     }
 
-    h2, h3, h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6 {
       font-weight: 400;
     }
 
@@ -110,10 +110,12 @@ main {
 
     &__title {
       margin: 0;
-      font-size: 26px;
-      font-weight: 400;
-
-      @include underline-from-center;
+      font-size: 2.3em;
+      font-weight: 700;
+      background: url("/wave.svg") repeat-x 0 bottom;
+      background-size: 0.95em 0.3em;
+      animation: wave-move 15s linear infinite;
+      display: inline-block;
     }
 
     &__category {
