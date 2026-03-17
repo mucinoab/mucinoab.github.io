@@ -6,7 +6,7 @@ template = "about.html"
 
 ## - Teléfono/Signal [mucinoab.42](https://signal.me/#eu/2DnD5gLT7cuQyApiwtBtqwfN44L62svMlIR6nA/QYE0biG4Kid5Mh4vJ2JELCRxj)
 
-## - Email [mucinoab@gmail.com](mailto:mucinoab+ghpage@gmail.com)
+## - Email [mucinoab@proton.me](mailto:mucinoab@proton.me)
 
 ## - GitHub [mucinoab](https://github.com/mucinoab) 
 
