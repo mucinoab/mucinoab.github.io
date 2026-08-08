@@ -1,0 +1,23 @@
+{% component figure(src: string, alt=None, title=None, width=None, height=None, eager=false) -%}
+<p>
+{%- if not src is ending_with(pat=".avif") %}
+  {%- set meta = get_image_metadata(path=src) -%}
+{% endif -%}
+<img src="{{ src }}" alt="{{ alt | default(value="") }}"
+  {%- if title %} title="{{ title }}"{% endif -%}
+  {%- if width %} width="{{ width }}"{% elif meta?.width %} width="{{ meta.width }}"{% endif -%}
+  {%- if height %} height="{{ height }}"{% elif meta?.height %} height="{{ meta.height }}"{% endif -%}
+  {%- if eager %} loading="eager" fetchpriority="high"{% else %} loading="lazy"{% endif %}>
+</p>
+{%- endcomponent figure %}
+
+{% component iframe(src: string, height: string, id=None, title=None, click_to_load=false, button_text="Click to load demo") -%}
+{% if click_to_load %}<details>
+<summary class="demo-load-button">{{ button_text }}</summary>
+{% endif -%}
+<iframe{% if id %} id="{{ id }}"{% endif %} src="{{ src }}"{% if title %} title="{{ title }}"{% endif %}
+  loading="lazy" height="{{ height }}" width="100%"></iframe>
+{%- if click_to_load %}
+</details>
+{%- endif %}
+{%- endcomponent iframe %}

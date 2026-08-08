@@ -5,7 +5,7 @@ date = 2024-04-13
 
 ## [ZofIA](https://www.zofia.com.mx/)
 
-{{ figure(src="/zofia.avif", title="ZofIA logo", alt="ZofIA logo") }}
+{{<figure src="/zofia.avif" title="ZofIA logo" alt="ZofIA logo" eager={true}/>}}
 
 A specialized educational platform geared towards assisting students in their
 preparation for the admission exam at the most prestigious university in
@@ -36,7 +36,7 @@ Demo:
 
 In the game _wipeoff_ you can move the paddle with the keys _q_ and _e_.
 
-{{ iframe(id="chip8", src="/chip-8-emulator/index.html", height="75vh", click_to_load=true, button_text="Load emulator") }}
+{{<iframe id="chip8" src="/chip-8-emulator/index.html" height="75vh" click_to_load={true} button_text="Load emulator"/>}}
 
 
 ## [Trueno](https://github.com/mucinoab/trueno)
@@ -48,8 +48,8 @@ enhanced CPU ray tracer.
 Supports diffuse, metal and dielectric materials, antialiasing, a fully
 configurable camera (resolution, aperture, focus) and scene.
 
-{{ figure(src="/rayo.avif", title="Multiple spheres in different colors, sizes
-and materials", alt="Trueno demo", height="1080", width="1920") }}
+{{<figure src="/rayo.avif" title="Multiple spheres in different colors, sizes
+and materials" alt="Trueno demo" height="1080" width="1920" eager={true}/>}}
 
 Implementation based in the book [_Ray Tracing in One Weekend_](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
 
@@ -58,8 +58,8 @@ Implementation based in the book [_Ray Tracing in One Weekend_](https://raytraci
 A [modal](https://web.archive.org/web/20240121073641/https://www.wincent.com/wiki/Modal_editor) FIle Reader and Editor (FIRE)
 written completely in C, without using external dependencies.
 
-{{ figure(src="/fire_demo.svg", title="A demo of FIRE, the text editor",
-alt="Fire Demo") }}
+{{<figure src="/fire_demo.svg" title="A demo of FIRE, the text editor"
+alt="Fire Demo"/>}}
 
 This was written in an attempt to dust off my C knowledge and also to try to
 learn modern common practices, like the usage of standard types (_stdint.h_),
@@ -84,7 +84,7 @@ The source code and instructions to run the project are available in the
 -------------------------------------------------------------------------------
 
 ## [Interpreter](https://github.com/mucinoab/Lux)
-{{ figure(src="/mountain.png", alt="Mountain") }}
+{{<figure src="/mountain.png" alt="Mountain"/>}}
 
 The implementation of a [dynamic programming
 language](https://en.wikipedia.org/wiki/Dynamic_programming_language), _Lux_,
@@ -98,18 +98,18 @@ Interpreters_](https://craftinginterpreters.com/) de [Robert Nystrom](https://gi
 
 You can try the REPL (compiled to [WebAssembly](https://webassembly.org/)) here:
 
-{{ iframe(id="lux", src="/lux/lux_demo.html", height="250vh" click_to_load=true, button_text="Load REPL") }}
+{{<iframe id="lux" src="/lux/lux_demo.html" height="250vh" click_to_load={true} button_text="Load REPL"/>}}
 
 -------------------------------------------------------------------------------
 ## [Covid Dogs](https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/)
-{{ figure(src="/perros_covid.avif", title="Perros Covid", alt="Perritos") }}
+{{<figure src="/perros_covid.avif" title="Perros Covid" alt="Perritos"/>}}
 
 Work in progress... In the mean time you can read the auto-translated version
 [here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
 
 -------------------------------------------------------------------------------
 ## [Reporstat](https://github.com/mucinoab/Reporstat)
-{{ figure(src="/julia_mapa.png", title="Julia lang mapa", alt="Julia") }}
+{{<figure src="/julia_mapa.png" title="Julia lang mapa" alt="Julia"/>}}
 
 [Documentation](https://mucinoab.github.io/Reporstat/dev/)  
 
@@ -119,14 +119,14 @@ Work in progress... In the mean time you can read the auto-translated version
 <!-- more -->
 -------------------------------------------------------------------------------
 ## [PokeClassifier](https://github.com/mucinoab/Poke-Classifier)
-{{ figure(src="/poke_page.png", title="SS de bot y logo de pokedex", alt="Poke") }}
+{{<figure src="/poke_page.png" title="SS de bot y logo de pokedex" alt="Poke"/>}}
 
 Work in progress... In the mean time you can read the auto-translated version
 [here.](https://mucinoab-github-io.translate.goog/proyectos/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=es-419&_x_tr_pto=wapp)
 
 -------------------------------------------------------------------------------
 ## [Numerical Methods II](https://metodos-dos.fly.dev/)
-{{ figure(src="/metodos.avif", title="SS de page in use", alt="Métodos") }}
+{{<figure src="/metodos.avif" title="SS de page in use" alt="Métodos"/>}}
 
 Web page where various numerical methods for solving equations, approximate
 integrals and numerical interpolation are implemented, explained and
@@ -143,7 +143,7 @@ Source code [here.](https://github.com/mucinoab/MII)
 
 -------------------------------------------------------------------------------
 ## [Telegram ChatBot](https://github.com/mucinoab/SistemedicBotRust)
-{{ figure(src="/bot.png", title="Red y logo", alt="Bot") }}
+{{<figure src="/bot.png" title="Red y logo" alt="Bot"/>}}
 
 Two implementations of a chatbot using the official [Telegram](https://telegram.org/) API.
 (Sadly Whatsapp and [Signal](https://www.signal.org/) do not provide a
@@ -173,7 +173,7 @@ is around **300 µs**, a _lot faster_ than the first one.
 
 -------------------------------------------------------------------------------
 ## [Brainfuck _Compilers_](https://github.com/mucinoab/BrainFCompiler-LLVM)
-{{ figure(src="/compiler.avif", title="LLVM y Ferris", alt="Compiler") }}
+{{<figure src="/compiler.avif" title="LLVM y Ferris" alt="Compiler"/>}}
 
 Two compilers for the esoteric programming language, [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck). Brainfuck it is [_Turing-complete_](https://en.wikipedia.org/wiki/Turing_completeness) and consists of only the following instructions. 
 
@@ -199,7 +199,7 @@ Both compilers are written in [Rust](https://www.rust-lang.org/), licenced under
 -------------------------------------------------------------------------------
 
 ## [Gráfos en Teoría](https://github.com/mucinoab/TG)
-{{ figure(src="/grafos.avif", title="SS de grafo", alt="Grafos") }}
+{{<figure src="/grafos.avif" title="SS de grafo" alt="Grafos"/>}}
 
 A web page that me and a few classmates did for our graph theory class. In the web site you can draw _graphs_ and the output is information related to the graph.
 
@@ -210,7 +210,7 @@ You can find the source code and resources used [here.](https://github.com/mucin
 -------------------------------------------------------------------------------
 
 ## [Numerical Methods I](https://github.com/mucinoab/SM)
-{{ figure(src="/MI.avif", title="Logo de Métodos Uno", alt="Métodos Uno") }}
+{{<figure src="/MI.avif" title="Logo de Métodos Uno" alt="Métodos Uno"/>}}
 
 Cross-platform native program to solve linear and non-linear equations.
 Implemented in C++ using the popular GUI framework, [QT](https://www.qt.io/).
@@ -219,7 +219,7 @@ The full list of methods and source code can be found in the [GitHub repo](https
 
 -------------------------------------------------------------------------------
 ## [Lunar Lander](https://github.com/mucinoab/LunarLanderRs)
-{{ figure(src="/lunar.avif", title="SS de Lunar Lander", alt="Lunar Lander") }}
+{{<figure src="/lunar.avif" title="SS de Lunar Lander" alt="Lunar Lander"/>}}
 
 **To do...**
 

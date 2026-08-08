@@ -1,4 +1,4 @@
-{% macro title(page) %}
+{% component post_title(page) %}
     <header class="post__header">
         <h1 class="post__title">
             <a href="{{ page.permalink }}">{{ page.title }}</a>
@@ -7,9 +7,9 @@
             <span class="post__time">{{ page.date | date(format="%d/%m/%Y") }}</span>
             {% if page.category %}
                 <div class="post__category">
-                    <a href="{{ get_taxonomy_url(kind="category", name=page.category) }}">{{ page.category }}</a>
+                    <a href="{{ get_taxonomy_url(kind="category", term=page.category) }}">{{ page.category }}</a>
                 </div>
             {% endif %}
         </div>
     </header>
-{% endmacro title %}
+{% endcomponent post_title %}

@@ -1,6 +1,5 @@
 base_url = "https://mucinoab.com"
 
-theme = "even"
 default_language = 'es'
 compile_sass = true
 title = "Bruno A. Muciño"
