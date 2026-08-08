@@ -17,7 +17,7 @@ audio where we present a question and its solution. This content is generated
 with the help of Large Language Models (LLMs), text-to-image models and
 text-to-speech models. We then integrate these elements using Python to create
 the final video, that is later posted to our [social media
-accounts.](https://www.zofia.com.mx/contact.html)
+accounts.](https://www.zofia.com.mx)
 
 The backend for the platform is written in Rust, the frontend in React and
 TypeScript, the database is PostgreSQL and the server is hosted on
