@@ -1,17 +1,18 @@
 +++
 title = "Contributions to the Open Source World"
-date = 2023-07-07
+date = 2026-08-24
 +++
 
 Here is a list of open source projects that I have contributed to.
 
 - [rust-lang/rust](https://github.com/rust-lang/rust)
-- [boxdot/gurk-rs](https://github.com/boxdot/gurk-rs)
 - [rust-lang/rust-clippy ](https://github.com/rust-lang/rust-clippy)
-- [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)
+- [apache/mina-sshd](https://github.com/apache/mina-sshd)
 - [jline/jline3](https://github.com/jline/jline3)
 - [wasmerio/wasmer](https://github.com/wasmerio/wasmer)
   <!-- more -->
+- [boxdot/gurk-rs](https://github.com/boxdot/gurk-rs)
+- [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui)
 - [livegrep/livegrep](https://github.com/livegrep/livegrep)
 - [mvniekerk/tokio-cron-scheduler](https://github.com/mvniekerk/tokio-cron-scheduler)
 - [stalwartlabs/mail-builder](https://github.com/stalwartlabs/mail-builder)
