@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+    <title>Bruno A. Muciño</title>
+    <subtitle>Software engineer. Personal website and blog.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://mucinoab.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://mucinoab.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-08-24T00:00:00+00:00</updated>
+    <id>https://mucinoab.com/atom.xml</id>
+    <entry xml:lang="es">
+        <title>Contribuciones al Mundo del Open Source</title>
+        <published>2026-08-24T00:00:00+00:00</published>
+        <updated>2026-08-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>Unknown</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mucinoab.com/contribuciones/"/>
+        <id>https://mucinoab.com/contribuciones/</id>
+        
+        <summary type="html">&lt;p&gt;Algunos de los los proyectos a los que he contribuido.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/rust-lang/rust&quot;&gt;rust-lang/rust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/rust-lang/rust-clippy&quot;&gt;rust-lang/rust-clippy &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/apache/mina-sshd&quot;&gt;apache/mina-sshd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/jline/jline3&quot;&gt;jline/jline3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/wasmerio/wasmer&quot;&gt;wasmerio/wasmer&lt;/a&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="es">
+        <title>Proyectos</title>
+        <published>2024-04-13T00:00:00+00:00</published>
+        <updated>2024-04-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>Unknown</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mucinoab.com/proyectos/"/>
+        <id>https://mucinoab.com/proyectos/</id>
+        
+        <summary type="html">&lt;h2 id=&quot;zofia&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.zofia.com.mx/&quot;&gt;ZofIA&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/zofia.avif&quot; alt=&quot;ZofIA logo&quot; title=&quot;ZofIA logo&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;Una plataforma educativa orientada a ayudar a los estudiantes en su preparación
+para el examen de admisión a la universidad más prestigiosa de México. Obtuvo
+más de &lt;a rel=&quot;external&quot; href=&quot;https://www.instagram.com/zofia_mx/&quot;&gt;10,000 seguidores en Instagram&lt;/a&gt; en
+aproximadamente tres semanas después de su lanzamiento.&lt;/p&gt;
+&lt;p&gt;Contamos con un flujo automatizado que produce videos que contienen texto,
+imágenes y audio donde presentamos una pregunta con su solución y explicación.
+Este contenido se genera con la ayuda de &lt;em&gt;Large Language Models (LLMs)&lt;/em&gt;,
+modelos &lt;em&gt;text-to-image&lt;/em&gt; y &lt;em&gt;modelos text-to-speech&lt;/em&gt;. Luego integramos estos
+elementos usando Python para crear el video final, que luego se publica en
+nuestras distintas &lt;a rel=&quot;external&quot; href=&quot;https://www.zofia.com.mx&quot;&gt;redes sociales.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;El backend de la plataforma está escrito en Rust, el frontend en React y
+TypeScript, la base de datos es PostgreSQL y el servidor está alojado en
+&lt;a rel=&quot;external&quot; href=&quot;https://www.heroku.com/what#&quot;&gt;Heroku&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Puedes probar la plataforma aquí: &lt;a rel=&quot;external&quot; href=&quot;https://www.zofia.com.mx/&quot;&gt;ZofIA&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;chip-8&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/mucinoab/chip-8&quot;&gt;Chip 8&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Una simple implementación de &lt;a rel=&quot;external&quot; href=&quot;https://es.wikipedia.org/wiki/CHIP-8&quot;&gt;CHIP-8&lt;/a&gt;,
+escrita en Rust y compilada a &lt;a rel=&quot;external&quot; href=&quot;https://webassembly.org/&quot;&gt;WebAssembly&lt;/a&gt;; utiliza
+un simple canvas para renderizar los gráficas.&lt;/p&gt;
+&lt;p&gt;Demo:&lt;/p&gt;
+&lt;p&gt;En el juego &lt;em&gt;wipeoff&lt;/em&gt; se controla la plataforma con las teclas &lt;em&gt;q&lt;/em&gt; y &lt;em&gt;e&lt;/em&gt;.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary class=&quot;demo-load-button&quot;&gt;Cargar emulador&lt;/summary&gt;
+&lt;iframe id=&quot;chip8&quot; src=&quot;/chip-8-emulator/index.html&quot;
+  loading=&quot;lazy&quot; height=&quot;75vh&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
+&lt;/details&gt;
+&lt;h2 id=&quot;trueno&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/mucinoab/trueno&quot;&gt;Trueno&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Un &lt;em&gt;Ray Tracer multithreaded&lt;/em&gt; que hace uso de &lt;a rel=&quot;external&quot; href=&quot;https://es.wikipedia.org/wiki/SIMD&quot;&gt;SIMD&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Soporta diversos tipos de materiales (difuso, metálico, dieléctrico),
+&lt;em&gt;antialiasing&lt;/em&gt;, una cámara configurable (resolución, apertura, enfoque) y
+composición de escena.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/rayo.avif&quot; alt=&quot;Demo Trueno&quot; title=&quot;Múltiples esferas en diferentes colores,
+materiales y tamaños&quot; width=&quot;1920&quot; height=&quot;1080&quot; loading=&quot;eager&quot; fetchpriority=&quot;high&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;Implementación basada en el libro &lt;a rel=&quot;external&quot; href=&quot;https://raytracing.github.io/books/RayTracingInOneWeekend.html&quot;&gt;&lt;em&gt;Ray Tracing in One Weekend&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;fire&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/mucinoab/FIRE&quot;&gt;FIRE&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Un editor de texto &lt;a rel=&quot;external&quot; href=&quot;https://web.archive.org/web/20240121073641/https://www.wincent.com/wiki/Modal_editor&quot;&gt;modal&lt;/a&gt; escrito
+completamente en C, sin usar dependencias externas.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/fire_demo.svg&quot; alt=&quot;Fire Demo&quot; title=&quot;Un demo de FIRE, el editor de texto&quot; width=&quot;870&quot; height=&quot;472&quot; loading=&quot;lazy&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;Fue escrito en un intento de desempolvar mi conocimiento de C y también para
+intentar aprender prácticas modernas, como el uso de tipos estándar
+(&lt;em&gt;stdint.h&lt;/em&gt;), o para evitar usar &lt;em&gt;malloc&lt;/em&gt; en favor de &lt;em&gt;calloc&lt;/em&gt;, etc.
+Mi principal guía en este proceso fue la publicación de Matt Stancliff en el
+blog &lt;a rel=&quot;external&quot; href=&quot;https://matt.sh/howto-c&quot;&gt;How to C in 2016&lt;/a&gt;, es una buena lectura para
+ponerse al día con las &quot;prácticas modernas&quot; de C.&lt;/p&gt;
+&lt;p&gt;Soy un muy fan de &lt;a rel=&quot;external&quot; href=&quot;https://neovim.io/&quot;&gt;neovim&lt;/a&gt; y esta fue mi principal
+inspiración al construir &lt;a rel=&quot;external&quot; href=&quot;https://github.com/mucinoab/FIRE&quot;&gt;FIRE&lt;/a&gt;, como pueden
+ver en el demo de arriba.&lt;/p&gt;
+&lt;h2 id=&quot;principales-caracteristicas&quot;&gt;Principales características&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Modos &lt;em&gt;Normal&lt;/em&gt; e &lt;em&gt;Insert&lt;/em&gt;, como en Vim.&lt;/li&gt;
+&lt;li&gt;Abrir, mostrar, editar y guardar archivos de texto.&lt;/li&gt;
+&lt;li&gt;Búsqueda incremental del contenido del archivo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El código y las instrucciones para compilar y ejecutar el proyecto están
+disponibles en el &lt;a rel=&quot;external&quot; href=&quot;https://github.com/mucinoab/FIRE&quot;&gt;repo&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;interprete&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/mucinoab/lux&quot;&gt;Interprete&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/mountain.png&quot; alt=&quot;Monataña&quot; title=&quot;Travesía de los lenguajes&quot; width=&quot;1824&quot; height=&quot;833&quot; loading=&quot;lazy&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;La implementación de un &lt;a rel=&quot;external&quot; href=&quot;https://en.wikipedia.org/wiki/Dynamic_programming_language&quot;&gt;lenguaje de programación
+dinámico&lt;/a&gt;, &lt;em&gt;Lux&lt;/em&gt;, y
+su respectivo interprete. Soporta variables, control de flujo, funciones, un
+&lt;a rel=&quot;external&quot; href=&quot;https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop&quot;&gt;REPL&lt;/a&gt; y se
+le dio particular importancia a la presentación y contenido de los mensajes de
+error.&lt;/p&gt;
+&lt;p&gt;Se basa en las lecciones presentada en el libro &lt;a rel=&quot;external&quot; href=&quot;https://craftinginterpreters.com/&quot;&gt;&lt;em&gt;Crafting
+Interpreters&lt;/em&gt;&lt;/a&gt; de &lt;a rel=&quot;external&quot; href=&quot;https://github.com/munificent&quot;&gt;Robert
+Nystrom&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Puedes probar el REPL compilado a &lt;a rel=&quot;external&quot; href=&quot;https://webassembly.org/&quot;&gt;WebAssembly&lt;/a&gt; aquí:&lt;/p&gt;
+&lt;details&gt;
+&lt;summary class=&quot;demo-load-button&quot;&gt;Cargar REPL&lt;/summary&gt;
+&lt;iframe id=&quot;lux&quot; src=&quot;/lux/lux_demo.html&quot;
+  loading=&quot;lazy&quot; height=&quot;250vh&quot; width=&quot;100%&quot;&gt;&lt;/iframe&gt;
+&lt;/details&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;perros-covid&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/&quot;&gt;Perros Covid&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/perros_covid.avif&quot; alt=&quot;Perritos&quot; title=&quot;Perros Covid&quot; loading=&quot;lazy&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;Sitio web para la recolección, procesamiento y caracterización de muestras por
+PCR de COVID-19 para su posterior uso en el adiestramiento de perros para
+identificar muestras positivas. Parte de un proyecto colaborativo entre la
+&lt;a rel=&quot;external&quot; href=&quot;https://www.gob.mx/sedena/&quot;&gt;SEDENA&lt;/a&gt; (Secretaría de la Defensa Nacional),
+la &lt;a rel=&quot;external&quot; href=&quot;https://www.gob.mx/sre&quot;&gt;SRE&lt;/a&gt; (Secretaría de Relaciones Exteriores) y la
+&lt;a rel=&quot;external&quot; href=&quot;https://www.unam.mx/&quot;&gt;UNAM&lt;/a&gt; (Universidad Nacional Autónoma de México).&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https://www.gaceta.unam.mx/reconocimiento-a-la-fmvz-por-proyecto-sobre-covid-19/&quot;&gt;Gaceta UNAM: Reconocimiento a la FMVZ por proyecto sobre Covid-19&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;objetivo&quot;&gt;Objetivo&lt;/h3&gt;
+&lt;p&gt;El objetivo principal de la página es ayudar a agilizar el proceso de
+entrenamiento de los perros, esto al facilitar el registro de las muestras
+utilizadas, las respuestas dadas durante las pruebas, la identidad del perro
+entrenando, el resultado obtenido en cada sesión y de igual manera mostrar
+estadísticas generales respecto al progreso de un perro en específico y en
+general de todos los caninos registrados.&lt;/p&gt;
+&lt;h3 id=&quot;muestras&quot;&gt;Muestras&lt;/h3&gt;
+&lt;p&gt;Una muestra es el resultado de la prueba PCR más algunos otros datos relevantes
+del individuo en el que se realizó la prueba, como su edad, sexo,
+comorbilidades, etc. Esta información adicional es relevante pues puede ayudar
+a detectar sesgos o patrones dentro de las muestras seleccionadas por los
+perros en los entrenamientos (ej. los falsos positivos suelen ser muestras de
+personas que toman &lt;em&gt;x&lt;/em&gt; medicamento).&lt;/p&gt;
+&lt;p&gt;Las pruebas son almacenadas y consultadas directamente en el sitio web.&lt;/p&gt;
+&lt;h3 id=&quot;tech-stack&quot;&gt;Tech Stack&lt;/h3&gt;
+&lt;p&gt;El frontend consta principalmente del stack básico: HTML, CSS y para añadir
+interactividad se utiliza &lt;a rel=&quot;external&quot; href=&quot;https://www.typescriptlang.org/&quot;&gt;TypeScript&lt;/a&gt; y un
+par de bibliotecas de JavaScript: &lt;a rel=&quot;external&quot; href=&quot;https://www.chartjs.org/&quot;&gt;Chart.js&lt;/a&gt;,
+&lt;a rel=&quot;external&quot; href=&quot;https://momentjs.com/&quot;&gt;Moment.js&lt;/a&gt;, &lt;a rel=&quot;external&quot; href=&quot;https://selectize.dev/&quot;&gt;Selectize.js&lt;/a&gt; y un
+poco de &lt;a rel=&quot;external&quot; href=&quot;https://jquery.com/&quot;&gt;JQuery&lt;/a&gt;. El backend fue construido completamente
+en &lt;a rel=&quot;external&quot; href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; utilizando el framework
+&lt;a rel=&quot;external&quot; href=&quot;https://rocket.rs/&quot;&gt;Rocket&lt;/a&gt;. Los datos se almacenan en una instancia de
+&lt;a rel=&quot;external&quot; href=&quot;https://www.postgresql.org/&quot;&gt;PostgreSQL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Lamentablemente no cuento con la autorización para hacer público  el código
+fuente ni el enlace a la página.  : (&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;reporstat&quot;&gt;&lt;a rel=&quot;external&quot; href=&quot;https://github.com/mucinoab/Reporstat&quot;&gt;Reporstat&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/julia_mapa.png&quot; alt=&quot;Julia&quot; title=&quot;Julia lang mapa&quot; width=&quot;4521&quot; height=&quot;1690&quot; loading=&quot;lazy&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;Es un &lt;a rel=&quot;external&quot; href=&quot;https://julialang.org/packages/&quot;&gt;paquete&lt;/a&gt; para el lenguaje de
+programación &lt;a rel=&quot;external&quot; href=&quot;https://julialang.org/&quot;&gt;Julia&lt;/a&gt; que tiene como objetivo agilizar
+la consulta de información poblacional de instituciones como el
+&lt;a rel=&quot;external&quot; href=&quot;https://www.inegi.org.mx/&quot;&gt;INEGI&lt;/a&gt;, el &lt;a rel=&quot;external&quot; href=&quot;https://www.gob.mx/conapo&quot;&gt;CONAPO&lt;/a&gt; y el
+&lt;a rel=&quot;external&quot; href=&quot;https://www.coneval.org.mx/paginas/principal.aspx&quot;&gt;CONEVAL&lt;/a&gt;, ésta segregada
+por municipios y estados para que, en conjunto con datos de cualquier índole,
+se facilite la realización de análisis y reportes estadísticos al usuario.&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https://mucinoab.github.io/Reporstat/dev/&quot;&gt;Documentación&lt;/a&gt;&lt;/p&gt;</summary>
+        
+    </entry>
+</feed>
